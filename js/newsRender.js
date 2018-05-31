@@ -1,6 +1,6 @@
-//画面構築完了後
+//After render the screen
 $(function() {
-  //data/news.jsonのデータを取得し、jsonというオブジェクトに入れる
+  //Get data from data/news.json and put it in the json object
   $.getJSON("data/news.json", function(json){
     json.forEach(function( news ) {
       year =
