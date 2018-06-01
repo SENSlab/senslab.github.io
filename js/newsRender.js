@@ -4,24 +4,36 @@ $(function() {
   $.getJSON("data/news.json", function(json){
     json.forEach(function( news ) {
       year =
+        "<div class=\"container\">" +
+        "<div class=\"row\">" +
         "<div class=\"col-md-12 news-header\" >" +
+        "<br />" +
           news.year +
         "</div>" +
-        "<br />";
+        "</div>" +
+        "</div>";
       $("#news").append(year);
 
       news.topic.forEach(function( topic ){
         date =
+        "<div class=\"container\">" +
+        "<div class=\"row\">" +
         "<div class=\"col-md-2 news-body\" >" +
           topic.date +
         "</div>";
-        $("#news").append(date);
 
         content =
-        "<div class=\"col-md-10 news-body\" >" +
+        "<div class=\"col-md-8 news-body\" >" +
           topic.content +
         "</div>";
-        $("#news").append(content);
+
+        rightBar =
+        "<div class=\"col-md-2 news-body\" >" +
+        "</div>" +
+        "</div>" +
+        "</div>";
+
+        $("#news").append(date + content + rightBar);
       });
     });
   });
