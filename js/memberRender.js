@@ -48,10 +48,22 @@ $(function() {
           "\" width=\"130\" height=\"130\">" +
           "<br />";
 
-        nameJP =
-          "<span class=\"current-lab-member-name\">" +
-          member.nameJP +
-          "<br />";
+        if(member.link != undefined){
+          nameJP =
+            "<span class=\"current-lab-member-name\">" +
+            "<a href=\"" +
+            member.link +
+            "\" target=\"_blank\">" +
+            member.nameJP +
+            "</a>" +
+            "<br />";
+        }
+        else{
+          nameJP =
+            "<span class=\"current-lab-member-name\">" +
+            member.nameJP +
+            "<br />";
+        }
 
         nameEN =
           member.nameEN +

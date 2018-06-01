@@ -7,6 +7,7 @@
                 "nameEN": "Kosuke Sato",
                 "position": "Professor / 教授",
                 "positionOther": "（全学教育推進機構長、総長参与）",
+                "link": "https://kosuke-sato.jimdo.com/",
                 "photoPass": "images/members/sato.jpg"
             },
             {
@@ -14,18 +15,21 @@
                 "nameEN": "Daisuke Iwai",
                 "position": "Associate Professor / 准教授",
                 "positionOther": "（データビリティフロンティア機構　兼）",
+                "link": "http://www-sens.sys.es.osaka-u.ac.jp/users/iwai/",
                 "photoPass": "images/members/iwai.jpg"
             },
             {
                 "nameJP": "松倉　悠",
                 "nameEN": "Haruka Matsukura",
                 "position": "Assistant Professor / 助教授",
+                "link": "https://haruka-matsu.jimdo.com/",
                 "photoPass": "images/members/matsukura.jpg"
             },
             {
                 "nameJP": "プンポンサノン　パリンヤ",
                 "nameEN": "Parinya Punpongsanon",
                 "position": "Assistant Professor / 助教授",
+                "link": "http://punpongsanon.info/",
                 "photoPass": "images/members/parinya.jpg"
             },
             {
