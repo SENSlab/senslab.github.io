@@ -50,7 +50,7 @@ $(function() {
           "</span>" +
           "<br />";
 
-        if(member.position != ""){
+        if(member.position != undefined){
           position =
             "<span class=\"current-lab-member-position\">" +
             member.position;
@@ -59,7 +59,7 @@ $(function() {
           position ="<span>";
         }
 
-        if(member.positionOther != ""){
+        if(member.positionOther != undefined){
           positionOther =
             "<br />" +
             member.positionOther +
