@@ -1,0 +1,22 @@
+[
+    {
+        "attribute": "M1 /博士前期課程1年",
+        "people": [
+            {
+                "nameJP": "上田　龍幸",
+                "nameEN": "Tatsuyuki Ueda",
+                "photoPass": "images/members/ueda.jpg"
+            },
+            {
+                "nameJP": "平谷　光佑",
+                "nameEN": "Kosuke Hiratani",
+                "photoPass": "images/members/hiratani.jpg"
+            },
+            {
+                "nameJP": "藤野　佑一",
+                "nameEN": "Yuichi Fujino",
+                "photoPass": "images/members/fujino.jpg"
+            }
+        ]
+    }
+]

@@ -1,7 +1,15 @@
 //After render the screen
 $(function() {
-  //Get data from data/news.json and put it in the json object
-  $.getJSON("data/member.json", function(json){
+  memberData =
+  ["data/member/memberStaff.json",
+   "data/member/memberResearcherVisitor.json",
+   "data/member/memberDoctor.json",
+   "data/member/memberM2.json",
+   "data/member/memberM1.json",
+   "data/member/memberB4.json"];
+
+  memberData.forEach(function(memberDataInAttribute){
+  $.getJSON(memberDataInAttribute, function(json){
     json.forEach(function( members ) {
       var countByFour = 0;
       memberInfo = "";
@@ -90,4 +98,5 @@ $(function() {
       $("#member").append(memberInfo);
     });
   });
+});
 });

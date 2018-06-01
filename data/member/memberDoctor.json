@@ -1,0 +1,19 @@
+[
+    {
+        "attribute": "Doctor Student /博士後期課程",
+        "people": [
+            {
+                "nameJP": "五十川　麻理子",
+                "nameEN": "Mariko Isogawa",
+                "position": "D3",
+                "photoPass": "images/members/isogawa.jpg"
+            },
+            {
+                "nameJP": "西村　あきひろ",
+                "nameEN": "Akihiro Nishimura",
+                "position": "D1",
+                "photoPass": "images/members/nishimura.jpg"
+            }
+        ]
+    }
+]
