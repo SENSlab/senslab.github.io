@@ -17,22 +17,22 @@
                 "photoPass": "images/members/iwai.jpg"
             },
             {
-              "nameJP": "松倉　悠",
-              "nameEN": "Haruka Matsukura",
-              "position": "Assistant Professor / 助教授",
-              "photoPass": "images/members/matsukura.jpg"
+                "nameJP": "松倉　悠",
+                "nameEN": "Haruka Matsukura",
+                "position": "Assistant Professor / 助教授",
+                "photoPass": "images/members/matsukura.jpg"
             },
             {
-              "nameJP": "プンポンサノン　パリンヤ",
-              "nameEN": "Parinya Punpongsanon",
-              "position": "Assistant Professor / 助教授",
-              "photoPass": "images/members/parinya.jpg"
+                "nameJP": "プンポンサノン　パリンヤ",
+                "nameEN": "Parinya Punpongsanon",
+                "position": "Assistant Professor / 助教授",
+                "photoPass": "images/members/parinya.jpg"
             },
             {
-              "nameJP": "丸子　美生利 ",
-              "nameEN": "Miori Maruko",
-              "position": "Administrative Assistant / 事務員",
-              "photoPass": "images/members/maruko.jpg"
+                "nameJP": "丸子　美生利 ",
+                "nameEN": "Miori Maruko",
+                "position": "Administrative Assistant / 事務員",
+                "photoPass": "images/members/maruko.jpg"
             }
         ]
     },
