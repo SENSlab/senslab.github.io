@@ -1,0 +1,221 @@
+[
+    {
+        "attribute": "Staffs / スタッフ",
+        "people": [
+            {
+                "nameJP": "佐藤　宏介",
+                "nameEN": "Kosuke Sato",
+                "position": "Professor / 教授",
+                "positionOther": "（全学教育推進機構長、総長参与）",
+                "photoPass": "images/members/sato.jpg"
+            },
+            {
+                "nameJP": "岩井　大輔",
+                "nameEN": "Daisuke Iwai",
+                "position": "Associate Professor / 准教授",
+                "positionOther": "（データビリティフロンティア機構　兼）",
+                "photoPass": "images/members/iwai.jpg"
+            },
+            {
+              "nameJP": "松倉　悠",
+              "nameEN": "Haruka Matsukura",
+              "position": "Assistant Professor / 助教授",
+              "positionOther": "",
+              "photoPass": "images/members/matsukura.jpg"
+            },
+            {
+              "nameJP": "プンポンサノン　パリンヤ",
+              "nameEN": "Parinya Punpongsanon",
+              "position": "Assistant Professor / 助教授",
+              "positionOther": "",
+              "photoPass": "images/members/parinya.jpg"
+            },
+            {
+              "nameJP": "丸子　美生利 ",
+              "nameEN": "Miori Maruko",
+              "position": "Administrative Assistant / 事務員",
+              "positionOther": "",
+              "photoPass": "images/members/maruko.jpg"
+            }
+        ]
+    },
+    {
+        "attribute": "Researcher / 研究生 : Visitor / 留学生",
+        "people": [
+            {
+                "nameJP": "神之門　拓海",
+                "nameEN": "Takumi Kaminokado",
+                "position": "Researcher / 研究生",
+                "positionOther": "",
+                "photoPass": "images/members/kaminokado.jpg"
+            },
+            {
+                "nameJP": "チンギン　フランシス　ドゥアン",
+                "nameEN": "Tinglin Francis Duan ",
+                "position": "Visitor / 留学生",
+                "positionOther": "Visiting Student (Frontier Lab project)",
+                "photoPass": "images/members/francis.jpg"
+            }
+        ]
+    },
+    {
+        "attribute": "Doctor Student /博士後期課程",
+        "people": [
+            {
+                "nameJP": "五十川　麻理子",
+                "nameEN": "Mariko Isogawa",
+                "position": "D3",
+                "positionOther": "",
+                "photoPass": "images/members/isogawa.jpg"
+            },
+            {
+                "nameJP": "西村　あきひろ",
+                "nameEN": "Akihiro Nishimura",
+                "position": "D1",
+                "positionOther": "",
+                "photoPass": "images/members/nishimura.jpg"
+            }
+        ]
+    },
+    {
+        "attribute": "M2 /博士前期課程2年",
+        "people": [
+            {
+                "nameJP": "河原　拓海",
+                "nameEN": "Takumi Kawahara",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/kawahara.jpg"
+            },
+            {
+                "nameJP": "佐藤　貴俊",
+                "nameEN": "Takatoshi Sato",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/sato-t.jpg"
+            },
+            {
+                "nameJP": "竹澤　拓朗",
+                "nameEN": "Takuro Takezawa",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/takezawa.jpg"
+            },
+            {
+                "nameJP": "田辺　育暉",
+                "nameEN": "Naruki Tanabe",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/tanabe.jpg"
+            },
+            {
+                "nameJP": "刀根　大樹",
+                "nameEN": "Daiki Tone",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/tone.jpg"
+            },
+            {
+                "nameJP": "萩野　和音",
+                "nameEN": "Kazune Hagino",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/hagino.jpg"
+            },
+            {
+                "nameJP": "峯　隆太郎",
+                "nameEN": "Ryutaro Mine",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/mine.jpg"
+            }
+        ]
+    },
+    {
+        "attribute": "M1 /博士前期課程1年",
+        "people": [
+            {
+                "nameJP": "上田　龍幸",
+                "nameEN": "Tatsuyuki Ueda",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/ueda.jpg"
+            },
+            {
+                "nameJP": "平谷　光佑",
+                "nameEN": "Kosuke Hiratani",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/hiratani.jpg"
+            },
+            {
+                "nameJP": "藤野　佑一",
+                "nameEN": "Yuichi Fujino",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/fujino.jpg"
+            }
+        ]
+    },
+    {
+        "attribute": "B4 /学部4回生",
+        "people": [
+            {
+                "nameJP": "稲垣　理也",
+                "nameEN": "Michiya Inagaki",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/inagaki.jpg"
+            },
+            {
+                "nameJP": "影山　雄太",
+                "nameEN": "Yuta Kageyama",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/kageyama.jpg"
+            },
+            {
+                "nameJP": "木村　宙志",
+                "nameEN": "Sorashi Kimura",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/kimura.jpg"
+            },
+            {
+                "nameJP": "佐藤　優志",
+                "nameEN": "Yushi Sato",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/sato-y.jpg"
+            },
+            {
+                "nameJP": "杉本　正暁",
+                "nameEN": "Masatoki Sugimoto",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/sugimoto.jpg"
+            },
+            {
+                "nameJP": "森田　耕平",
+                "nameEN": "Kohei Morita",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/morita.jpg"
+            },
+            {
+                "nameJP": "三好　幹",
+                "nameEN": "Motoki Miyoshi",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/miyoshi.jpg"
+            },
+            {
+                "nameJP": "松井　孝太",
+                "nameEN": "Kota Matsui",
+                "position": "",
+                "positionOther": "",
+                "photoPass": "images/members/matsui.jpg"
+            }
+        ]
+    }
+]
