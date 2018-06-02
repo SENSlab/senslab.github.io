@@ -1,18 +1,18 @@
 [
   {
-      "attribute": "Researcher / 研究生 : Visitor / 留学生",
+      "attribute": "Research Student / 研究生 : Exchange Student / 留学生",
       "people": [
         {
             "nameJP": "神之門　拓海",
             "nameEN": "Takumi Kaminokado",
-            "position": "Researcher / 研究生",
+            "position": "Research Student / 研究生",
             "photoPass": "images/members/silhouette.jpg"
         },
         {
             "nameJP": "チンギン　フランシス　ドゥアン",
             "nameEN": "Tinglin Francis Duan ",
-            "position": "Visitor / 留学生",
-            "positionOther": "Visiting Student (Frontier Lab project)",
+            "position": "Exchange Student / 留学生",
+            "positionOther": "(FrontierLab project)",
             "photoPass": "images/members/silhouette.jpg"
         }
       ]
