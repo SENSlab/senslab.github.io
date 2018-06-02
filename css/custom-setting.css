@@ -146,3 +146,20 @@ html
 	position: relative;
 	z-index: 200;
 }
+
+/* Buttons */
+.square_btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #09682d;
+    background: #ECECEC;
+    transition: .4s;
+  }
+
+.square_btn:hover {
+    background: #09682d;
+    color: white;
+}
