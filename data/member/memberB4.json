@@ -5,43 +5,43 @@
             {
                 "nameJP": "稲垣　理也",
                 "nameEN": "Michiya Inagaki",
-                "photoPass": "images/members/inagaki.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "影山　雄太",
                 "nameEN": "Yuta Kageyama",
                 "position": "",
-                "photoPass": "images/members/kageyama.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "木村　宙志",
                 "nameEN": "Sorashi Kimura",
-                "photoPass": "images/members/kimura.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "佐藤　優志",
                 "nameEN": "Yushi Sato",
-                "photoPass": "images/members/sato-y.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "杉本　正暁",
                 "nameEN": "Masatoki Sugimoto",
-                "photoPass": "images/members/sugimoto.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "森田　耕平",
                 "nameEN": "Kohei Morita",
-                "photoPass": "images/members/morita.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "三好　幹",
                 "nameEN": "Motoki Miyoshi",
-                "photoPass": "images/members/miyoshi.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             },
             {
                 "nameJP": "松井　孝太",
                 "nameEN": "Kota Matsui",
-                "photoPass": "images/members/matsui.jpg"
+                "photoPass": "images/members/silhouette.jpg"
             }
         ]
     }
