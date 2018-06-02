@@ -82,6 +82,26 @@ html
 	padding-bottom: 5px;
 }
 
+.news-link {
+    color: #058c36;
+    text-decoration: underline dotted;
+}
+
+.news-link:link {
+    color: #058c36;
+    text-decoration: underline dotted;
+}
+
+.news-link:visited {
+    color: #b5cebe;
+    text-decoration: underline dotted;
+}
+
+.news-link:hover {
+    color: #005920;
+    text-decoration: underline;
+}
+
 /* Members */
 .current-lab-member-name
 {
@@ -162,25 +182,4 @@ html
 .square_btn:hover {
     background: #055622;
     color: white;
-}
-
-/* link */
-a {
-    color: #058c36;
-    text-decoration: underline dotted;
-}
-
-a:link {
-    color: #058c36;
-    text-decoration: underline dotted;
-}
-
-a:visited {
-    color: #b5cebe;
-    text-decoration: underline dotted;
-}
-
-a:hover {
-    color: #005920;
-    text-decoration: underline;
 }
