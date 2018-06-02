@@ -51,7 +51,7 @@ $(function() {
         if(member.link != undefined){
           nameJP =
             "<span class=\"current-lab-member-name\">" +
-            "<a href=\"" +
+            "<a class=\"member-link\" href=\"" +
             member.link +
             "\" target=\"_blank\">" +
             member.nameJP +

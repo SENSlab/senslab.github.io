@@ -116,6 +116,26 @@ html
 	padding-bottom: 7px;
 }
 
+.member-link {
+    color: #058c36;
+    text-decoration: none;
+}
+
+.member-link:link {
+    color: #058c36;
+    text-decoration: none;
+}
+
+.member-link:visited {
+    color: #b5cebe;
+    text-decoration: none;
+}
+
+.member-link:hover {
+    color: #005920;
+    text-decoration: underline;
+}
+
 /* Footer */
 .footer
 {
