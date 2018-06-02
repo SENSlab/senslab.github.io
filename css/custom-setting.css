@@ -117,17 +117,17 @@ html
 }
 
 .member-link {
-    color: #058c36;
+    color: #000000;
     text-decoration: none;
 }
 
 .member-link:link {
-    color: #058c36;
+    color: #000000;
     text-decoration: none;
 }
 
 .member-link:visited {
-    color: #b5cebe;
+    color: #000000;
     text-decoration: none;
 }
 
