@@ -12,14 +12,14 @@
 @-o-viewport      { width: device-width; }
 @viewport         { width: device-width; }
 
-body 
+body
 {
     width: 100%;
-    height: 100%;	
+    height: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 
-html 
+html
 {
     width: 100%;
     height: 100%;
@@ -41,22 +41,38 @@ html
 	font-weight: 400;
 }
 
-.navbar 
+.navbar
 {
 	color: #000;
 	background-color: #055622;
 	font-family: 'Roboto';
 }
 
-.navbar.navbar-default 
+.navbar.navbar-default
 {
   border: none;
 }
 
 .teaser-container
 {
-	background-color: #055622;
+	/*background-color: #055622;*/
 	padding-top: 60px;
+    width: 100%;
+    height: 515px;
+    background-image: url('../images/teasers/handai-on-the-web.jpg');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.teaser-container
+	{
+		background-color: #055622;
+		padding-top: 60px;
+		width: 100%;
+		height: 80px;
+		background-size: cover;
+	}	
 }
 
 .main-container
@@ -67,19 +83,39 @@ html
 /* News */
 .news-header
 {
-	text-align: left; 
-	color: #055622; 
+	text-align: left;
+	color: #055622;
 	font-weight: bold;
 	font-size: 15px;
 }
 
 .news-body
 {
-	text-align: left; 
-	color: #000000; 
+	text-align: left;
+	color: #000000;
 	font-size: 13px;
 	font-family: 'Roboto';
 	padding-bottom: 5px;
+}
+
+.news-link {
+    color: #058c36;
+    text-decoration: underline dotted;
+}
+
+.news-link:link {
+    color: #058c36;
+    text-decoration: underline dotted;
+}
+
+.news-link:visited {
+    color: #b5cebe;
+    text-decoration: underline dotted;
+}
+
+.news-link:hover {
+    color: #005920;
+    text-decoration: underline;
 }
 
 /* Members */
@@ -96,8 +132,28 @@ html
 	padding-bottom: 7px;
 }
 
+.member-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.member-link:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.member-link:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.member-link:hover {
+    color: #005920;
+    text-decoration: underline;
+}
+
 /* Footer */
-.footer 
+.footer
 {
 	width: 100%;
 	display: flex;
@@ -111,7 +167,7 @@ html
 	text-align: center;
 }
 
-.footer-logo 
+.footer-logo
 {
 	height: 3em;
 	margin: 0 .5em;
@@ -135,7 +191,7 @@ html
 }
 
 /* CopyRight */
-.copyright 
+.copyright
 {
 	color: #333333;
 	padding: 25px 0;
@@ -145,4 +201,21 @@ html
 	font-family: 'Barlow';
 	position: relative;
 	z-index: 200;
+}
+
+/* Buttons */
+.square_btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #055622;
+    background: #ECECEC;
+    transition: .4s;
+  }
+
+.square_btn:hover {
+    background: #055622;
+    color: white;
 }

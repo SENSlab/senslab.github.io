@@ -1,0 +1,42 @@
+[
+    {
+        "attribute": "M2 /博士前期課程2年",
+        "people": [
+            {
+                "nameJP": "河原　拓海",
+                "nameEN": "Takumi Kawahara",
+                "photoPass": "images/members/silhouette.jpg"
+            },
+            {
+                "nameJP": "佐藤　貴俊",
+                "nameEN": "Takatoshi Sato",
+                "photoPass": "images/members/silhouette.jpg"
+            },
+            {
+                "nameJP": "竹澤　拓朗",
+                "nameEN": "Takuro Takezawa",
+                "photoPass": "images/members/silhouette.jpg"
+            },
+            {
+                "nameJP": "田辺　育暉",
+                "nameEN": "Naruki Tanabe",
+                "photoPass": "images/members/silhouette.jpg"
+            },
+            {
+                "nameJP": "刀根　大樹",
+                "nameEN": "Daiki Tone",
+                "photoPass": "images/members/silhouette.jpg"
+            },
+            {
+                "nameJP": "萩野　和音",
+                "nameEN": "Kazune Hagino",
+                "photoPass": "images/members/silhouette.jpg"
+            },
+            {
+                "nameJP": "峯　隆太郎",
+                "nameEN": "Ryutaro Mine",
+                "photoPass": "images/members/silhouette.jpg"
+            }
+        ]
+    }
+]

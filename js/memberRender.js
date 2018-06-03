@@ -1,7 +1,15 @@
 //After render the screen
 $(function() {
-  //Get data from data/news.json and put it in the json object
-  $.getJSON("data/member.json", function(json){
+  memberData =
+  ["data/member/memberStaff.json",
+   "data/member/memberResearcherVisitor.json",
+   "data/member/memberDoctor.json",
+   "data/member/memberM2.json",
+   "data/member/memberM1.json",
+   "data/member/memberB4.json"];
+
+  memberData.forEach(function(memberDataInAttribute){
+  $.getJSON(memberDataInAttribute, function(json){
     json.forEach(function( members ) {
       var countByFour = 0;
       memberInfo = "";
@@ -40,17 +48,29 @@ $(function() {
           "\" width=\"130\" height=\"130\">" +
           "<br />";
 
-        nameJP =
-          "<span class=\"current-lab-member-name\">" +
-          member.nameJP +
-          "<br />";
+        if(member.link != undefined){
+          nameJP =
+            "<span class=\"current-lab-member-name\">" +
+            "<a class=\"member-link\" href=\"" +
+            member.link +
+            "\" target=\"_blank\">" +
+            member.nameJP +
+            "</a>" +
+            "<br />";
+        }
+        else{
+          nameJP =
+            "<span class=\"current-lab-member-name\">" +
+            member.nameJP +
+            "<br />";
+        }
 
         nameEN =
           member.nameEN +
           "</span>" +
           "<br />";
 
-        if(member.position != ""){
+        if(member.position != undefined){
           position =
             "<span class=\"current-lab-member-position\">" +
             member.position;
@@ -59,7 +79,7 @@ $(function() {
           position ="<span>";
         }
 
-        if(member.positionOther != ""){
+        if(member.positionOther != undefined){
           positionOther =
             "<br />" +
             member.positionOther +
@@ -90,4 +110,5 @@ $(function() {
       $("#member").append(memberInfo);
     });
   });
+});
 });
