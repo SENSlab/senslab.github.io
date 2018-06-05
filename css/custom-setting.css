@@ -53,7 +53,7 @@ html
   border: none;
 }
 
-@media only screen and (min-width: 601px) 
+@media only screen and (min-width: 601px)
 {
 	.teaser-container
 	{
@@ -66,7 +66,7 @@ html
 	}
 }
 
-@media only screen and (min-width: 2500px) 
+@media only screen and (min-width: 2500px)
 {
 	.teaser-container
 	{
@@ -79,7 +79,7 @@ html
 	}
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px)
 {
 	.teaser-container
 	{
@@ -88,7 +88,7 @@ html
 		width: 100%;
 		height: 80px;
 		background-size: cover;
-	}	
+	}
 }
 
 .main-container
@@ -166,6 +166,30 @@ html
 .member-link:hover {
     color: #005920;
     text-decoration: underline;
+}
+
+/* Classes */
+.classes-strong {
+    margin : 0px 0px 10px 0px;
+    font-size: 120%;
+    font-family: 'Roboto';
+}
+
+.classes-ul {
+  padding: 0;
+}
+
+.classes-ul li{
+  color: #404040;
+  border-left: solid 6px #055622;/*左側の線*/
+  border-bottom: solid 2px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
+  font-family: 'Roboto';
 }
 
 /* Footer */
