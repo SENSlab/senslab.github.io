@@ -192,6 +192,24 @@ html
   font-family: 'Roboto';
 }
 
+/* contact */
+.contact-ul {
+    color: #1e366a;
+    border: dotted #1e366a 1px;/*ドット 色 太さ*/
+    padding: 0.5em 0.5em 0.5em 2em;
+    font-family: 'Roboto';
+}
+
+.contact-ul .contact-li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+.contact-ul .contact-no-li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style: none;
+}
+
 /* Footer */
 .footer
 {
