@@ -20,14 +20,8 @@ $(function() {
 });
 
 function renderMenber(memberDataInAttribute){
-  return new Promise(function(fulfill, reject){
+  return new Promise(function(resolve, reject){
     $.getJSON(memberDataInAttribute, function(json){
-      if(1){
-           fulfill("Success");
-      }else{
-           reject("Failed");
-      }
-      
       json.forEach(function( members ) {
         var countByFour = 0;
         memberInfo = "";
@@ -126,6 +120,7 @@ function renderMenber(memberDataInAttribute){
 
         memberInfo += emptyMemberForStyle + divEnd;
         $("#member").append(memberInfo);
+        resolve("Success");
       });
     });
   });
