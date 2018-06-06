@@ -210,6 +210,12 @@ html
     list-style: none;
 }
 
+.contact-mail{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 /* map */
 .ggmap {
     position: relative;
