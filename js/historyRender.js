@@ -43,7 +43,7 @@ $(function() {
             foot =
           "</div>" +
         "</div>"
-        console.log(head + img + topic + content + date + foot);
+
         $("#history").append(head + img + topic + content + date + foot);
       });
       js = "<script src=\"js/historyVerticalTimeline.js\"></script>";
