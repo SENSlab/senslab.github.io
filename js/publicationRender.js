@@ -25,9 +25,11 @@ $(function(){
 
   $('#show_more_award_btn').on('click', function() {
     renderAward(API_KEY, SPREADSHEET_ID, shapedJson.award, i_year);
+
+    if(shapedJson.award[i_year.award] === undefined){
+      $('#show_more_award_btn').remove();
+    }
   });
-
-
 
 });
 
