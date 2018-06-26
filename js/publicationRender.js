@@ -8,45 +8,52 @@ $(function(){
   let SPREADSHEET_ID = 'f56e081e2d85834f6220284b872ab154,b32208d1bc079220407f8da3e2cb3c4f,IHzTJc99UN056JQ01lSdI0u6kj0scQQHngJ0T+FPMNq9qT2waHYB5Mi9nNyG+u1v';
   SPREADSHEET_ID = decrypt(SPREADSHEET_ID, pass);
 
-  renderAward(API_KEY, SPREADSHEET_ID);
-  renderJournal(API_KEY, SPREADSHEET_ID);
+  var shapedJson = {};
+
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Award!A1:C10000?key=' + API_KEY, function(json){
+    var promiseShapeAward = new Promise(function(resolve, reject) {
+      shapedJson.award = $.parseJSON(awardJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapeAward.then(function(value) {
+      $('#show_more_award_btn').trigger('click');
+    });
+  });
+
+
+  var i_year = {award : 0, journal : 0};
+
+  $('#show_more_award_btn').on('click', function() {
+    renderAward(API_KEY, SPREADSHEET_ID, shapedJson.award, i_year);
+  });
+
+
 
 });
 
-function renderAward(API_KEY, SPREADSHEET_ID){
-  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Award!A1:C10000?key=' + API_KEY, function(json){
-    shapedJson = $.parseJSON(awardJsonShape(json.values));
+function renderAward(API_KEY, SPREADSHEET_ID, contents, i_year){
+  publicationHTML =
+    contents[i_year.award]['year'] +
+    '<br/>';
 
-    publicationHTML =
-    '<h3 class=\"headline\">Award / 受賞</h3>' +
-    '<hr>';
+  let i_topic = 0;
 
-    shapedJson.forEach(function(contents){
-      publicationHTML +=
-        contents['year'] +
-        '<br/>';
-      i_topic = 0;
-      while(1){
-        publicationHTML +=
-          '・' +
-          contents['topic'][i_topic]['award'] +
-          '<br/>' +
-          contents['topic'][i_topic]['detail'] +
-          '<br/>';
-        i_topic = i_topic + 1;
-        if(contents['topic'][i_topic] == undefined){
-          break;
-        }
-      }
-
-    });
-
+  while(1){
     publicationHTML +=
-    '<a id=\"show_more_btn\" class=\"square_btn\" style=\"text-align: center;\">' +
-      '▼Show more' +
-    '</a>';
-    $('#publication').append(publicationHTML);
-  });
+      '・' +
+      contents[i_year.award]['topic'][i_topic]['award'] +
+      '<br/>' +
+      contents[i_year.award]['topic'][i_topic]['detail'] +
+      '<br/>';
+    i_topic = i_topic + 1;
+    if(contents[i_year.award]['topic'][i_topic] == undefined){
+      break;
+    }
+  }
+
+  i_year.award = i_year.award + 1;
+
+  $('#award').append(publicationHTML);
 }
 
 function awardJsonShape(jsonFromSpreadSheet){
@@ -104,11 +111,11 @@ function awardJsonShape(jsonFromSpreadSheet){
 }
 
 function renderJournal(API_KEY, SPREADSHEET_ID){
-  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Journal Papers!A1:B10000?key=' + API_KEY, function(json){
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Journal!A1:B10000?key=' + API_KEY, function(json){
     shapedJson = $.parseJSON(journalJsonShape(json.values));
 
     publicationHTML =
-    '<h3 class=\"headline\">Journal Papers / 論文</h3>' +
+    '<h3 class=\"headline\">Journal / 論文</h3>' +
     '<hr>';
 
     shapedJson.forEach(function(contents){
