@@ -20,6 +20,16 @@ $(function(){
     });
   });
 
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Journal!A1:B10000?key=' + API_KEY, function(json){
+    var promiseShapeJournal = new Promise(function(resolve, reject) {
+      shapedJson.journal = $.parseJSON(journalJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapeJournal.then(function(value) {
+      $('#show_more_journal_btn').trigger('click');
+    });
+  });
+
 
   var i_year = {award : 0, journal : 0};
 
@@ -28,6 +38,14 @@ $(function(){
 
     if(shapedJson.award[i_year.award] === undefined){
       $('#show_more_award_btn').remove();
+    }
+  });
+
+  $('#show_more_journal_btn').on('click', function() {
+    renderJournal(API_KEY, SPREADSHEET_ID, shapedJson.journal, i_year);
+
+    if(shapedJson.journal[i_year.journal] === undefined){
+      $('#show_more_journal_btn').remove();
     }
   });
 
@@ -48,7 +66,7 @@ function renderAward(API_KEY, SPREADSHEET_ID, contents, i_year){
       contents[i_year.award]['topic'][i_topic]['detail'] +
       '<br/>';
     i_topic = i_topic + 1;
-    if(contents[i_year.award]['topic'][i_topic] == undefined){
+    if(contents[i_year.award]['topic'][i_topic] === undefined){
       break;
     }
   }
@@ -57,6 +75,31 @@ function renderAward(API_KEY, SPREADSHEET_ID, contents, i_year){
 
   $('#award').append(publicationHTML);
 }
+
+
+function renderJournal(API_KEY, SPREADSHEET_ID, contents, i_year){
+    publicationHTML =
+      contents[i_year.journal]['year'] +
+      '<br/>';
+
+    let i_topic = 0;
+
+    while(1){
+      publicationHTML +=
+        '・' +
+        contents[i_year.journal]['topic'][i_topic]['detail'] +
+        '<br/>';
+      i_topic = i_topic + 1;
+      if(contents[i_year.journal]['topic'][i_topic] === undefined){
+        break;
+      }
+    }
+
+    i_year.journal = i_year.journal + 1;
+
+    $('#journal').append(publicationHTML);
+}
+
 
 function awardJsonShape(jsonFromSpreadSheet){
   shapedJson =
@@ -110,39 +153,6 @@ function awardJsonShape(jsonFromSpreadSheet){
   }
 
   return shapedJson;
-}
-
-function renderJournal(API_KEY, SPREADSHEET_ID){
-  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Journal!A1:B10000?key=' + API_KEY, function(json){
-    shapedJson = $.parseJSON(journalJsonShape(json.values));
-
-    publicationHTML =
-    '<h3 class=\"headline\">Journal / 論文</h3>' +
-    '<hr>';
-
-    shapedJson.forEach(function(contents){
-      publicationHTML +=
-        contents['year'] +
-        '<br/>';
-      i_topic = 0;
-      while(1){
-        publicationHTML +=
-          '・' +
-          contents['topic'][i_topic]['detail'] +
-          '<br/>';
-        i_topic = i_topic + 1;
-        if(contents['topic'][i_topic] == undefined){
-          break;
-        }
-      }
-    });
-
-    publicationHTML +=
-    '<a id=\"show_more_btn\" class=\"square_btn\" style=\"text-align: center;\">' +
-      '▼Show more' +
-    '</a>';
-    $('#publication').append(publicationHTML);
-  });
 }
 
 function journalJsonShape(jsonFromSpreadSheet){
