@@ -30,8 +30,57 @@ $(function(){
     });
   });
 
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/InternationalConference!A1:B10000?key=' + API_KEY, function(json){
+    var promiseShapeInternationalConference = new Promise(function(resolve, reject) {
+      shapedJson.internationalConference = $.parseJSON(publicationJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapeInternationalConference.then(function(value) {
+      $('#show_more_international_conference_btn').trigger('click');
+    });
+  });
 
-  var i_year = {award : 0, journal : 0};
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/DomesticConference!A1:B10000?key=' + API_KEY, function(json){
+    var promiseShapeDomesticConference = new Promise(function(resolve, reject) {
+      shapedJson.domesticConference = $.parseJSON(publicationJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapeDomesticConference.then(function(value) {
+      $('#show_more_domestic_conference_btn').trigger('click');
+    });
+  });
+
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Survey!A1:B10000?key=' + API_KEY, function(json){
+    var promiseShapeSurvey = new Promise(function(resolve, reject) {
+      shapedJson.survey = $.parseJSON(publicationJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapeSurvey.then(function(value) {
+      $('#show_more_survey_btn').trigger('click');
+    });
+  });
+
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Press!A1:B10000?key=' + API_KEY, function(json){
+    var promiseShapePress = new Promise(function(resolve, reject) {
+      shapedJson.press = $.parseJSON(publicationJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapePress.then(function(value) {
+      $('#show_more_press_btn').trigger('click');
+    });
+  });
+
+  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Book!A1:B10000?key=' + API_KEY, function(json){
+    var promiseShapeBook = new Promise(function(resolve, reject) {
+      shapedJson.book = $.parseJSON(publicationJsonShape(json.values));
+      resolve('Success');
+    });
+    promiseShapeBook.then(function(value) {
+      $('#show_more_book_btn').trigger('click');
+    });
+  });
+
+  var i_year = {award : 0, journal : 0, internationalConference : 0, domesticConference : 0, survey : 0, press : 0, book : 0};
 
   $('#show_more_award_btn').on('click', function() {
     renderAward(API_KEY, SPREADSHEET_ID, shapedJson.award, i_year);
@@ -46,6 +95,46 @@ $(function(){
 
     if(shapedJson.journal[i_year.journal] === undefined){
       $('#show_more_journal_btn').remove();
+    }
+  });
+
+  $('#show_more_international_conference_btn').on('click', function() {
+    renderInternationalConference(API_KEY, SPREADSHEET_ID, shapedJson.internationalConference, i_year);
+
+    if(shapedJson.internationalConference[i_year.internationalConference] === undefined){
+      $('#show_more_international_conference_btn').remove();
+    }
+  });
+
+  $('#show_more_domestic_conference_btn').on('click', function() {
+    renderDomesticConference(API_KEY, SPREADSHEET_ID, shapedJson.domesticConference, i_year);
+
+    if(shapedJson.domesticConference[i_year.domesticConference] === undefined){
+      $('#show_more_domestic_conference_btn').remove();
+    }
+  });
+
+  $('#show_more_survey_btn').on('click', function() {
+    renderSurvey(API_KEY, SPREADSHEET_ID, shapedJson.survey, i_year);
+
+    if(shapedJson.survey[i_year.survey] === undefined){
+      $('#show_more_survey_btn').remove();
+    }
+  });
+
+  $('#show_more_press_btn').on('click', function() {
+    renderPress(API_KEY, SPREADSHEET_ID, shapedJson.press, i_year);
+
+    if(shapedJson.press[i_year.press] === undefined){
+      $('#show_more_press_btn').remove();
+    }
+  });
+
+  $('#show_more_book_btn').on('click', function() {
+    renderBook(API_KEY, SPREADSHEET_ID, shapedJson.book, i_year);
+
+    if(shapedJson.book[i_year.book] === undefined){
+      $('#show_more_book_btn').remove();
     }
   });
 
@@ -112,6 +201,162 @@ function renderJournal(API_KEY, SPREADSHEET_ID, contents, i_year){
     i_year.journal = i_year.journal + 1;
 
     $('#journal').append(publicationHTML);
+}
+
+
+
+function renderInternationalConference(API_KEY, SPREADSHEET_ID, contents, i_year){
+    publicationHTML =
+      '<h4>' +
+      contents[i_year.internationalConference]['year'] +
+      '</h4>';
+
+    let i_topic = 0;
+
+    publicationHTML +=
+      '<ol>';
+
+    while(1){
+      publicationHTML +=
+        '<li>' +
+        contents[i_year.internationalConference]['topic'][i_topic]['detail'] +
+        '</li>';
+      i_topic = i_topic + 1;
+      if(contents[i_year.internationalConference]['topic'][i_topic] === undefined){
+        break;
+      }
+    }
+
+    publicationHTML +=
+      '</ol>';
+
+    i_year.internationalConference = i_year.internationalConference + 1;
+
+    $('#international_conference').append(publicationHTML);
+}
+
+
+function renderDomesticConference(API_KEY, SPREADSHEET_ID, contents, i_year){
+    publicationHTML =
+      '<h4>' +
+      contents[i_year.domesticConference]['year'] +
+      '</h4>';
+
+    let i_topic = 0;
+
+    publicationHTML +=
+      '<ol>';
+
+    while(1){
+      publicationHTML +=
+        '<li>' +
+        contents[i_year.domesticConference]['topic'][i_topic]['detail'] +
+        '</li>';
+      i_topic = i_topic + 1;
+      if(contents[i_year.domesticConference]['topic'][i_topic] === undefined){
+        break;
+      }
+    }
+
+    publicationHTML +=
+      '</ol>';
+
+    i_year.domesticConference = i_year.domesticConference + 1;
+
+    $('#domestic_conference').append(publicationHTML);
+}
+
+
+function renderSurvey(API_KEY, SPREADSHEET_ID, contents, i_year){
+    publicationHTML =
+      '<h4>' +
+      contents[i_year.survey]['year'] +
+      '</h4>';
+
+    let i_topic = 0;
+
+    publicationHTML +=
+      '<ol>';
+
+    while(1){
+      publicationHTML +=
+        '<li>' +
+        contents[i_year.survey]['topic'][i_topic]['detail'] +
+        '</li>';
+      i_topic = i_topic + 1;
+      if(contents[i_year.survey]['topic'][i_topic] === undefined){
+        break;
+      }
+    }
+
+    publicationHTML +=
+      '</ol>';
+
+    i_year.survey = i_year.survey + 1;
+
+    $('#survey').append(publicationHTML);
+}
+
+
+function renderPress(API_KEY, SPREADSHEET_ID, contents, i_year){
+    publicationHTML =
+      '<h4>' +
+      contents[i_year.press]['year'] +
+      '</h4>';
+
+    let i_topic = 0;
+
+    publicationHTML +=
+      '<ol>';
+
+    while(1){
+      publicationHTML +=
+        '<li>' +
+        contents[i_year.press]['topic'][i_topic]['detail'] +
+        '</li>';
+      i_topic = i_topic + 1;
+      if(contents[i_year.press]['topic'][i_topic] === undefined){
+        break;
+      }
+    }
+
+    publicationHTML +=
+      '</ol>';
+
+    i_year.press = i_year.press + 1;
+
+    $('#press').append(publicationHTML);
+}
+
+
+function renderBook(API_KEY, SPREADSHEET_ID, contents, i_year){
+    publicationHTML =
+      '<h4>' +
+      contents[i_year.book]['year'] +
+      '</h4>';
+
+    let i_topic = 0;
+
+    publicationHTML +=
+      '<ol>';
+
+    while(1){
+      publicationHTML +=
+        '<li>' +
+        contents[i_year.book]['topic'][i_topic]['detail'] +
+        '</li>';
+      i_topic = i_topic + 1;
+      if(contents[i_year.book]['topic'][i_topic] === undefined){
+        break;
+      }
+    }
+
+    publicationHTML +=
+      '</ol>';
+
+    i_year.book = i_year.book + 1;
+
+    $('#book').append(publicationHTML);
 }
 
 
