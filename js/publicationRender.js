@@ -53,16 +53,20 @@ $(function(){
 
 function renderAward(API_KEY, SPREADSHEET_ID, contents, i_year){
   publicationHTML =
+    '<h4>' +
     contents[i_year.award]['year'] +
-    '<br/>';
+    '</h4>';
 
   let i_topic = 0;
 
+  publicationHTML +=
+    '<ol class="award">';
+
   while(1){
     publicationHTML +=
-      '・' +
+      '<li>' +
       contents[i_year.award]['topic'][i_topic]['award'] +
-      '<br/>' +
+      '</li>' +
       contents[i_year.award]['topic'][i_topic]['detail'] +
       '<br/>';
     i_topic = i_topic + 1;
@@ -70,6 +74,9 @@ function renderAward(API_KEY, SPREADSHEET_ID, contents, i_year){
       break;
     }
   }
+
+  publicationHTML +=
+    '</ol>';
 
   i_year.award = i_year.award + 1;
 
@@ -79,21 +86,28 @@ function renderAward(API_KEY, SPREADSHEET_ID, contents, i_year){
 
 function renderJournal(API_KEY, SPREADSHEET_ID, contents, i_year){
     publicationHTML =
+      '<h4>' +
       contents[i_year.journal]['year'] +
-      '<br/>';
+      '</h4>';
 
     let i_topic = 0;
 
+    publicationHTML +=
+      '<ol>';
+
     while(1){
       publicationHTML +=
-        '・' +
+        '<li>' +
         contents[i_year.journal]['topic'][i_topic]['detail'] +
-        '<br/>';
+        '</li>';
       i_topic = i_topic + 1;
       if(contents[i_year.journal]['topic'][i_topic] === undefined){
         break;
       }
     }
+
+    publicationHTML +=
+      '</ol>';
 
     i_year.journal = i_year.journal + 1;
 
