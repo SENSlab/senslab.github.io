@@ -22,7 +22,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Journal!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapeJournal = new Promise(function(resolve, reject) {
-      shapedJson.journal = $.parseJSON(journalJsonShape(json.values));
+      shapedJson.journal = $.parseJSON(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeJournal.then(function(value) {
@@ -169,7 +169,7 @@ function awardJsonShape(jsonFromSpreadSheet){
   return shapedJson;
 }
 
-function journalJsonShape(jsonFromSpreadSheet){
+function publicationJsonShape(jsonFromSpreadSheet){
   shapedJson =
   '[';
   dataEnd = false;
