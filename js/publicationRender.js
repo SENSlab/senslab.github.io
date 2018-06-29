@@ -10,12 +10,21 @@ $(function(){
 
   var shapedJson = {};
 
+  $('#award').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+  $('#journal').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+  $('#international_conference').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+  $('#domestic_conference').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+  $('#survey').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+  $('#press').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+  $('#book').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
+
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Award!A1:C10000?key=' + API_KEY, function(json){
     var promiseShapeAward = new Promise(function(resolve, reject) {
       shapedJson.award = $.parseJSON(awardJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeAward.then(function(value) {
+      $('.loading').remove();
       $('#show_more_award_btn').trigger('click');
     });
   });
@@ -26,6 +35,7 @@ $(function(){
       resolve('Success');
     });
     promiseShapeJournal.then(function(value) {
+      $('.loading').remove();
       $('#show_more_journal_btn').trigger('click');
     });
   });
@@ -36,6 +46,7 @@ $(function(){
       resolve('Success');
     });
     promiseShapeInternationalConference.then(function(value) {
+      $('.loading').remove();
       $('#show_more_international_conference_btn').trigger('click');
     });
   });
@@ -46,6 +57,7 @@ $(function(){
       resolve('Success');
     });
     promiseShapeDomesticConference.then(function(value) {
+      $('.loading').remove();
       $('#show_more_domestic_conference_btn').trigger('click');
     });
   });
@@ -56,6 +68,7 @@ $(function(){
       resolve('Success');
     });
     promiseShapeSurvey.then(function(value) {
+      $('.loading').remove();
       $('#show_more_survey_btn').trigger('click');
     });
   });
@@ -66,6 +79,7 @@ $(function(){
       resolve('Success');
     });
     promiseShapePress.then(function(value) {
+      $('.loading').remove();
       $('#show_more_press_btn').trigger('click');
     });
   });
@@ -76,6 +90,7 @@ $(function(){
       resolve('Success');
     });
     promiseShapeBook.then(function(value) {
+      $('.loading').remove();
       $('#show_more_book_btn').trigger('click');
     });
   });
