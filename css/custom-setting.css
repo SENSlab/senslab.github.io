@@ -96,6 +96,10 @@ html
 	padding-top: 60px;
 }
 
+.custom-margin-20px{
+    margin: 20px;
+}
+
 /* News */
 .news-header
 {

@@ -10,14 +10,6 @@ $(function(){
 
   var shapedJson = {};
 
-  $('#award').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-  $('#journal').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-  $('#international_conference').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-  $('#domestic_conference').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-  $('#survey').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-  $('#press').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-  $('#book').append('<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;"></i>');
-
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Award!A1:C10000?key=' + API_KEY, function(json){
     var promiseShapeAward = new Promise(function(resolve, reject) {
       shapedJson.award = $.parseJSON(awardJsonShape(json.values));
