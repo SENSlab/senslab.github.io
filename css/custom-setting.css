@@ -204,8 +204,10 @@ ol.award li{
 
 /* contact */
 .contact-ul {
-    color: #1e366a;
-    border: dotted #1e366a 1px;/*ドット 色 太さ*/
+    /*color: #1e366a;*/
+	color: #333333;
+    /*border: dotted #1e366a 1px;/*ドット 色 太さ*/
+	border: none;
     padding: 0.5em 0.5em 0.5em 2em;
     font-family: 'Roboto';
 }
