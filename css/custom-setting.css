@@ -118,24 +118,28 @@ html
 	padding-bottom: 5px;
 }
 
-.news-link {
+.news-link 
+{
     color: #058c36;
-    text-decoration: underline dotted;
+    text-decoration: none;
 }
 
-.news-link:link {
+.news-link:link 
+{
     color: #058c36;
-    text-decoration: underline dotted;
+    text-decoration: none;
 }
 
-.news-link:visited {
-    color: #b5cebe;
-    text-decoration: underline dotted;
+.news-link:visited 
+{
+    color: #058c36;
+    text-decoration: none;
 }
 
-.news-link:hover {
+.news-link:hover 
+{
     color: #005920;
-    text-decoration: underline;
+    text-decoration: underline dotted;
 }
 
 /* Members */
@@ -179,17 +183,20 @@ ol.award li{
 }
 
 /* Classes */
-.classes-strong {
+.classes-strong 
+{
     margin : 0px 0px 10px 0px;
     font-size: 120%;
     font-family: 'Roboto';
 }
 
-.classes-ul {
+.classes-ul 
+{
   padding: 0;
 }
 
-.classes-ul li{
+.classes-ul li
+{
   color: #404040;
   border-left: solid 6px #055622;/*左側の線*/
   border-bottom: solid 2px #dadada;/*下に灰色線*/
@@ -212,24 +219,28 @@ ol.award li{
     font-family: 'Roboto';
 }
 
-.contact-ul .contact-li {
+.contact-ul .contact-li 
+{
     line-height: 1.5;
     padding: 0.5em 0;
 }
-.contact-ul .contact-no-li {
+.contact-ul .contact-no-li 
+{
     line-height: 1.5;
     padding: 0.5em 0;
     list-style: none;
 }
 
-.contact-mail{
+.contact-mail
+{
     display: block;
     height: auto;
     max-width: 100%;
 }
 
 /* map */
-.ggmap {
+.ggmap 
+{
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
@@ -239,7 +250,8 @@ ol.award li{
 
 .ggmap iframe,
 .ggmap object,
-.ggmap embed {
+.ggmap embed 
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -281,7 +293,7 @@ ol.award li{
 .footer-text-link:hover
 {
 	color: #055622;
-	text-decoration:underline;
+	text-decoration: underline;
 	border-bottom:1px;
 }
 
@@ -299,7 +311,8 @@ ol.award li{
 }
 
 /* Buttons */
-.square_btn{
+.square_btn
+{
     position: relative;
     display: inline-block;
     font-weight: bold;
@@ -310,7 +323,9 @@ ol.award li{
     transition: .4s;
   }
 
-.square_btn:hover {
+.square_btn:hover 
+{
     background: #055622;
     color: white;
+	text-decoration: none;
 }
