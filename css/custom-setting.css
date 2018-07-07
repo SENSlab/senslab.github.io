@@ -107,13 +107,14 @@ html
 	color: #055622;
 	font-weight: bold;
 	font-size: 15px;
+	padding-bottom: 10px;
 }
 
 .news-body
 {
 	text-align: left;
 	color: #000000;
-	font-size: 13px;
+	font-size: 14px;
 	font-family: 'Roboto';
 	padding-bottom: 5px;
 }

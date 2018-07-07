@@ -10,7 +10,7 @@ $(function() {
       year =
         "<div class=\"container\">" +
         "<div class=\"row\">" +
-        "<div class=\"col-md-12 news-header\" >" +
+        "<div class=\"col-md-10 news-header\" >" +
         "<br />" +
           news.year +
         "</div>" +
@@ -27,13 +27,14 @@ $(function() {
         "</div>";
 
         content =
-        "<div class=\"col-md-8 news-body\" >" +
+        //"<div class=\"col-md-8 news-body\" >" +
+		"<div class=\"col-md-10 news-body\" >" +
           topic.content +
         "</div>";
 
         rightBar =
-        "<div class=\"col-md-2 news-body\" >" +
-        "</div>" +
+        //"<div class=\"col-md-2 news-body\" >" +
+        //"</div>" +
         "</div>" +
         "</div>";
 
