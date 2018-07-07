@@ -329,3 +329,142 @@ ol.award li{
     color: white;
 	text-decoration: none;
 }
+
+/* tag */
+.tag-class-current
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	font-family: 'Roboto';
+	background-color: #275900;
+	border-color: #275900;
+	text-align: center;
+}
+
+.tag-class-previous
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	font-family: 'Roboto';
+	background-color: #333333;
+	border-color: #333333;
+	text-align: center;
+}
+
+.tag-class-student-year
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	font-family: 'Roboto';
+	background-color: #001672;
+	border-color: #001672;
+	text-align: center;
+}
+
+/* link */
+.link-class-header
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.link-class-header:active
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+.link-class-header:hover
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+.link-class-header:visit
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+.link-class-details
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 12px;
+	padding-bottom: 3px;
+	text-decoration: underline dotted;
+}
+
+.link-class-details:hover
+{
+	color: #ffffff;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 12px;
+	padding-bottom: 3px;
+	text-decoration: none;
+	background-color: #275900;
+	border-color: #275900;
+}
+
+.link-class-details:active
+{
+	color: #ffffff;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 12px;
+	padding-bottom: 3px;
+	text-decoration: none;
+	background-color: #275900;
+	border-color: #275900;
+}
+
+.link-class-details:visit
+{
+	color: #ffffff;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 12px;
+	padding-bottom: 3px;
+	text-decoration: none;
+	background-color: #275900;
+	border-color: #275900;
+}
+
+/* information */
+.info-class-details
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 11px;
+}
