@@ -312,6 +312,30 @@ ol.award li{
 }
 
 /* Buttons */
+/* 
+	http://css3buttongenerator.com/ 
+*/
+.link-btn-square 
+{
+	-webkit-border-radius: 14;
+  `	-moz-border-radius: 14;
+	border-radius: 14px;
+	font-family: 'Roboto';
+	color: #ffffff;
+	font-size: 15px;
+	background: #3a8000;
+	padding: 5px 10px 5px 10px;
+	border: solid #3a8000 2px;
+	text-decoration: none;
+}
+
+.link-btn-square:hover 
+{
+	color: #3a8000;
+	background: #ffffff;
+	text-decoration: none;
+}
+
 .square_btn
 {
     position: relative;
