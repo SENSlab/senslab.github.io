@@ -53,33 +53,72 @@ html
   border: none;
 }
 
-@media only screen and (min-width: 1201px)
+@media only screen
 {
 	.teaser-container
 	{
 		/*background-color: #055622;*/
 		padding-top: 60px;
+		padding-bottom: 10px;
 		width: 100%;
-		height: 520px;
-		background-image: url('../images/teasers/extended-hand.jpg');
+		height: 100px;
 		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 }
 
-@media only screen and (min-width: 2500px)
+@media only screen and (min-width: 1200px) and (max-width: 1500px) and (min-height: 1100px)
 {
 	.teaser-container
 	{
 		/*background-color: #055622;*/
 		padding-top: 60px;
+		padding-bottom: 10px;
 		width: 100%;
-		height: 700px;
-		background-image: url('../images/teasers/extended-hand.jpg');
-		background-size: cover;
+		height: 50%;
+		background-image: url('../images/teasers/1200px-sens-teaser-lab-201807.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 }
 
-@media only screen and (max-width: 1200px)
+@media only screen and (min-width: 1501px) and (max-width: 2200px)
+{
+	.teaser-container
+	{
+		/*background-color: #055622;*/
+		padding-top: 60px;
+		padding-bottom: 10px;
+		width: 100%;
+		height: 70%;
+		background-image: url('../images/teasers/2200px-sens-teaser-lab-201807.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+}
+
+@media only screen and (min-width: 2201px) and (max-width: 3440px)
+{
+	.teaser-container
+	{
+		/*background-color: #055622;*/
+		padding-top: 60px;
+		padding-bottom: 10px;
+		width: 100%;
+		height: 70%;
+		background-image: url('../images/teasers/3440px-sens-teaser-lab-201807.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+}
+
+
+
+/*@media only screen and (max-width: 1200px)
 {
 	.teaser-container
 	{
@@ -89,7 +128,7 @@ html
 		height: 80px;
 		background-size: cover;
 	}
-}
+}*/
 
 .main-container
 {
