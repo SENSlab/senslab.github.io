@@ -12,7 +12,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Award!A1:C10000?key=' + API_KEY, function(json){
     var promiseShapeAward = new Promise(function(resolve, reject) {
-      shapedJson.award = $.parseJSON(awardJsonShape(json.values));
+      shapedJson.award = JSON.parse(awardJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeAward.then(function(value) {
@@ -23,7 +23,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Journal!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapeJournal = new Promise(function(resolve, reject) {
-      shapedJson.journal = $.parseJSON(publicationJsonShape(json.values));
+      shapedJson.journal = JSON.parse(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeJournal.then(function(value) {
@@ -34,7 +34,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/InternationalConference!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapeInternationalConference = new Promise(function(resolve, reject) {
-      shapedJson.internationalConference = $.parseJSON(publicationJsonShape(json.values));
+      shapedJson.internationalConference = JSON.parse(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeInternationalConference.then(function(value) {
@@ -45,7 +45,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/DomesticConference!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapeDomesticConference = new Promise(function(resolve, reject) {
-      shapedJson.domesticConference = $.parseJSON(publicationJsonShape(json.values));
+      shapedJson.domesticConference = JSON.parse(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeDomesticConference.then(function(value) {
@@ -56,7 +56,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Survey!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapeSurvey = new Promise(function(resolve, reject) {
-      shapedJson.survey = $.parseJSON(publicationJsonShape(json.values));
+      shapedJson.survey = JSON.parse(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeSurvey.then(function(value) {
@@ -67,7 +67,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Press!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapePress = new Promise(function(resolve, reject) {
-      shapedJson.press = $.parseJSON(publicationJsonShape(json.values));
+      shapedJson.press = JSON.parse(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapePress.then(function(value) {
@@ -78,7 +78,7 @@ $(function(){
 
   $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/Book!A1:B10000?key=' + API_KEY, function(json){
     var promiseShapeBook = new Promise(function(resolve, reject) {
-      shapedJson.book = $.parseJSON(publicationJsonShape(json.values));
+      shapedJson.book = JSON.parse(publicationJsonShape(json.values));
       resolve('Success');
     });
     promiseShapeBook.then(function(value) {
