@@ -414,6 +414,29 @@ ol.award li{
 	text-decoration: none;
 }
 
+#pageTop
+{
+  position: fixed;
+  bottom: 4rem;
+  right: 3rem;
+  z-index: 2;
+}
+
+.custom-chevron-up
+{
+  padding: 0.8rem 0rem 0rem 1.15rem;
+}
+
+.scroll-up-btn
+{
+  color: #ff80c5;
+}
+
+.scroll-up-btn:hover
+{
+  color: #ff1493;
+}
+
 /* tag */
 .tag-class-current
 {
