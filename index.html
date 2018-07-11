@@ -9,23 +9,17 @@
 	<link rel="icon" href="images/icons/sens-lab.ico">
 
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/custom-setting.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
 
-	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link href="css/custom-setting.css" rel="stylesheet">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-
-	<!-- Google Analytic -->
-	<script type="text/javascript" src="js/analytics.js"></script>
-
-	<!-- News Render -->
-	<script type="text/javascript" src="js/newsRender.js"></script>
 </head>
 
 <body>
@@ -33,7 +27,6 @@
 	<!-- to be filled by javascript, see header.html -->
 </header>
 
-<!--<section class="teaser-container">-->
 
 <div class="teaser-container">
 <!--
@@ -45,73 +38,70 @@
 -->
 </div>
 
-<!--</section>-->
 
-<section class="site-container">
 <div class="container">
+
 	<div class="row">
-	<h3 class="big-headline">News</h3>
-	<hr>
-		<span class="news-body">
-		<div id="news">
+		<div class="col">
+			<h3 class="big-headline mt-3">News<hr/></h3>
 		</div>
-		</span>
 	</div>
+
+	<div id="news" class="news-body"></div>
+
 	<div class="row">
-		<div class="col-md-12">
-			<br />
-			<a id="show_more_news_btn" class="link-btn-square " style="text-align: center;">
-				▼ previous year
+		<div class="col">
+		<div class="my-3"></div>
+			<a id="show_more_news_btn" class="link-btn-square">
+				<span class="btn-text">▼ previous year</span>
 			</a>
 		</div>
 	</div>
+
 </div>
 
 <div class="container">
-	<div class="row" style="padding-bottom:0px;margin-bottom:0px">
-	</br>
-	</br>
-	<h3 class="big-headline">Our Lab</h3>
-	<hr>
-	研究テーマに内在する問題の解決を試みる過程で、様々なセンサやデバイスにコンピュータ、ネットワークを組み合
-	わせて具体的なシステム構築を行ってもらい、その客観的な実験評価を通して、「システムセンシング」に直接関与でき
-	る知能化センシングシステムのグローバル人材を育成することを目標にします。
-	</br>
-	</br>
+
+	<div class="row">
+		<div class="col">
+			<h3 class="big-headline mt-4">Our Lab<hr/></h3>
+		</div>
 	</div>
+
+	<div class="row">
+		<div class="col lab-message mb-3">
+			研究テーマに内在する問題の解決を試みる過程で、様々なセンサやデバイスにコンピュータ、ネットワークを	組み合わせて具体的なシステム構築を行ってもらい、その客観的な実験評価を通して、「システムセンシング	」に直接関与できる知能化センシングシステムのグローバル人材を育成することを目標にします。
+		</div>
+	</div>
+
 	<div class="row">
 		<div class="col-md-3">
-		<div class="link-with-image-overlay">
-		<a href="history.html">
-			<img src="images/icons/history-of-sens-lab-bf.jpg" class="link-with-image-overlay-image">
-			<div class="link-with-image-overlay-container">
-				<div class="link-with-image-overlay-text">
-					History of SENS / 佐藤研究室の沿革
-				</div>
+			<div class="link-with-image-overlay">
+				<a href="history.html">
+				<img src="images/icons/history-of-sens-lab-bf.jpg" class="link-with-image-overlay-image">
+					<div class="link-with-image-overlay-container">
+						<div class="link-with-image-overlay-text">
+							History of SENS / 佐藤研究室の沿革
+						</div>
+					</div>
+				</a>
 			</div>
-		</a>
-		</div>
 		</div>
 		<div class="col-md-3">
-		<img src="images/icons/history-of-sens-lab.jpg" width="250px">
+			<img src="images/icons/history-of-sens-lab.jpg" width="250px">
 		</div>
 		<div class="col-md-3">
-		<img src="images/icons/history-of-sens-lab.jpg" width="250px">
+			<img src="images/icons/history-of-sens-lab.jpg" width="250px">
 		</div>
 		<div class="col-md-3">
-		<img src="images/icons/history-of-sens-lab.jpg" width="250px">
+			<img src="images/icons/history-of-sens-lab.jpg" width="250px">
 		</div>
 	</div>
+
 </div>
 
-<div class="dc_clear">
-</div>
+<div class="mb-5"></div>
 
-</br>
-</br>
-</br>
-</br>
-</section>
 
 <div class="container">
 	<div class="row">
@@ -128,10 +118,18 @@
 	</div>
 </div>
 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 <!-- Bootstrap -->
+<script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 <!-- header -->
 <script type="text/javascript" src="js/headerstrap.js"></script>
+
+<!-- News Render -->
+<script type="text/javascript" src="js/newsRender.js"></script>
 
 </body>
 </html>

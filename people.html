@@ -9,23 +9,17 @@
 	<link rel="icon" href="images/icons/sens-lab.ico">
 
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
+
 	<link href="css/custom-setting.css" rel="stylesheet">
 
-	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-
-	<!-- Google Analytic -->
-	<script type="text/javascript" src="js/analytics.js"></script>
-
-	<!-- Member Render -->
-	<script type="text/javascript" src="js/memberRender.js"></script>
 </head>
 
 <body>
@@ -33,97 +27,81 @@
 	<!-- to be filled by javascript, see header.html -->
 </header>
 
-<section class="main-container">
 <div class="container">
 	<div id="member"></div>
 </div>
 
-<!--
-<div class="container">
-	<div class="row">
-	</br>
-	</br>
-	<h3 class="headline">Alumni</h3>
-	<hr>
-	<div class="col-md-3" style="text-align: center;">
-	</div>
-	</div>
-</div>
--->
 
 <div class="container">
 	<div class="row">
-	</br>
-	</br>
-	<h3 class="headline">After Graduation</h3>
-	<hr>
-	<div class="col-md-12" style="text-align: justify;">
-	 国立大助教、
-	 産業技術総合研究所、
-	 NTT研究所、関西電力、
-	 キヤノン、
-	 三菱電機、
-	 三菱重工、
-	 パナソニック、
-	 ソニー、
-	 リコー、
-	 東芝、
-	 富士通、
-	 村田製作所、
-	 横河電機、
-	 オムロン、
-	 インテル、
-	 キーエンス、
-	 ニコン、
-	 マツダ、
-	 クボタ、
-	 JFEスチール、
-	 ダイキン、
-	 きんでん、
-	 コマツ、
-	 TOA、
-	 凸版印刷、
-	 グローリー工業、
-	 シスメックス、
-	 旭化成、
-	 日本IBM、
-	 KDDI、
-	 ソニーモバイル、
-	 日本HP、
-	 新日鉄ソリューションズ、
-	 NECシステムテクノロジー、
-	 TIS、
-	 サイボウズ、
-	 電通国際情報サービス、
-	 ニイウス、
-	 PFU、
-	 ニッセイIT、
-	 野村総研、
-	 フューチャーアーキテクト、
-	 阪神電鉄、
-	 NHK、
-	 朝日放送、
-	 フジテレビ、
-	 毎日放送、
-	 朝日新聞、
-	 ジュピターテレコム、
-	 ミクシィ、
-	 P&G、
-	 島津製作所、
-	 SIE、
-	 CAPCOM
+		<div class="col">
+			<h3 class="headline mt-4">After Graduation<hr/></h3>
+		</div>
 	</div>
+
+	<div class="row">
+		<div class="col" style="text-align: justify;">
+	 		国立大助教、
+	 		産業技術総合研究所、
+	 		NTT研究所、
+			関西電力、
+	 		キヤノン、
+	 		三菱電機、
+	 		三菱重工、
+	 		パナソニック、
+	 		ソニー、
+	 		リコー、
+	 		東芝、
+	 		富士通、
+	 		村田製作所、
+	 		横河電機、
+	 		オムロン、
+	 		インテル、
+	 		キーエンス、
+	 		ニコン、
+	 		マツダ、
+	 		クボタ、
+	 		JFEスチール、
+	 		ダイキン、
+	 		きんでん、
+	 		コマツ、
+	 		TOA、
+	 		凸版印刷、
+	 		グローリー工業、
+	 		シスメックス、
+	 		旭化成、
+	 		日本IBM、
+	 		KDDI、
+	 		ソニーモバイル、
+	 		日本HP、
+	 		新日鉄ソリューションズ、
+ 			NECシステムテクノロジー、
+	 		TIS、
+	 		サイボウズ、
+	 		電通国際情報サービス、
+	 		ニイウス、
+	 		PFU、
+	 		ニッセイIT、
+	 		野村総研、
+	 		フューチャーアーキテクト、
+	 		阪神電鉄、
+	 		NHK、
+	 		朝日放送、
+	 		フジテレビ、
+	 		毎日放送、
+	 		朝日新聞、
+	 		ジュピターテレコム、
+	 		ミクシィ、
+	 		P&G、
+	 		島津製作所、
+	 		SIE、
+	 		CAPCOM
+		</div>
 	</div>
+
 </div>
 
-<div class="dc_clear">
-</div>
-
-</br>
-</br>
-</br>
-</br>
-</section>
+<div class="mb-5"></div>
 
 <div class="container">
 	<div class="row">
@@ -140,10 +118,18 @@
 	</div>
 </div>
 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 <!-- Bootstrap -->
+<script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 <!-- header -->
 <script type="text/javascript" src="js/headerstrap.js"></script>
+
+<!-- Member Render -->
+<script type="text/javascript" src="js/memberRender.js"></script>
 
 </body>
 </html>

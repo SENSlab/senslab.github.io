@@ -14,15 +14,21 @@
 
 body
 {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
 
 html
 {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Margin */
+.mt-8
+{
+  margin: 8rem 0rem 0rem 0rem;
 }
 
 .big-headline
@@ -41,16 +47,37 @@ html
 	font-weight: 400;
 }
 
-.navbar
+/* Navigation Bar */
+.nav-text:hover
 {
-	color: #000;
-	background-color: #055622;
-	font-family: 'Roboto';
+  color: #fff;
 }
 
-.navbar.navbar-default
+.navbar-background{
+  background-color: #055622;
+}
+
+.nav-text
 {
-  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b0b0b0;
+  font-family: 'Roboto';
+}
+
+button.navbar-toggler
+{
+  outline: none;
+}
+
+.navbar-toggler
+{
+  border: transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon
+{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(180,180,180,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 @media only screen
@@ -58,8 +85,6 @@ html
 	.teaser-container
 	{
 		/*background-color: #055622;*/
-		padding-top: 60px;
-		padding-bottom: 10px;
 		width: 100%;
 		height: 100px;
 		background-size: cover;
@@ -73,8 +98,6 @@ html
 	.teaser-container
 	{
 		/*background-color: #055622;*/
-		padding-top: 60px;
-		padding-bottom: 10px;
 		width: 100%;
 		height: 50%;
 		background-image: url('../images/teasers/1200px-sens-teaser-lab-201807.jpg');
@@ -89,8 +112,6 @@ html
 	.teaser-container
 	{
 		/*background-color: #055622;*/
-		padding-top: 60px;
-		padding-bottom: 10px;
 		width: 100%;
 		height: 70%;
 		background-image: url('../images/teasers/2200px-sens-teaser-lab-201807.jpg');
@@ -105,8 +126,6 @@ html
 	.teaser-container
 	{
 		/*background-color: #055622;*/
-		padding-top: 60px;
-		padding-bottom: 10px;
 		width: 100%;
 		height: 70%;
 		background-image: url('../images/teasers/3440px-sens-teaser-lab-201807.jpg');
@@ -116,37 +135,13 @@ html
 	}
 }
 
-
-
-/*@media only screen and (max-width: 1200px)
-{
-	.teaser-container
-	{
-		background-color: #055622;
-		padding-top: 60px;
-		width: 100%;
-		height: 80px;
-		background-size: cover;
-	}
-}*/
-
-.main-container
-{
-	padding-top: 60px;
-}
-
-.custom-margin-20px{
-    margin: 20px;
-}
-
 /* News */
 .news-header
 {
-	text-align: left;
+  text-align: left;
 	color: #055622;
 	font-weight: bold;
 	font-size: 15px;
-	padding-bottom: 10px;
 }
 
 .news-body
@@ -155,38 +150,52 @@ html
 	color: #000000;
 	font-size: 14px;
 	font-family: 'Roboto';
-	padding-bottom: 5px;
 }
 
-.news-link 
+.news-link
 {
-    color: #058c36;
-    text-decoration: none;
+  color: #058c36;
+  text-decoration: none;
 }
 
-.news-link:link 
+.news-link:link
 {
-    color: #058c36;
-    text-decoration: none;
+  color: #058c36;
+  text-decoration: none;
 }
 
-.news-link:visited 
+.news-link:visited
 {
-    color: #058c36;
-    text-decoration: none;
+  color: #058c36;
+  text-decoration: none;
 }
 
-.news-link:hover 
+.news-link:hover
 {
-    color: #005920;
-    text-decoration: underline dotted;
+  color: #005920;
+  text-decoration: underline dotted;
+}
+
+/* Out Lab */
+.lab-message
+{
+	text-align: left;
+	color: #000000;
+	font-size: 14px;
+	font-family: 'Roboto';
 }
 
 /* Members */
+.current-lab-member-photo
+{
+  text-align: center;
+}
+
 .current-lab-member-name
 {
 	font-size: 15px;
 	font-family: 'Roboto';
+  text-align: center;
 }
 
 .current-lab-member-position
@@ -194,26 +203,27 @@ html
 	font-size: 13px;
 	font-family: 'Roboto';
 	padding-bottom: 7px;
+  text-align: center;
 }
 
 .member-link {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 .member-link:link {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 .member-link:visited {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 .member-link:hover {
-    color: #005920;
-    text-decoration: underline;
+  color: #005920;
+  text-decoration: underline;
 }
 
 /* publication */
@@ -223,16 +233,15 @@ ol.award li{
 }
 
 /* Classes */
-.classes-strong 
+.classes-strong
 {
-    margin : 0px 0px 10px 0px;
-    font-size: 120%;
-    font-family: 'Roboto';
+  font-size: 120%;
+  font-family: 'Roboto';
 }
 
-.classes-ul 
+.classes-ul
 {
-  padding: 0;
+  padding: 0rem;
 }
 
 .classes-ul li
@@ -241,9 +250,9 @@ ol.award li{
   border-left: solid 6px #055622;/*左側の線*/
   border-bottom: solid 2px #dadada;/*下に灰色線*/
   background: whitesmoke;
-  margin-bottom: 5px;/*下のバーとの余白*/
+  margin-bottom: 0rem;/*下のバーとの余白*/
   line-height: 1.5;
-  padding: 0.5em;
+  padding: 0.5rem;
   list-style-type: none!important;/*ポチ消す*/
   font-weight: bold;
   font-family: 'Roboto';
@@ -255,48 +264,46 @@ ol.award li{
 	color: #333333;
     /*border: dotted #1e366a 1px;/*ドット 色 太さ*/
 	border: none;
-    padding: 0.5em 0.5em 0.5em 2em;
-    font-family: 'Roboto';
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  font-family: 'Roboto';
 }
 
-.contact-ul .contact-li 
+.contact-ul .contact-li
 {
-    line-height: 1.5;
-    padding: 0.5em 0;
+  line-height: 1.5;
+  padding: 0.5rem 0;
 }
-.contact-ul .contact-no-li 
+.contact-ul .contact-no-li
 {
-    line-height: 1.5;
-    padding: 0.5em 0;
-    list-style: none;
+  line-height: 1.5;
+  padding: 0.5rem 0;
+  list-style: none;
 }
 
 .contact-mail
 {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 /* map */
-.ggmap 
+.ggmap
 {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
 }
 
 .ggmap iframe,
 .ggmap object,
-.ggmap embed 
+.ggmap embed
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Footer */
@@ -316,8 +323,8 @@ ol.award li{
 
 .footer-logo
 {
-	height: 3em;
-	margin: 0 .5em;
+	height: 3rem;
+	margin: 0 .5rem;
 	text-decoration: none;
 	text-align: center;
 }
@@ -327,22 +334,22 @@ ol.award li{
 	color: #333333;
 	background-color: transparent;
 	text-decoration:none;
-	border-bottom:0px;
+	border-bottom:0rem;
 }
 
 .footer-text-link:hover
 {
 	color: #055622;
 	text-decoration: underline;
-	border-bottom:1px;
+	border-bottom:1rem;
 }
 
 /* CopyRight */
 .copyright
 {
 	color: #333333;
-	padding: 25px 0;
-	margin: 0;
+	padding: 1rem;
+	margin: 0rem;
 	text-align: center;
 	font-size: 13px;
 	font-family: 'Barlow';
@@ -351,24 +358,29 @@ ol.award li{
 }
 
 /* Buttons */
-/* 
-	http://css3buttongenerator.com/ 
+/*
+	http://css3buttongenerator.com/
 */
-.link-btn-square 
+.btn-text
+{
+  color: #ffffff;
+}
+
+.link-btn-square
 {
 	-webkit-border-radius: 14;
   `	-moz-border-radius: 14;
 	border-radius: 14px;
 	font-family: 'Roboto';
-	color: #ffffff;
 	font-size: 15px;
 	background: #3a8000;
-	padding: 5px 10px 5px 10px;
+	padding: 0.4rem 0.7rem 0.4rem 0.7rem;
 	border: solid #3a8000 2px;
 	text-decoration: none;
+  text-align: center;
 }
 
-.link-btn-square:hover 
+.link-btn-square:hover
 {
 	color: #3a8000;
 	background: #ffffff;
@@ -377,30 +389,27 @@ ol.award li{
 
 .square_btn
 {
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    padding: 0.25em 0.5em;
-    text-decoration: none;
-    color: #055622;
-    background: #ECECEC;
-    transition: .4s;
-  }
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  color: #055622;
+  background: #ECECEC;
+  transition: .4s;
+}
 
-.square_btn:hover 
+.square_btn:hover
 {
-    background: #055622;
-    color: white;
+  background: #055622;
+  color: white;
 	text-decoration: none;
 }
 
 /* tag */
 .tag-class-current
 {
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 0.3rem 0.8rem 0.3rem 0.8rem;
 	color: #ffffff;
 	font-family: 'Roboto';
 	background-color: #275900;
@@ -410,10 +419,7 @@ ol.award li{
 
 .tag-class-previous
 {
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
 	color: #ffffff;
 	font-family: 'Roboto';
 	background-color: #333333;
@@ -423,10 +429,7 @@ ol.award li{
 
 .tag-class-student-year
 {
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
 	color: #ffffff;
 	font-family: 'Roboto';
 	background-color: #001672;
@@ -442,7 +445,6 @@ ol.award li{
 	text-align: justify;
 	font-size: 16px;
 	font-weight: bold;
-	padding-bottom: 10px;
 }
 
 .link-class-header:active
@@ -453,7 +455,6 @@ ol.award li{
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: underline;
-	padding-bottom: 5px;
 }
 
 .link-class-header:hover
@@ -464,7 +465,6 @@ ol.award li{
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: underline;
-	padding-bottom: 5px;
 }
 
 .link-class-header:visit
@@ -475,7 +475,6 @@ ol.award li{
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: underline;
-	padding-bottom: 5px;
 }
 
 .link-class-details
@@ -484,7 +483,6 @@ ol.award li{
 	font-family: 'Roboto';
 	text-align: justify;
 	font-size: 12px;
-	padding-bottom: 3px;
 	text-decoration: underline dotted;
 }
 
@@ -494,7 +492,6 @@ ol.award li{
 	font-family: 'Roboto';
 	text-align: justify;
 	font-size: 12px;
-	padding-bottom: 3px;
 	text-decoration: none;
 	background-color: #275900;
 	border-color: #275900;
@@ -506,7 +503,6 @@ ol.award li{
 	font-family: 'Roboto';
 	text-align: justify;
 	font-size: 12px;
-	padding-bottom: 3px;
 	text-decoration: none;
 	background-color: #275900;
 	border-color: #275900;
@@ -518,7 +514,6 @@ ol.award li{
 	font-family: 'Roboto';
 	text-align: justify;
 	font-size: 12px;
-	padding-bottom: 3px;
 	text-decoration: none;
 	background-color: #275900;
 	border-color: #275900;
@@ -544,19 +539,19 @@ ol.award li{
 	background-color: #3a8000;
 }
 
-.link-with-image-overlay:hover .link-with-image-overlay-container 
+.link-with-image-overlay:hover .link-with-image-overlay-container
 {
 	opacity: 1;
 }
 
-.link-with-image-overlay-image 
+.link-with-image-overlay-image
 {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.link-with-image-overlay-text 
+.link-with-image-overlay-text
 {
 	color: white;
 	font-size: 20px;

@@ -25,24 +25,41 @@ function renderMenber(memberDataInAttribute){
       json.forEach(function( members ) {
         var countByFour = 0;
         memberInfo = "";
+
+        var margin;
+
+        if(members.attribute === 'Staff / スタッフ'){
+          margin = 'mt-8';
+        }
+
+        else{
+          margin = 'mt-4';
+        }
+
         attribute =
-          "<div class=\"row\">" +
-          "</br>" +
-          "</br>" +
-          "<h3 class=\"headline\">" +
-            members.attribute +
-          "</h3>" +
-          "<hr>";
-        memberInfo += attribute;
+          "<div class='row'>" +
+            "<div class='col'>" +
+              "<h3 class='headline " + margin + "'>" +
+                members.attribute +
+              "<hr/></h3>" +
+            "</div>" +
+          "</div>";
+
+        memberInfo +=
+          attribute +
+          "<div class='row'>";
 
         members.people.forEach(function( member ){
           if(countByFour == 4){
             row =
-            "</div>"+
-            "<div class=\"row\">" +
-            "</br>" +
-            "</br>" +
-            "<hr>";
+            "</div>" +  //End of <div class='row'>
+            "<div class='row'>" +
+              "<div class='col'>" +
+                "<hr/>" +
+              "</div>" +
+            "</div>" +
+            "<div class='row'>";
+
             countByFour = 0;
           }
           else{
@@ -52,71 +69,71 @@ function renderMenber(memberDataInAttribute){
           /** one member needs "photo", "nameJP",
               "nameEN", "position", and "positionOther"**/
           photo =
-            "<div class=\"col-md-3\" style=\"text-align: center;\">" +
-            "<img src=\"" +
-            member.photoPass +
-            "\" class=\"img-circle\" alt=\"" +
-            member.nameEN +
-            "\" width=\"130\" height=\"130\">" +
-            "<br />";
+            "<div class='col-md-3'>" +
+              "<div class='current-lab-member-photo'>" +
+                "<img src='" +
+                  member.photoPass +
+                  "'class='rounded-circle' alt='" +
+                  member.nameEN +
+                  "' width='130' height='130'>" +
+              "</div>";
 
           if(member.link != undefined){
             nameJP =
-              "<span class=\"current-lab-member-name\">" +
-              "<a class=\"member-link\" href=\"" +
+              "<div class='current-lab-member-name'>" +
+              "<a class='member-link' href='" +
               member.link +
-              "\" target=\"_blank\">" +
+              "' target='_blank'>" +
               member.nameJP +
               "</a>" +
-              "<br />";
+              "</div>";
           }
           else{
             nameJP =
-              "<span class=\"current-lab-member-name\">" +
+              "<div class='current-lab-member-name'>" +
               member.nameJP +
-              "<br />";
+              "</div>";
           }
 
           nameEN =
-            member.nameEN +
-            "</span>" +
-            "<br />";
+            "<div class='current-lab-member-name'>" +
+              member.nameEN +
+            "</div>";
 
           if(member.position != undefined){
             position =
-              "<span class=\"current-lab-member-position\">" +
-              member.position;
+              "<div class='current-lab-member-position'>" +
+              member.position +
+              "</div>";
           }
           else{
-            position ="<span>";
+            position ="";
           }
 
           if(member.positionOther != undefined){
             positionOther =
-              "<br />" +
-              member.positionOther +
-              "</span>" +
-      		    "</div>";
+              "<div class='current-lab-member-position'>" +
+                member.positionOther +
+              "</div>";
           }
           else{
-            positionOther =
-            "</span>" +
-            "</div>";
+            positionOther = "";
           }
 
           countByFour++;
 
-          memberInfo += row + photo + nameJP + nameEN + position + positionOther;
+          memberInfo += row + photo + nameJP + nameEN + position + positionOther +
+          "</div>";  //End of <div class='col-md-3'>
         });
         emptyMemberForStyle = "";
 
         for(i = 0; i < 4 - countByFour; i++){
           emptyMemberForStyle +=
-          "<div class=\"col-md-3\" style=\"text-align: center;\">" +
+          "<div class='col-md-3'>" +
           "</div>";
         }
 
-        divEnd = "</div>";
+        divEnd = "</div>";  //End of <div class='row'>
 
         memberInfo += emptyMemberForStyle + divEnd;
         $("#member").append(memberInfo);

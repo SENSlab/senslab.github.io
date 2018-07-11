@@ -8,36 +8,31 @@ $(function() {
       news = json[index_year];
 
       year =
-        "<div class=\"container\">" +
-        "<div class=\"row\">" +
-        "<div class=\"col-md-10 news-header\" >" +
-        "<br />" +
-          news.year +
-        "</div>" +
-        "</div>" +
-        "</div>";
+          "<div class='row'>" +
+            "<div class='col news-header mt-4 pb-2' >" +
+              news.year +
+            "</div>" +
+          "</div>";
+
       $("#news").append(year);
 
       news.topic.forEach(function( topic ){
         date =
-        "<div class=\"container\">" +
-        "<div class=\"row\">" +
-        "<div class=\"col-md-2 news-body\" >" +
-          topic.date +
-        "</div>";
+          "<div class='row'>" +
+            "<div class='col-md-2 pb-1' >" +
+              topic.date +
+            "</div>";
 
         content =
-        //"<div class=\"col-md-8 news-body\" >" +
-		"<div class=\"col-md-10 news-body\" >" +
-          topic.content +
-        "</div>";
+        //"<div class='col-md-8 news-body' >" +
+		        "<div class='col-md-10' >" +
+              topic.content +
+            "</div>";
 
         rightBar =
-        //"<div class=\"col-md-2 news-body\" >" +
+        //"<div class='col-md-2 news-body' >" +
         //"</div>" +
-        "</div>" +
-        "</div>";
-
+          "</div>";
         $("#news").append(date + content + rightBar);
       });
 
