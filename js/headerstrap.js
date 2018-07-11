@@ -1,8 +1,8 @@
 /** START loads the header, please insert in every file **/
 $("header").load("header.html", function()
 {
-  var linkToMe = $('a[href="'+window.location.href.split('/').pop()+'"]').parent();
-  linkToMe.addClass('active')
+  var linkToMe = $('a[href="'+window.location.href.split('/').pop()+'"]').children();
+  linkToMe.addClass('nav-active')
 });
 $( "a.submenu" ).on('click', function()
 {

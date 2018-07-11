@@ -53,16 +53,24 @@ html
   color: #fff;
 }
 
-.navbar-background{
-  background-color: #055622;
-}
-
 .nav-text
 {
   font-size: 14px;
   font-weight: bold;
   color: #b0b0b0;
   font-family: 'Roboto';
+}
+
+.nav-active
+{
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.navbar-background{
+  background-color: #055622;
 }
 
 button.navbar-toggler
