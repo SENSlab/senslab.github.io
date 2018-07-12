@@ -193,6 +193,68 @@ button.navbar-toggler
 	font-family: 'Roboto';
 }
 
+/* Research */
+.research-image
+{
+  width: 100%;
+}
+
+.research-title
+{
+  text-align: left;
+  font-size: 16px;
+	font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.research-publication
+{
+  text-align: left;
+  font-size: 14px;
+	font-family: 'Roboto';
+}
+
+.research-abstract
+{
+  text-align: left;
+  font-size: 11px;
+	font-family: 'Roboto';
+}
+
+.research-collaboration
+{
+  text-align: left;
+  font-size: 11px;
+	font-family: 'Roboto';
+}
+
+.research-link
+{
+  text-align: left;
+  font-size: 14px;
+	font-family: 'Roboto';
+  color: #058c36;
+  text-decoration: none;
+}
+
+.research-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.research-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.research-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
+
 /* Members */
 .current-lab-member-photo
 {
@@ -386,32 +448,41 @@ ol.award li{
 	border: solid #3a8000 2px;
 	text-decoration: none;
   text-align: center;
+  cursor : pointer;
 }
 
 .link-btn-square:hover
 {
-	color: #3a8000;
 	background: #ffffff;
 	text-decoration: none;
 }
 
-.square_btn
+.link-btn-square:hover > .btn-text
 {
-  position: relative;
-  display: inline-block;
-  font-weight: bold;
-  padding: 0.25rem 0.5rem;
-  text-decoration: none;
-  color: #055622;
-  background: #ECECEC;
-  transition: .4s;
+  color: #3a8000;
 }
 
-.square_btn:hover
+#pageTop
 {
-  background: #055622;
-  color: white;
-	text-decoration: none;
+  position: fixed;
+  bottom: 4rem;
+  right: 3rem;
+  z-index: 2;
+}
+
+.custom-chevron-up
+{
+  padding: 0.8rem 0rem 0rem 1.15rem;
+}
+
+.scroll-up-btn
+{
+  color: #ff80c5;
+}
+
+.scroll-up-btn:hover
+{
+  color: #ff1493;
 }
 
 /* tag */
