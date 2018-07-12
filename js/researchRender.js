@@ -34,12 +34,23 @@ $(function() {
           "</div>";
 
       let abstract =
-          "<div class='research-abstract my-3'>" +
+          "<div class='research-abstract mt-3'>" +
             research.abstract +
           "</div>";
 
+      let collaboration =
+          "<div class='research-collaboration mb-3'>" +
+          '</div>';
+
+      if(research.collaboration !== ''){
+        collaboration =
+          "<div class='research-collaboration mb-3'>" +
+            "(" + research.collaboration + ")" +
+          "</div>"
+      }
+
       let link =
-          "<a href='" + research.link + "' target='_blank' class='research-link link-btn-square'>" +
+          "<a href='" + research.link + "' target='_blank' class='link-btn-square'>" +
             "<span class='btn-text'><i class='fas fa-link'></i> Detail</span>" +
           "</a>";
 
@@ -48,7 +59,7 @@ $(function() {
 
       let content = div_row_begin + div_col_md_3_begin + image + div_col_md_3_end +
                     div_col_md_9_begin + titleJP + titleEN + publication + abstract +
-                    link + div_col_md_9_end;
+                    collaboration + link + div_col_md_9_end;
 
       $('#research').append(content);
     });

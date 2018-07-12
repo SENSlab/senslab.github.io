@@ -221,6 +221,13 @@ button.navbar-toggler
 	font-family: 'Roboto';
 }
 
+.research-collaboration
+{
+  text-align: left;
+  font-size: 11px;
+	font-family: 'Roboto';
+}
+
 .research-link
 {
   text-align: left;

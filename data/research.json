@@ -5,7 +5,8 @@
         "titleEN": "Fabricating Diminishable Visual Markers for Projection Mapping",
         "publication": "IEEE TVCG 2018, IEEE VR 2018, Siggraph Asia ETech 2015",
         "abstract": "工業デザインや医療情報可視化などの応用を見据え、3Dプリンタで出力したモックアップにきちんと映像を3次元的に位置合わせするためのプロジェクションマッピング技術を研究しています。これまで位置合わせを行うためには、投影対象となるモックアップ等にマーカーと呼ばれる目印を取り付ける必要がありましたが、これらのマーカーはプロジェクション...",
-        "link": "http://daisukeiwai.org/jp/research/markerfab.html"
+        "link": "http://daisukeiwai.org/jp/research/markerfab.html",
+        "collaboration": ""
     },
     {
         "photoPass": "images/researches/consistentdesk.jpg",
@@ -13,7 +14,8 @@
         "titleEN": "ConsistentDesk: Geometrically Consistent Projection-based Tabletop Sharing",
         "publication": "IEEE Access 2018, Siggraph Asia ETech 2015",
         "abstract": "一般的なテレビ会議では互いの顔を見ながら会話できますが、離れた机の上同士で共同作業する場合は手元が見えず、十分な情報伝達ができているとは言えません。そこで私たちは、遠く離れた机の上での作業の様子をカメラで撮影して、プロジェクタを使って自分側の机の上に表示する技術を研究しています。このような技術を共有机と呼び、遠隔教育などへの応用を...",
-        "link": "http://daisukeiwai.org/jp/research/consistentdesk.html"
+        "link": "http://daisukeiwai.org/jp/research/consistentdesk.html",
+        "collaboration": ""
     },
     {
         "photoPass": "images/researches/spap.jpg",
@@ -21,6 +23,16 @@
         "titleEN": "SPAP: Simultaneous Projection and Positioning",
         "publication": "IEEE TVCG 2017, IEEE ISMAR 2017",
         "abstract": "走査型のレーザプロジェクタを対象として、従来必要とされてきた特殊パターンの投影やカメラ計測が不要で、光センサによる走査時間計測にもとづいて幾何補正を行う技術(SPAP: Simultaneous Projection and Positioning)を提案する。...",
-        "link": "http://daisukeiwai.org/jp/research/spap.html"
+        "link": "http://daisukeiwai.org/jp/research/spap.html",
+        "collaboration": ""
+    },
+    {
+        "photoPass": "images/researches/makeup.jpg",
+        "titleJP": "Makeup Lamps: 顔へのリアルタイムプロジェクションマッピング",
+        "titleEN": "Makeup Lamps: Live Augmentation of Human Faces via Projection",
+        "publication": "Computer Graphics Forum 2017, Eurographics 2017",
+        "abstract": "人の顔にマーカーレスでプロジェクションマッピングする技術を開発しました。高速プロジェクタとカメラを使用し、CPUとGPUを駆使した処理最適化によって、顔の位置姿勢化に対して投影像が平均9.8ミリ秒の遅延で追従し、表情変化に応じてインタラクティブに投影コンテンツを切り替えることを実現しました。...",
+        "link": "https://www.disneyresearch.com/publication/makeup-lamps-live-augmentation-of-human-faces-via-projection/",
+        "collaboration": "Disney Research Zürich [<a href='https://www.disneyresearch.com/' target='_blank' class='research-link'>HP</a>]との共同調査"
     }
 ]
