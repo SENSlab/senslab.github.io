@@ -1,4 +1,13 @@
 $(function(){
+  var ua = navigator.userAgent;
+  if(ua.indexOf('iPhone') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0
+  || ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0 ){
+    mytap = 'touchstart';
+  }
+  else{
+    mytap = 'click';
+  }
+
   // Encrypted API_KEY
   let API_KEY = '7608320d524b25604efc37615685dd39,747afd9accb8009d9b4c0b36e1025be8,WcVLMQSvjnQEh3AgcZIX5rEZLg7OcZwxE2e2x72QBLKU5OPS+Ib5G8FLtWA73U7Z';
   let pass = 'sens';
@@ -17,7 +26,7 @@ $(function(){
     });
     promiseShapeAward.then(function(value) {
       $('.loading').remove();
-      $('#show_more_award_btn').trigger('click');
+      $('#show_more_award_btn').trigger(mytap);
     });
   });
 
@@ -28,7 +37,7 @@ $(function(){
     });
     promiseShapeJournal.then(function(value) {
       $('.loading').remove();
-      $('#show_more_journal_btn').trigger('click');
+      $('#show_more_journal_btn').trigger(mytap);
     });
   });
 
@@ -39,7 +48,7 @@ $(function(){
     });
     promiseShapeInternationalConference.then(function(value) {
       $('.loading').remove();
-      $('#show_more_international_conference_btn').trigger('click');
+      $('#show_more_international_conference_btn').trigger(mytap);
     });
   });
 
@@ -50,7 +59,7 @@ $(function(){
     });
     promiseShapeDomesticConference.then(function(value) {
       $('.loading').remove();
-      $('#show_more_domestic_conference_btn').trigger('click');
+      $('#show_more_domestic_conference_btn').trigger(mytap);
     });
   });
 
@@ -61,7 +70,7 @@ $(function(){
     });
     promiseShapeSurvey.then(function(value) {
       $('.loading').remove();
-      $('#show_more_survey_btn').trigger('click');
+      $('#show_more_survey_btn').trigger(mytap);
     });
   });
 
@@ -72,7 +81,7 @@ $(function(){
     });
     promiseShapePress.then(function(value) {
       $('.loading').remove();
-      $('#show_more_press_btn').trigger('click');
+      $('#show_more_press_btn').trigger(mytap);
     });
   });
 
@@ -83,13 +92,13 @@ $(function(){
     });
     promiseShapeBook.then(function(value) {
       $('.loading').remove();
-      $('#show_more_book_btn').trigger('click');
+      $('#show_more_book_btn').trigger(mytap);
     });
   });
 
   var i_year = {award : 0, journal : 0, internationalConference : 0, domesticConference : 0, survey : 0, press : 0, book : 0};
 
-  $('#show_more_award_btn').on('click', function() {
+  $('#show_more_award_btn').on(mytap, function() {
     renderAward(API_KEY, SPREADSHEET_ID, shapedJson.award, i_year);
 
     if(shapedJson.award[i_year.award] === undefined){
@@ -97,7 +106,7 @@ $(function(){
     }
   });
 
-  $('#show_more_journal_btn').on('click', function() {
+  $('#show_more_journal_btn').on(mytap, function() {
     renderJournal(API_KEY, SPREADSHEET_ID, shapedJson.journal, i_year);
 
     if(shapedJson.journal[i_year.journal] === undefined){
@@ -105,7 +114,7 @@ $(function(){
     }
   });
 
-  $('#show_more_international_conference_btn').on('click', function() {
+  $('#show_more_international_conference_btn').on(mytap, function() {
     renderInternationalConference(API_KEY, SPREADSHEET_ID, shapedJson.internationalConference, i_year);
 
     if(shapedJson.internationalConference[i_year.internationalConference] === undefined){
@@ -113,7 +122,7 @@ $(function(){
     }
   });
 
-  $('#show_more_domestic_conference_btn').on('click', function() {
+  $('#show_more_domestic_conference_btn').on(mytap, function() {
     renderDomesticConference(API_KEY, SPREADSHEET_ID, shapedJson.domesticConference, i_year);
 
     if(shapedJson.domesticConference[i_year.domesticConference] === undefined){
@@ -121,7 +130,7 @@ $(function(){
     }
   });
 
-  $('#show_more_survey_btn').on('click', function() {
+  $('#show_more_survey_btn').on(mytap, function() {
     renderSurvey(API_KEY, SPREADSHEET_ID, shapedJson.survey, i_year);
 
     if(shapedJson.survey[i_year.survey] === undefined){
@@ -129,7 +138,7 @@ $(function(){
     }
   });
 
-  $('#show_more_press_btn').on('click', function() {
+  $('#show_more_press_btn').on(mytap, function() {
     renderPress(API_KEY, SPREADSHEET_ID, shapedJson.press, i_year);
 
     if(shapedJson.press[i_year.press] === undefined){
@@ -137,7 +146,7 @@ $(function(){
     }
   });
 
-  $('#show_more_book_btn').on('click', function() {
+  $('#show_more_book_btn').on(mytap, function() {
     renderBook(API_KEY, SPREADSHEET_ID, shapedJson.book, i_year);
 
     if(shapedJson.book[i_year.book] === undefined){

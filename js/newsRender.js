@@ -1,10 +1,19 @@
 //After render the screen
 $(function() {
+  var ua = navigator.userAgent;
+  if(ua.indexOf('iPhone') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0
+  || ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0 ){
+    mytap = 'touchstart';
+  }
+  else{
+    mytap = 'click';
+  }
+
   //Get data from data/news.json and put it in the json object
   $.getJSON("data/news.json", function(json){
     index_year = 0;
 
-    $('#show_more_news_btn').on('click', function() {
+    $('#show_more_news_btn').on(mytap, function() {
       news = json[index_year];
 
       year =
@@ -45,7 +54,7 @@ $(function() {
     });
 
     //To show the latest year's news by triggering click event
-    $('#show_more_news_btn').trigger('click');
+    $('#show_more_news_btn').trigger(mytap);
 
   });
 });
