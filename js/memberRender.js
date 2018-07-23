@@ -83,7 +83,7 @@ function renderMenber(memberDataInAttribute){
               "<div class='current-lab-member-name'>" +
               "<a class='member-link' href='" +
               member.link +
-              "' target='_blank'>" +
+              "' target='_new'>" +
               member.nameJP +
               "</a>" +
               "</div>";

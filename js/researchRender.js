@@ -50,7 +50,7 @@ $(function() {
       }
 
       let link =
-          "<a href='" + research.link + "' target='_blank' class='link-btn-square'>" +
+          "<a href='" + research.link + "' target='_new' class='link-btn-square'>" +
             "<span class='btn-text'><i class='fas fa-link'></i> Detail</span>" +
           "</a>";
 

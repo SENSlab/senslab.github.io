@@ -33,6 +33,6 @@
         "publication": "Computer Graphics Forum 2017, Eurographics 2017",
         "abstract": "人の顔にマーカーレスでプロジェクションマッピングする技術を開発しました。高速プロジェクタとカメラを使用し、CPUとGPUを駆使した処理最適化によって、顔の位置姿勢化に対して投影像が平均9.8ミリ秒の遅延で追従し、表情変化に応じてインタラクティブに投影コンテンツを切り替えることを実現しました。...",
         "link": "https://www.disneyresearch.com/publication/makeup-lamps-live-augmentation-of-human-faces-via-projection/",
-        "collaboration": "Disney Research Zürich [<a href='https://www.disneyresearch.com/' target='_blank' class='research-link'>HP</a>]との共同調査"
+        "collaboration": "Disney Research Zürich [<a href='https://www.disneyresearch.com/' target='_new' class='research-link'>HP</a>]との共同調査"
     }
 ]
