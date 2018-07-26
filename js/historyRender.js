@@ -1,6 +1,6 @@
 //After render the screen
 $(function() {
-  //Get data from data/news.json and put it in the json object
+  //Get data from data/history.json and put it in the json object
   $.getJSON("data/history.json", function(json){
       json.forEach(function( history ){
         head =
@@ -46,8 +46,8 @@ $(function() {
 
         $("#history").append(head + img + topic + content + date + foot);
       });
-      js = "<script src=\"js/historyVerticalTimeline.js\"></script>";
-      $("#history").append(js);
+
+      $.getScript('js/historyVerticalTimeline.js');
   });
 
 
