@@ -34,5 +34,14 @@
         "abstract": "人の顔にマーカーレスでプロジェクションマッピングする技術を開発しました。高速プロジェクタとカメラを使用し、CPUとGPUを駆使した処理最適化によって、顔の位置姿勢化に対して投影像が平均9.8ミリ秒の遅延で追従し、表情変化に応じてインタラクティブに投影コンテンツを切り替えることを実現しました。...",
         "link": "https://www.disneyresearch.com/publication/makeup-lamps-live-augmentation-of-human-faces-via-projection/",
         "collaboration": "Disney Research Zürich [<a href='https://www.disneyresearch.com/' target='_new' class='research-link'>HP</a>]との共同調査"
+    },
+    {
+        "photoPass": "images/researches/lazynav.jpg",
+        "titleJP": "VR空間探索のための「くつろいだ」インタフェース",
+        "titleEN": "LazyNav: 3D Ground Navigation with Non-Critical Body Parts",
+        "publication": "IEEE TVCG 2017, IEEE 3DUI 2015",
+        "abstract": "くつろいだ姿勢でバーチャル空間を効率的に探索するためのインタフェースの概念LazyNavを提唱した。手に荷物を持っていても問題なくバーチャル空間を探索できるよう、体幹と脚のジェスチャ（ただし、小さい動きに限る）を採用し、身体動作とバーチャル空間の移動回転の自然な対応を調査した。...",
+        "link": "https://perso.telecom-paristech.fr/boubek/papers/LazyNav/",
+        "collaboration": "フランスTelecom ParisTechのTamy Boubekeur教授 [<a href='https://perso.telecom-paristech.fr/boubek/' target='_new' class='research-link'>HP</a>]との共同調査"
     }
 ]
