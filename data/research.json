@@ -1,5 +1,14 @@
 [
     {
+        "photoPass": "images/researches/colormod.jpg",
+        "titleJP": "3Dプリント後でも自由に色が変えられる",
+        "titleEN": "ColorMod: Recoloring 3D Printed Objects using Photochromic Inks",
+        "publication": "ACM CHI 2018",
+        "abstract": "ColorModが利用するインクは、基本の染料、光重合開始剤、そして光順応染料を混合したものだ。特定の波長の光を照射すると、光順応染料が基本染料の色を発色させるのを促し、光重合開始剤が基本染料を硬化させる仕組みだ。インクはUV光照射でアクティベートされて発色するが、可視光を照射すると非アクティベートされて無色になる。...",
+        "link": "http://hcie.csail.mit.edu/research/colormod/colormod.html",
+        "collaboration": "HCI Engineering Group@MIT CSAIL [<a href='http://hcie.csail.mit.edu/' target='_new' class='research-link'>HP</a>]との共同調査"
+    },
+    {
         "photoPass": "images/researches/markerfab.jpg",
         "titleJP": "隠消型プロジェクションマッピングマーカー",
         "titleEN": "Fabricating Diminishable Visual Markers for Projection Mapping",
