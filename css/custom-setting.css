@@ -333,6 +333,14 @@ ol.award li{
   font-family: 'Roboto';
 }
 
+.class-details
+{
+	color: #000000;
+	font-family: 'Roboto';
+	text-align: justify;
+	font-size: 12px;
+}
+
 /* contact */
 .contact-ul {
     /*color: #1e366a;*/
