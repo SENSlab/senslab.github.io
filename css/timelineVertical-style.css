@@ -9,6 +9,12 @@ Vertical Timeline - by CodyHouse.co
   font-weight: bold;
 }
 
+.history-topic {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .cd-timeline {
   overflow: hidden;
   font-family: 'Roboto';
@@ -74,8 +80,8 @@ Vertical Timeline - by CodyHouse.co
   position: absolute;
   top: 0;
   left: 0;
-  width: 40px;
-  height: 40px;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
@@ -83,13 +89,13 @@ Vertical Timeline - by CodyHouse.co
 
 .cd-timeline__img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 1.2rem;
+  height: 1.2rem;
   position: relative;
   left: 50%;
   top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  margin-left: -0.6rem;
+  margin-top: -0.6rem;
 }
 
 .cd-timeline__img.cd-timeline__img--sens-background {
@@ -227,7 +233,7 @@ Vertical Timeline - by CodyHouse.co
   }
   .cd-timeline__read-more,
   .cd-timeline__date {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -254,7 +260,7 @@ Vertical Timeline - by CodyHouse.co
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__content {
     float: right;
