@@ -148,6 +148,39 @@ button.navbar-toggler
 	}
 }
 
+/* Leaflet */
+.leaflet-body
+{
+	text-align: left;
+	color: #000000;
+	font-size: 14px;
+	font-family: 'Roboto';
+}
+
+.leaflet-link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.leaflet-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.leaflet-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.leaflet-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
+
 /* News */
 .news-header
 {
