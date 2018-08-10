@@ -167,7 +167,11 @@
     <script src="js/jquery.bxslider.min.js"></script>
     <script>
     $(document).ready(function(){
-        $('.bxslider').bxSlider();
+        $('.bxslider').bxSlider({
+            auto: true, //自動スライド / auto slide
+            pause: 4500, //待ち時間 / pauseing time
+            speed: 2000  //スピード / speed
+        });
     });
     </script>
 
