@@ -9,9 +9,9 @@
 	<link rel="icon" href="images/icons/sens-lab.ico">
 
 	<!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-  <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
 
 	<link href="css/custom-setting.css" rel="stylesheet">
 
@@ -23,6 +23,9 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- bxSlider -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
 </head>
 
 <body>
@@ -30,22 +33,25 @@
 	<!-- to be filled by javascript, see header.html -->
 </header>
 
-
-<div class="teaser-container">
-<!--
-	<div class="row">
-	<div class="col-md-12" style="text-align: center;">
-	<img src="images/teasers/teaser-sample.png">
-	</div>
-	</div>
--->
+<div class="container header-slider-container">
+    <div class="col">
+        <ul class="bxslider">
+            <!--
+            Image size should be 1300px * 540px
+            -->
+            <li><img src="images/teasers/research-nigiri.jpg" class="header-slider-image"/></li>
+            <li><img src="images/teasers/research-motion-analysis.jpg" class="header-slider-image"/></li>
+            <li><img src="images/teasers/research-wearable-projector.jpg" class="header-slider-image"/></li>
+            <li><img src="images/teasers/1200px-sens-teaser-lab-201807.jpg" class="header-slider-image"/></li>
+        </ul>
+    </div>
 </div>
 
 <div class="container">
 
 	<div class="row">
 		<div class="col">
-			<h3 class="big-headline mt-3">Leaflet<hr/></h3>
+			<h3 class="big-headline">Leaflet<hr/></h3>
 		</div>
 	</div>
 
@@ -155,7 +161,15 @@
 </footer>
 
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- bxSlider  -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.bxslider').bxSlider();
+    });
+    </script>
 
 <!-- Bootstrap -->
 <script type="text/javascript" src="js/popper.min.js"></script>
