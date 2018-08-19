@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { DataService, News, NewsInAYear } from '../data.service';
 declare var startSlider;
 
 @Component({
@@ -10,9 +11,27 @@ export class HomeComponent implements OnInit {
   @ViewChild('bxslider')
   bxslider: ElementRef;
 
-  constructor() { }
+  allNews: NewsInAYear[];
+  showingNews: NewsInAYear[];
+  newsIsLeft: Boolean;
+
+  constructor(private data: DataService) {
+    this.showingNews = [];
+  }
 
   ngOnInit() {
-    startSlider();
+    startSlider(); //defined in homeBxslider.js
+
+    this.data.getNews().subscribe(
+      val => {
+        this.allNews = val;
+        this.showPrevYearNews();
+      }
+    );
+  }
+
+  showPrevYearNews() {
+    this.showingNews.push(this.allNews.shift());
+    this.newsIsLeft = this.allNews.length != 0;
   }
 }

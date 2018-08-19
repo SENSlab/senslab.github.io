@@ -43,12 +43,30 @@
 		</div>
 	</div>
 
-	<div id="news" class="news-body"></div>
+	<div id="news" class="news-body">
+		<ng-container *ngFor="let ny of showingNews">
+			<div class='row'>
+				<div class='col news-header mt-4 pb-2'>
+					{{ny.year}}
+				</div>
+			</div>
+			<ng-container *ngFor="let nt of ny.topic">
+				<div class='row'>
+					<div class='col-md-2 pb-1'>
+						{{nt.date}}
+					</div>
+					<div class='col-md-10' [innerHTML]="nt.content">
+					</div>
+					<div class='col-md-2 news-body'></div>
+				</div>
+			</ng-container>
+		</ng-container>
+	</div>
 
 	<div class="row">
 		<div class="col">
 			<div class="my-3"></div>
-			<a id="show_more_news_btn" class="link-btn-square">
+			<a id="show_more_news_btn" class="link-btn-square" (click)="showPrevYearNews()" [hidden]="!newsIsLeft">
 				<span class="btn-text">▼ previous year</span>
 			</a>
 		</div>
