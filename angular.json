@@ -54,6 +54,7 @@
             ],
             "scripts": [
               "src/js/jquery.bxslider.min.js",
+              "src/js/homeBxslider.js",
               "src/js/popper.min.js",
               "src/js/bootstrap.min.js",
               "src/js/headerstrap.js",
