@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ResearchService } from '../research.service';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-research',
@@ -9,11 +9,11 @@ import { ResearchService } from '../research.service';
 export class ResearchComponent implements OnInit {
   researches$: Object;
 
-  constructor(private service: ResearchService) { }
+  constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.service.getResearches().subscribe(
-      data => this.researches$ = data
+    this.data.getResearches().subscribe(
+      val => this.researches$ = val
     );
   }
 

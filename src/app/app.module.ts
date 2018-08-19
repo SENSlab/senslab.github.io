@@ -8,7 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ResearchComponent } from './research/research.component';
 
-import { ResearchService } from './research.service';
+import { DataService } from './data.service';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -26,7 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [
-    ResearchService
+    DataService
   ],
   bootstrap: [AppComponent]
 })
