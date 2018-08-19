@@ -41,13 +41,26 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/images",
+              "src/data"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/css/bootstrap.min.css",
+              "src/css/bootstrap-grid.min.css",
+              "src/css/bootstrap-reboot.min.css",
+              "src/css/custom-setting.css",
+              "src/css/jquery.bxslider.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery.bxslider.min.js",
+              "src/js/popper.min.js",
+              "src/js/bootstrap.min.js",
+              "src/js/headerstrap.js",
+              "src/js/footerstrap.js",
+              "src/js/newsRender.js",
+              "src/js/browserDetecter.js"
+            ]
           },
           "configurations": {
             "production": {
