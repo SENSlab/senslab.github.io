@@ -1,70 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>SENS Laboratory: Osaka University</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-	<!-- SENS ICON -->
-	<link rel="icon" href="images/icons/sens-lab.ico">
-
-	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-  <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
-
-	<link href="css/custom-setting.css" rel="stylesheet">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-</head>
-
-<body>
-<header class="main-header">
-	<!-- to be filled by javascript, see header.html -->
-</header>
-
+<p>
+  research works!
+</p>
 <div class="container">
-	<div class="row">
-		<div class="col">
-			<h3 class="headline mt-8">Research<hr/></h3>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col">
+      <h3 class="headline mt-8">Research
+        <hr/>
+      </h3>
+    </div>
+  </div>
 
-	<div id="research" class="research-body"></div>
+  <div id="research" class="research-body"></div>
+  <ng-container *ngFor="let res of researches$">
+    <div class='row mb-5'>
+      <div class='col-md-3'>
+        <img src={{res.photoPass}} class='research-image'>
+      </div>
+      <div class='col-md-9'>
+        <div class='research-title'>{{res.titleJP}}</div>
+        <div class='research-title'>{{res.titleEN}}</div>
+        <div class='research-publication'>({{res.publication}})</div>
+        <div class='research-abstract mt-3'>{{res.abstract}}</div>
+        <div class='research-collaboration mb-3'>{{res.collaboration !== '' ? '(' + res.collaboration + ')' : ''}}</div>
+        <a href={{res.link}} target='_new' class='link-btn-square'>
+          <span class='btn-text'>
+            <i class='fas fa-link'></i> Detail
+          </span>
+        </a>
+      </div>
+    </div>
+  </ng-container>
 
 </div>
 
 <div class="mb-5"></div>
-
-<footer>
-	<!-- to be filled by javascript, see footer.html -->
-</footer>
-
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-<!-- Bootstrap -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-<!-- Header -->
-<script type="text/javascript" src="js/headerstrap.js"></script>
-
-<!-- Footer -->
-<script type="text/javascript" src="js/footerstrap.js"></script>
-
-<!-- News Render -->
-<script type="text/javascript" src="js/researchRender.js"></script>
-
-<!-- Browser Detecter -->
-<script type="text/javascript" src="js/browserDetecter.js"></script>
-
-</body>
-</html>

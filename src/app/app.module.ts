@@ -8,19 +8,26 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ResearchComponent } from './research/research.component';
 
+import { ResearchService } from './research.service';
+
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ResearchComponent
+    ResearchComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ResearchService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

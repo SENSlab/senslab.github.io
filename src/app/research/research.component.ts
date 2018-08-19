@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ResearchService } from '../research.service';
 
 @Component({
   selector: 'app-research',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./research.component.css']
 })
 export class ResearchComponent implements OnInit {
+  researches$: Object;
 
-  constructor() { }
+  constructor(private service: ResearchService) { }
 
   ngOnInit() {
+    this.service.getResearches().subscribe(
+      data => this.researches$ = data
+    );
   }
 
 }

@@ -8,7 +8,7 @@
 					</a>
 				</div>
 
-				<button type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber"
+				<button #navbarToggler type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber"
 				 aria-expanded="false">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -16,10 +16,10 @@
 				<div class="collapse navbar-collapse" id="Navber">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" routerLink="home" data-toggle="collapse" data-target=".navbar-collapse.show"><div class="mx-3 nav-text">Home</div></a>
+							<a class="nav-link" routerLink="/home" (click)="collapseNav()"><div class="mx-3 nav-text">Home</div></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="research.html"><div class="mx-3 nav-text">Research</div></a>
+							<a class="nav-link" routerLink="/research" (click)="collapseNav()"><div class="mx-3 nav-text">Research</div></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="publication.html"><div class="mx-3 nav-text">Publication</div></a>
