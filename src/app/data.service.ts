@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Location } from '@angular/common';
 
 export class News {
   date: String;
@@ -26,13 +27,13 @@ export class ResearchData {
 })
 export class DataService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private location: Location) { }
 
   getNews() {
-    return this.http.get<NewsInAYear[]>('/data/news.json');
+    return this.http.get<NewsInAYear[]>(this.location.prepareExternalUrl('/data/news.json'));
   }
 
   getResearches() {
-    return this.http.get<ResearchData>('/data/research.json');
+    return this.http.get<ResearchData>(this.location.prepareExternalUrl('/data/research.json'));
   }
 }
