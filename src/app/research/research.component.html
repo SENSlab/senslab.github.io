@@ -18,7 +18,9 @@
         <div class='research-title'>{{res.titleEN}}</div>
         <div class='research-publication'>({{res.publication}})</div>
         <div class='research-abstract mt-3'>{{res.abstract}}</div>
-        <div class='research-collaboration mb-3'>{{res.collaboration !== '' ? '(' + res.collaboration + ')' : ''}}</div>
+        <div class='research-collaboration mb-3'>
+          <div [innerHTML]="(res.collaboration !== '' ? '(' : '') + res.collaboration + (res.collaboration !== '' ? ')' : '')"></div>
+        </div>
         <a href={{res.link}} target='_new' class='link-btn-square'>
           <span class='btn-text'>
             <i class='fas fa-link'></i> Detail
