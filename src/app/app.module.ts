@@ -12,6 +12,7 @@ import { DataService } from './data.service';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ContactusComponent } from './contactus/contactus.component';
+import { ClassesComponent } from './classes/classes.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     HomeComponent,
     ResearchComponent,
     ContactusComponent,
+    ClassesComponent,
   ],
   imports: [
     BrowserModule,
