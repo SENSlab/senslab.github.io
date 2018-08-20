@@ -11,6 +11,7 @@ import { ResearchComponent } from './research/research.component';
 import { DataService } from './data.service';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeComponent,
     ResearchComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
