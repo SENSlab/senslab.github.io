@@ -35,7 +35,14 @@ export class MemberData {
   attribute: String;
   people: Member[];
 }
- 
+
+export class HistoryData {
+  topic: String;
+  date: String;
+  content: String;
+  genre: String;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -53,5 +60,9 @@ export class DataService {
 
   getMember() {
     return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/member.json')); 
+  }
+
+  getHistory() {
+    return this.http.get<HistoryData>(this.location.prepareExternalUrl('/data/history.json')); 
   }
 }

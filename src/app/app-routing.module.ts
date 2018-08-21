@@ -5,6 +5,7 @@ import { ResearchComponent } from './research/research.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ClassesComponent } from './classes/classes.component';
 import { MemberComponent } from './member/member.component';
+import { HistoryComponent } from './history/history.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactusComponent },
   { path: 'classes', component: ClassesComponent },
   { path: 'member', component: MemberComponent },
+  { path: 'history', component: HistoryComponent },
 ];
 
 @NgModule({

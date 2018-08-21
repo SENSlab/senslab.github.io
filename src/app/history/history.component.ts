@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService, HistoryData } from '../data.service';
 
 @Component({
   selector: 'app-history',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./history.component.css']
 })
 export class HistoryComponent implements OnInit {
+  historyData: HistoryData
 
-  constructor() { }
+  constructor(private data: DataService) { }
 
   ngOnInit() {
+    this.data.getHistory().subscribe(
+      val => this.historyData = val
+    );
+  }
+
+  scrollToTop() {
+    window.scrollTo(0,0);
   }
 
 }

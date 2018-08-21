@@ -50,7 +50,8 @@
               "src/css/bootstrap-grid.min.css",
               "src/css/bootstrap-reboot.min.css",
               "src/css/custom-setting.css",
-              "src/css/jquery.bxslider.css"
+              "src/css/jquery.bxslider.css",
+              "src/css/timelineVertical-style.css"
             ],
             "scripts": [
               "src/js/jquery.bxslider.min.js",
