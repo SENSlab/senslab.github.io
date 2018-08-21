@@ -46,19 +46,20 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/css/bootstrap.min.css",
-              "src/css/bootstrap-grid.min.css",
-              "src/css/bootstrap-reboot.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.min.css",
               "src/css/custom-setting.css",
               "src/css/jquery.bxslider.css",
               "src/css/timelineVertical-style.css"
             ],
             "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
               "src/js/jquery.bxslider.min.js",
-              "src/js/homeBxslider.js",
-              "src/js/popper.min.js",
-              "src/js/bootstrap.min.js",
-              "src/js/browserDetecter.js"
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/js/browserDetecter.js",
+              "src/js/homeBxslider.js"
             ]
           },
           "configurations": {
