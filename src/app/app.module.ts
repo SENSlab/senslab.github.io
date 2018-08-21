@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ClassesComponent } from './classes/classes.component';
 import { MemberComponent } from './member/member.component';
+import { PublicationComponent } from './publication/publication.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MemberComponent } from './member/member.component';
     ContactusComponent,
     ClassesComponent,
     MemberComponent,
+    PublicationComponent,
   ],
   imports: [
     BrowserModule,
