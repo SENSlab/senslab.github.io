@@ -59,7 +59,8 @@
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/js/browserDetecter.js",
-              "src/js/homeBxslider.js"
+              "src/js/homeBxslider.js",
+              "src/js/analytics.js"
             ]
           },
           "configurations": {
