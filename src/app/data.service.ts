@@ -36,6 +36,13 @@ export class MemberData {
   people: Member[];
 }
 
+export class HistoryData {
+  topic: String;
+  date: String;
+  content: String;
+  genre: String;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -81,5 +88,9 @@ export class DataService {
 
   getBooks(id: string, apikey: string) {
     return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/Book!A1:B10000?key=' + apikey);
+  }
+
+  getHistory() {
+    return this.http.get<HistoryData>(this.location.prepareExternalUrl('/data/history.json'));
   }
 }

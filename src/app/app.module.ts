@@ -15,6 +15,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ClassesComponent } from './classes/classes.component';
 import { MemberComponent } from './member/member.component';
 import { PublicationComponent } from './publication/publication.component';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PublicationComponent } from './publication/publication.component';
     ClassesComponent,
     MemberComponent,
     PublicationComponent,
+    HistoryComponent,
   ],
   imports: [
     BrowserModule,

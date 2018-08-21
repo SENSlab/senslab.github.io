@@ -1,0 +1,52 @@
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<h3 class="headline mt-8">History of SENS Lab. / 佐藤研究室の沿革<hr/></h3>
+		</div>
+	</div>
+</div>
+
+<p id="pageTop" (click)='scrollToTop()'>
+		<span class="fa-stack scroll-up-btn">
+			<i class="fa fa-stack-1x fa-chevron-up fa-fw custom-chevron-up" style="font-size: 2rem;"></i>
+			<i class="far fa-stack-2x fa-circle fa-fw" style="font-size: 4rem;"></i>
+		</span>
+</p>
+
+<section class="cd-timeline js-cd-timeline">
+	<div class="cd-timeline__container">
+        <ng-container *ngFor='let history of historyData'>
+            <div class='cd-timeline__block js-cd-block'>
+                <ng-container *ngIf='history.genre === "sigma"'>
+                    <div class='cd-timeline__img cd-timeline__img--sigma-background js-cd-img'>
+                        <img src='images/icons/sigma-history-icon.svg' alt='Location'>
+                    </div>
+                </ng-container>
+                <ng-container *ngIf='history.genre === "sens"'>
+                    <div class='cd-timeline__img cd-timeline__img--sens-background js-cd-img'>
+                        <img src='images/icons/sens-history-icon.svg' alt='Location'>
+                    </div>
+                </ng-container>
+                
+                <div class='cd-timeline__content js-cd-content'>
+                    <div class='history-topic'>
+                        {{history.topic}}
+                    </div>
+                    
+                    <ng-container *ngIf='history.content !== undefined'>
+                        <div>
+                            {{history.content}}
+                        </div>
+                    </ng-container>
+                    
+                    <span class='cd-timeline__date'>
+                        {{history.date}}
+                    </span>
+                </div>
+            </div>
+        </ng-container>
+	</div>
+</section>
+
+<div class="mb-5"></div>
+
