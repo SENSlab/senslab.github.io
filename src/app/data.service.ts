@@ -35,7 +35,7 @@ export class MemberData {
   attribute: String;
   people: Member[];
 }
- 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -52,6 +52,34 @@ export class DataService {
   }
 
   getMember() {
-    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/member.json')); 
+    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/member.json'));
+  }
+
+  getAwards(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/Award!A1:C10000?key=' + apikey);
+  }
+
+  getJournals(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/Journal!A1:B10000?key=' + apikey);
+  }
+
+  getInternationalConfs(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/internationalconference!a1:b10000?key=' + apikey);
+  }
+
+  getDomesticConfs(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/DomesticConference!A1:B10000?key=' + apikey);
+  }
+
+  getSurveys(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/Survey!A1:B10000?key=' + apikey);
+  }
+
+  getPresses(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/Press!A1:B10000?key=' + apikey)
+  }
+
+  getBooks(id: string, apikey: string) {
+    return this.http.get('https://sheets.googleapis.com/v4/spreadsheets/' + id + '/values/Book!A1:B10000?key=' + apikey);
   }
 }
