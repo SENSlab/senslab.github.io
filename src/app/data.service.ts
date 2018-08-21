@@ -9,7 +9,7 @@ export class News {
 
 export class NewsInAYear {
   year: Number;
-  topic: [News];
+  topic: News[];
 }
 
 export class ResearchData {
@@ -22,6 +22,20 @@ export class ResearchData {
   collaboration: String;
 }
 
+export class Member {
+  nameJP: String;
+  nameEN: String;
+  position: String;
+  positionOther: String;
+  link: String
+  photoPass: String;
+}
+
+export class MemberData {
+  attribute: String;
+  people: Member[];
+}
+ 
 @Injectable({
   providedIn: 'root'
 })
@@ -35,5 +49,9 @@ export class DataService {
 
   getResearches() {
     return this.http.get<ResearchData>(this.location.prepareExternalUrl('/data/research.json'));
+  }
+
+  getMember() {
+    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/member.json')); 
   }
 }

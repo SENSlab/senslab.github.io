@@ -1,34 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>SENS Laboratory: Osaka University</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-	<!-- SENS ICON -->
-	<link rel="icon" href="images/icons/sens-lab.ico">
-
-	<!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-  <link href="css/bootstrap-reboot.min.css" rel="stylesheet">
-
-	<link href="css/custom-setting.css" rel="stylesheet">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-</head>
-
-<body>
-<header class="main-header">
-	<!-- to be filled by javascript, see header.html -->
-</header>
-
 <div class="container">
-	<div id="member"></div>
+    <div class="mt-8">
+    </div>
+    
+    <ng-container *ngFor="let people of allMember">
+	    <div class="row">
+		    <div class="col">
+                <h3 class="big-headline mt-4">{{people.attribute}}
+				    <hr/>
+			    </h3>
+            </div>
+        </div>
+	    
+        <div class="row">
+            <ng-container *ngFor="let member of people.people">
+                <div class='col-md-3 mb-5'>
+                    <div class='current-lab-member-photo'>
+                        <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+                    </div>
+                    <div class='current-lab-member-name'>
+                        <ng-container *ngIf='member.link !== undefined'>
+                            <a class='member-link' href={{member.link}} target='_new'>{{people.nameJP}}
+                            </a>
+                        </ng-container>
+                        <ng-container *ngIf='member.link === undefined'>
+                            <div>
+                                {{member.nameJP}}
+                            </div>
+                        </ng-container>
+                        <div>
+                            {{member.nameEN}}
+                        </div>
+                        <ng-container *ngIf='member.position !== undefined'>
+                            <div class='current-lab-member-position'>
+                                {{member.position}}
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf='member.positionOther !== undefined'>
+                            <div class='current-lab-member-position'>
+                                {{member.positionOther}}
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </ng-container>
 </div>
 
 
@@ -102,29 +118,3 @@
 </div>
 
 <div class="mb-5"></div>
-
-<footer>
-	<!-- to be filled by javascript, see footer.html -->
-</footer>
-
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-<!-- Bootstrap -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-<!-- Header -->
-<script type="text/javascript" src="js/headerstrap.js"></script>
-
-<!-- Footer -->
-<script type="text/javascript" src="js/footerstrap.js"></script>
-
-<!-- Member Render -->
-<script type="text/javascript" src="js/memberRender.js"></script>
-
-<!-- Browser Detecter -->
-<script type="text/javascript" src="js/browserDetecter.js"></script>
-
-</body>
-</html>
