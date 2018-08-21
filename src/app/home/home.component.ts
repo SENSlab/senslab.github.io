@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DataService, News, NewsInAYear } from '../data.service';
 declare var startSlider;
 
@@ -8,9 +8,6 @@ declare var startSlider;
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  @ViewChild('bxslider')
-  bxslider: ElementRef;
-
   allNews: NewsInAYear[];
   showingNews: NewsInAYear[];
   newsIsLeft: Boolean;
