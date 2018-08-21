@@ -13,6 +13,7 @@ import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ClassesComponent } from './classes/classes.component';
+import { MemberComponent } from './member/member.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ClassesComponent } from './classes/classes.component';
     ResearchComponent,
     ContactusComponent,
     ClassesComponent,
+    MemberComponent,
   ],
   imports: [
     BrowserModule,
