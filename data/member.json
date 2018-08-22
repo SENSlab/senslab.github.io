@@ -48,13 +48,6 @@
             "nameEN": "Takumi Kaminokado",
             "position": "Research Student / 研究生",
             "photoPass": "images/members/kaminokado.jpg"
-        },
-        {
-            "nameJP": "チンギン フランシス ドゥアン",
-            "nameEN": "Tinglin Francis Duan ",
-            "position": "Exchange Student / 留学生",
-            "positionOther": "(FrontierLab project)",
-            "photoPass": "images/members/silhouette.jpg"
         }
       ]
     },
@@ -81,7 +74,7 @@
             {
                 "nameJP": "河原 拓海",
                 "nameEN": "Takumi Kawahara",
-                "photoPass": "images/members/silhouette.jpg"
+                "photoPass": "images/members/kawahara.jpg"
             },
             {
                 "nameJP": "佐藤 貴俊",
@@ -126,7 +119,7 @@
             {
                 "nameJP": "平谷 光佑",
                 "nameEN": "Kosuke Hiratani",
-                "photoPass": "images/members/silhouette.jpg"
+                "photoPass": "images/members/hiratani.jpg"
             },
             {
                 "nameJP": "藤野 佑一",
@@ -178,6 +171,18 @@
                 "nameJP": "松井 孝太",
                 "nameEN": "Kota Matsui",
                 "photoPass": "images/members/matsui.jpg"
+            }
+        ]
+    },
+    {
+        "attribute": "Alumnus / 卒業生",
+        "people": [
+            {
+                "nameJP": "チンギン フランシス ドゥアン",
+                "nameEN": "Tinglin Francis Duan ",
+                "position": "Exchange Student / 留学生",
+                "positionOther": "(FrontierLab project)",
+                "photoPass": "images/members/silhouette.jpg"
             }
         ]
     }
