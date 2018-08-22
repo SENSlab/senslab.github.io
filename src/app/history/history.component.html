@@ -34,8 +34,7 @@
                     </div>
                     
                     <ng-container *ngIf='history.content !== undefined'>
-                        <div>
-                            {{history.content}}
+                        <div [innerHTML]="history.content">
                         </div>
                     </ng-container>
                     
