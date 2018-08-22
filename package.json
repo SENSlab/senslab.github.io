@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "deploy": "ng build --prod --base-href 'https://senslab.github.io/' && ngh --branch=master --repo https://github.com/SENSlab/senslab.github.io.git"
   },
   "private": true,
   "dependencies": {
