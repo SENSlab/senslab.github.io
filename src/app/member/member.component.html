@@ -19,7 +19,8 @@
                     </div>
                     <div class='current-lab-member-name'>
                         <ng-container *ngIf='member.link !== undefined'>
-                            <a class='member-link' href={{member.link}} target='_new'>{{people.nameJP}}
+                            <a class='member-link' href={{member.link}} target='_new'>
+                                {{member.nameJP}}
                             </a>
                         </ng-container>
                         <ng-container *ngIf='member.link === undefined'>
