@@ -1,145 +1,145 @@
 <div class="container header-slider-container">
-	<div class="col">
-		<ul #bxslider class="bxslider">
-			<!--
+  <div class="col">
+    <ul #bxslider class="bxslider">
+      <!--
             Image size should be 1300px * 540px
             -->
-			<li><img src="images/teasers/research-nigiri.jpg" class="header-slider-image" /></li>
-			<li><img src="images/teasers/research-motion-analysis.jpg" class="header-slider-image" /></li>
-			<li><img src="images/teasers/research-wearable-projector.jpg" class="header-slider-image" /></li>
-			<li><img src="images/teasers/1200px-sens-teaser-lab-201807.jpg" class="header-slider-image" /></li>
-		</ul>
-	</div>
+      <li><img src="images/teasers/research-nigiri.jpg" class="header-slider-image" /></li>
+      <li><img src="images/teasers/research-motion-analysis.jpg" class="header-slider-image" /></li>
+      <li><img src="images/teasers/research-wearable-projector.jpg" class="header-slider-image" /></li>
+      <li><img src="images/teasers/1200px-sens-teaser-lab-201807.jpg" class="header-slider-image" /></li>
+    </ul>
+  </div>
 </div>
 
 <div class="container">
 
-	<div class="row">
-		<div class="col">
-			<h3 class="big-headline">Leaflet
-				<hr/>
-			</h3>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col">
+      <h3 class="big-headline">Leaflet
+        <hr/>
+      </h3>
+    </div>
+  </div>
 
-	<div class="row">
-		<div class="col leaflet-body">
-			<a href="data/leaflet.pdf" target="_new" class="leaflet-link">
-				研究室紹介リーフレット
-			</a>
-			（PDF、1.2MB、2018年4月版）
-		</div>
-	</div>
-
-</div>
-
-<div class="container">
-
-	<div class="row">
-		<div class="col">
-			<h3 class="big-headline mt-3">News
-				<hr/>
-			</h3>
-		</div>
-	</div>
-
-	<div id="news" class="news-body">
-		<ng-container *ngFor="let ny of showingNews">
-			<div class='row'>
-				<div class='col news-header mt-4 pb-2'>
-					{{ny.year}}
-				</div>
-			</div>
-			<ng-container *ngFor="let nt of ny.topic">
-				<div class='row'>
-					<div class='col-md-2 pb-1'>
-						{{nt.date}}
-					</div>
-					<div class='col-md-10' [innerHTML]="nt.content">
-					</div>
-					<div class='col-md-2 news-body'></div>
-				</div>
-			</ng-container>
-		</ng-container>
-	</div>
-
-	<div class="row">
-		<div class="col">
-			<div class="my-3"></div>
-			<a id="show_more_news_btn" class="link-btn-square" (click)="showPrevYearNews()" [hidden]="!newsIsLeft">
-				<span class="btn-text">▼ previous year</span>
-			</a>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col leaflet-body">
+      <a href="data/leaflet.pdf" target="_new" class="leaflet-link">
+        研究室紹介リーフレット
+      </a>
+      （PDF、1.2MB、2018年4月版）
+    </div>
+  </div>
 
 </div>
 
 <div class="container">
 
-	<div class="row">
-		<div class="col">
-			<h3 class="big-headline mt-4">Our Lab
-				<hr/>
-			</h3>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col">
+      <h3 class="big-headline mt-3">News
+        <hr/>
+      </h3>
+    </div>
+  </div>
 
-	<div class="row">
-		<div class="col lab-message mb-3">
-			研究テーマに内在する問題の解決を試みる過程で、様々なセンサやデバイスにコンピュータ、ネットワークを 組み合わせて具体的なシステム構築を行ってもらい、その客観的な実験評価を通して、「システムセンシング 」に直接関与できる知能化センシングシステムのグローバル人材を育成することを目標にします。
-		</div>
-	</div>
+  <div id="news" class="news-body">
+    <ng-container *ngFor="let ny of showingNews">
+      <div class='row'>
+        <div class='col news-header mt-4 pb-2'>
+          {{ny.year}}
+        </div>
+      </div>
+      <ng-container *ngFor="let nt of ny.topic">
+        <div class='row'>
+          <div class='col-md-2 pb-1'>
+            {{nt.date}}
+          </div>
+          <div class='col-md-10' [innerHTML]="nt.content">
+          </div>
+          <div class='col-md-2 news-body'></div>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
 
-	<div class="row">
-		<div class="col-md-3">
-			<div class="link-with-image-overlay">
-				<a routerLink="/history">
-					<img src="images/icons/history-of-sens-lab-bf.jpg" class="link-with-image-overlay-image">
-					<div class="link-with-image-overlay-container">
-						<div class="link-with-image-overlay-text">
-							History of SENS / 佐藤研究室の沿革
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col">
+      <div class="my-3"></div>
+      <a id="show_more_news_btn" class="link-btn-square" (click)="showPrevYearNews()" [hidden]="!newsIsLeft">
+        <span class="btn-text">▼ previous year</span>
+      </a>
+    </div>
+  </div>
 
 </div>
 
 <div class="container">
 
-	<div class="row">
-		<div class="col">
-			<h3 class="big-headline mt-4">Links
-				<hr/>
-			</h3>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col">
+      <h3 class="big-headline mt-4">Our Lab
+        <hr/>
+      </h3>
+    </div>
+  </div>
 
-	<div class="row">
-		<div class="col-3 col-sm-2 col-md-1 pt-1 pb-4 px-5">
-			<a href="https://www.youtube.com/user/SENSbit/featured" target="_new" style="text-decoration: none; color: #282828;">
-				<i class="fab fa-youtube fa-3x"></i>
-			</a>
-		</div>
-		<div class="col-3 col-sm-2 col-md-1 pt-1 px-5">
-			<a href="https://github.com/SENSlab/" target="_new" style="text-decoration: none; color: #282828;">
-				<i class="fab fa-github fa-3x"></i>
-			</a>
-		</div>
-		<div class="col-3 col-sm-2 col-md-1 pt-2_5 px-5">
-			<a href="https://www.extendedhand.net/" target="_new">
-				<img src="images/icons/extendedhand.svg" style="width: 60px;">
-			</a>
-		</div>
-		<div class="col-3 col-sm-2 col-md-1 pt-1 px-5">
-			<a href="http://sens7.blogspot.com/" target="_new" style="text-decoration: none; color: #282828;">
-				<i class="fab fa-blogger-b fa-3x"></i>
-			</a>
-		</div>
+  <div class="row">
+    <div class="col lab-message mb-3">
+      研究テーマに内在する問題の解決を試みる過程で、様々なセンサやデバイスにコンピュータ、ネットワークを 組み合わせて具体的なシステム構築を行ってもらい、その客観的な実験評価を通して、「システムセンシング 」に直接関与できる知能化センシングシステムのグローバル人材を育成することを目標にします。
+    </div>
+  </div>
 
-	</div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="link-with-image-overlay">
+        <a routerLink="/history">
+          <img src="images/icons/history-of-sens-lab-bf.jpg" class="link-with-image-overlay-image">
+          <div class="link-with-image-overlay-container">
+            <div class="link-with-image-overlay-text">
+              History of SENS / 佐藤研究室の沿革
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col">
+      <h3 class="big-headline mt-4">Links
+        <hr/>
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-3 col-sm-2 col-md-1 pt-1 pb-4 px-5">
+      <a href="https://www.youtube.com/user/SENSbit/featured" target="_new" style="text-decoration: none; color: #282828;">
+        <i class="fab fa-youtube fa-3x"></i>
+      </a>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1 pt-1 px-5">
+      <a href="https://github.com/SENSlab/" target="_new" style="text-decoration: none; color: #282828;">
+        <i class="fab fa-github fa-3x"></i>
+      </a>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1 pt-2_5 px-5">
+      <a href="https://www.extendedhand.net/" target="_new">
+        <img src="images/icons/extendedhand.svg" style="width: 60px;">
+      </a>
+    </div>
+    <div class="col-3 col-sm-2 col-md-1 pt-1 px-5">
+      <a href="http://sens7.blogspot.com/" target="_new" style="text-decoration: none; color: #282828;">
+        <i class="fab fa-blogger-b fa-3x"></i>
+      </a>
+    </div>
+
+  </div>
 
 </div>
 

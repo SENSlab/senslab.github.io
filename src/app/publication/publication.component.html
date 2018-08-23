@@ -1,225 +1,225 @@
 <div class="container">
-	<div class="row">
-		<div class="col">
-			<h3 class="headline mt-8 mb-3">Publication / 研究業績</h3>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col">
+      <h3 class="headline mt-8 mb-3">Publication / 研究業績</h3>
+    </div>
+  </div>
 
-	<div id="publication">
+  <div id="publication">
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-award"></i> Award / 受賞
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingAwards !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-award"></i> Award / 受賞
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingAwards !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="award">
-			<ng-container *ngFor="let pubs of showingAwards">
-				<h4>{{pubs.year}}</h4>
-				<ol class="award">
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}<br>
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="award">
+      <ng-container *ngFor="let pubs of showingAwards">
+        <h4>{{pubs.year}}</h4>
+        <ol class="award">
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}<br>
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_award_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevAwards()" [hidden]="!awardsAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_award_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevAwards()" [hidden]="!awardsAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-book-open"></i> Journal / ジャーナル
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingJournals !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-book-open"></i> Journal / ジャーナル
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingJournals !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="journal">
-			<ng-container *ngFor="let pubs of showingJournals">
-				<h4>{{pubs.year}}</h4>
-				<ol>
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="journal">
+      <ng-container *ngFor="let pubs of showingJournals">
+        <h4>{{pubs.year}}</h4>
+        <ol>
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_journal_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevJournals()" [hidden]="!journalsAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_journal_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevJournals()" [hidden]="!journalsAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-chalkboard-teacher"></i> International Conference / 国際会議
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingInternationalConfs !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-chalkboard-teacher"></i> International Conference / 国際会議
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingInternationalConfs !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="international_conference">
-			<ng-container *ngFor="let pubs of showingInternationalConfs">
-				<h4>{{pubs.year}}</h4>
-				<ol>
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="international_conference">
+      <ng-container *ngFor="let pubs of showingInternationalConfs">
+        <h4>{{pubs.year}}</h4>
+        <ol>
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_international_conference_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevInternationalConfs()"
-				 [hidden]="!internationalConfsAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_international_conference_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevInternationalConfs()"
+          [hidden]="!internationalConfsAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-chalkboard-teacher"></i> Domestic Conference / 国内会議
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingDomesticConfs !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-chalkboard-teacher"></i> Domestic Conference / 国内会議
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingDomesticConfs !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="domestic_conference">
-			<ng-container *ngFor="let pubs of showingDomesticConfs">
-				<h4>{{pubs.year}}</h4>
-				<ol>
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="domestic_conference">
+      <ng-container *ngFor="let pubs of showingDomesticConfs">
+        <h4>{{pubs.year}}</h4>
+        <ol>
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_domestic_conference_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevDomesticConfs()"
-				 [hidden]="!domesticConfsAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_domestic_conference_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevDomesticConfs()"
+          [hidden]="!domesticConfsAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-laptop"></i> Survey / 解説記事
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingSurveys !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-laptop"></i> Survey / 解説記事
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingSurveys !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="survey">
-			<ng-container *ngFor="let pubs of showingSurveys">
-				<h4>{{pubs.year}}</h4>
-				<ol>
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="survey">
+      <ng-container *ngFor="let pubs of showingSurveys">
+        <h4>{{pubs.year}}</h4>
+        <ol>
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_survey_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevSurveys()" [hidden]="!surveysAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_survey_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevSurveys()" [hidden]="!surveysAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-tv"></i> Press / マスコミ報道
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingPresses !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-tv"></i> Press / マスコミ報道
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingPresses !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="press">
-			<ng-container *ngFor="let pubs of showingPresses">
-				<h4>{{pubs.year}}</h4>
-				<ol>
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="press">
+      <ng-container *ngFor="let pubs of showingPresses">
+        <h4>{{pubs.year}}</h4>
+        <ol>
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_press_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevPresses()" [hidden]="!pressesAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_press_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevPresses()" [hidden]="!pressesAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<h3 class="headline mt-4"><i class="fas fa-book"></i> Book / 著書
-					<hr/>
-				</h3>
-				<i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingBooks !== undefined"></i>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <h3 class="headline mt-4"><i class="fas fa-book"></i> Book / 著書
+          <hr/>
+        </h3>
+        <i class="loading fa fa-spinner fa-spin" style="font-size:24px; text-align:center;" [hidden]="showingBooks !== undefined"></i>
+      </div>
+    </div>
 
-		<div id="book">
-			<ng-container *ngFor="let pubs of showingBooks">
-				<h4>{{pubs.year}}</h4>
-				<ol>
-					<ng-container *ngFor="let con of pubs.contents">
-						<li>{{con.title}}</li>
-						{{con.detail}}
-					</ng-container>
-				</ol>
-			</ng-container>
-		</div>
+    <div id="book">
+      <ng-container *ngFor="let pubs of showingBooks">
+        <h4>{{pubs.year}}</h4>
+        <ol>
+          <ng-container *ngFor="let con of pubs.contents">
+            <li>{{con.title}}</li>
+            {{con.detail}}
+          </ng-container>
+        </ol>
+      </ng-container>
+    </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="my-2"></div>
-				<a id="show_more_book_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevBooks()" [hidden]="!booksAreLeft">
-					<span class="btn-text">▼ previous year</span>
-				</a>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col">
+        <div class="my-2"></div>
+        <a id="show_more_book_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevBooks()" [hidden]="!booksAreLeft">
+          <span class="btn-text">▼ previous year</span>
+        </a>
+      </div>
+    </div>
 
-	</div>
+  </div>
 </div>
 
 <div class="mb-5"></div>

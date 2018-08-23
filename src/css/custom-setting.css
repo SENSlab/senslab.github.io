@@ -16,7 +16,7 @@ body
 {
   width: 100%;
   height: 100%;
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html
@@ -46,18 +46,18 @@ html
 
 .big-headline
 {
-	font-size: 28px;
-	text-transform: none;
-	font-family: 'Lato';
-	font-weight: 400;
+  font-size: 28px;
+  text-transform: none;
+  font-family: 'Lato';
+  font-weight: 400;
 }
 
 .medium-headline
 {
-	font-size: 20px;
-	text-transform: none;
-	font-family: 'Lato';
-	font-weight: 400;
+  font-size: 20px;
+  text-transform: none;
+  font-family: 'Lato';
+  font-weight: 400;
 }
 
 /* Navigation Bar */
@@ -115,66 +115,66 @@ button.navbar-toggler
 
 @media only screen
 {
-	.teaser-container
-	{
-		/*background-color: #055622;*/
-		width: 100%;
-		height: 100px;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
+  .teaser-container
+  {
+    /*background-color: #055622;*/
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) and (min-height: 1100px)
 {
-	.teaser-container
-	{
-		/*background-color: #055622;*/
-		width: 100%;
-		height: 50%;
-		background-image: url('../images/teasers/1200px-sens-teaser-lab-201807.jpg');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
+  .teaser-container
+  {
+    /*background-color: #055622;*/
+    width: 100%;
+    height: 50%;
+    background-image: url('../images/teasers/1200px-sens-teaser-lab-201807.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 2200px)
 {
-	.teaser-container
-	{
-		/*background-color: #055622;*/
-		width: 100%;
-		height: 70%;
-		background-image: url('../images/teasers/2200px-sens-teaser-lab-201807.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
+  .teaser-container
+  {
+    /*background-color: #055622;*/
+    width: 100%;
+    height: 70%;
+    background-image: url('../images/teasers/2200px-sens-teaser-lab-201807.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 @media only screen and (min-width: 2201px) and (max-width: 3440px)
 {
-	.teaser-container
-	{
-		/*background-color: #055622;*/
-		width: 100%;
-		height: 70%;
-		background-image: url('../images/teasers/3440px-sens-teaser-lab-201807.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-	}
+  .teaser-container
+  {
+    /*background-color: #055622;*/
+    width: 100%;
+    height: 70%;
+    background-image: url('../images/teasers/3440px-sens-teaser-lab-201807.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 /* Leaflet */
 .leaflet-body
 {
-	text-align: left;
-	color: #000000;
-	font-size: 14px;
-	font-family: 'Roboto';
+  text-align: left;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto';
 }
 
 .leaflet-link
@@ -205,17 +205,17 @@ button.navbar-toggler
 .news-header
 {
   text-align: left;
-	color: #055622;
-	font-weight: bold;
-	font-size: 15px;
+  color: #055622;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .news-body
 {
-	text-align: left;
-	color: #000000;
-	font-size: 14px;
-	font-family: 'Roboto';
+  text-align: left;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto';
 }
 
 .news-link
@@ -245,10 +245,10 @@ button.navbar-toggler
 /* Out Lab */
 .lab-message
 {
-	text-align: left;
-	color: #000000;
-	font-size: 14px;
-	font-family: 'Roboto';
+  text-align: left;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto';
 }
 
 /* Research */
@@ -261,7 +261,7 @@ button.navbar-toggler
 {
   text-align: left;
   font-size: 16px;
-	font-family: 'Roboto';
+  font-family: 'Roboto';
   font-weight: bold;
 }
 
@@ -269,28 +269,28 @@ button.navbar-toggler
 {
   text-align: left;
   font-size: 14px;
-	font-family: 'Roboto';
+  font-family: 'Roboto';
 }
 
 .research-abstract
 {
   text-align: left;
   font-size: 11px;
-	font-family: 'Roboto';
+  font-family: 'Roboto';
 }
 
 .research-collaboration
 {
   text-align: left;
   font-size: 11px;
-	font-family: 'Roboto';
+  font-family: 'Roboto';
 }
 
 .research-link
 {
   text-align: left;
   font-size: 14px;
-	font-family: 'Roboto';
+  font-family: 'Roboto';
   color: #058c36;
   text-decoration: none;
 }
@@ -321,16 +321,16 @@ button.navbar-toggler
 
 .current-lab-member-name
 {
-	font-size: 15px;
-	font-family: 'Roboto';
+  font-size: 15px;
+  font-family: 'Roboto';
   text-align: center;
 }
 
 .current-lab-member-position
 {
-	font-size: 13px;
-	font-family: 'Roboto';
-	padding-bottom: 7px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  padding-bottom: 7px;
   text-align: center;
 }
 
@@ -388,18 +388,18 @@ ol.award li{
 
 .class-details
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 12px;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
 }
 
 /* contact */
 .contact-ul {
     /*color: #1e366a;*/
-	color: #333333;
+  color: #333333;
     /*border: dotted #1e366a 1px;/*ドット 色 太さ*/
-	border: none;
+  border: none;
   padding: 0.5rem 0.5rem 0.5rem 2rem;
   font-family: 'Roboto';
 }
@@ -445,49 +445,49 @@ ol.award li{
 /* Footer */
 .footer
 {
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 1em;
-	background: hsl(220, 10%, 90%);
-	box-shadow: -50vw 0 hsl(220, 10%, 90%), 50vw 0 hsl(220, 10%, 90%);
-	text-align: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background: hsl(220, 10%, 90%);
+  box-shadow: -50vw 0 hsl(220, 10%, 90%), 50vw 0 hsl(220, 10%, 90%);
+  text-align: center;
 }
 
 .footer-text-link
 {
-	color: #333333;
-	background-color: transparent;
-	text-decoration:none;
-	border-bottom:0rem;
+  color: #333333;
+  background-color: transparent;
+  text-decoration:none;
+  border-bottom:0rem;
 }
 
 .footer-text-link:hover
 {
-	color: #055622;
-	text-decoration: underline;
-	border-bottom:1rem;
+  color: #055622;
+  text-decoration: underline;
+  border-bottom:1rem;
 }
 
 /* CopyRight */
 .copyright
 {
-	color: #333333;
-	padding: 1rem;
-	margin: 0rem;
-	text-align: center;
-	font-size: 13px;
-	font-family: 'Barlow';
-	position: relative;
-	z-index: 200;
+  color: #333333;
+  padding: 1rem;
+  margin: 0rem;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Barlow';
+  position: relative;
+  z-index: 200;
 }
 
 /* Buttons */
 /*
-	http://css3buttongenerator.com/
+  http://css3buttongenerator.com/
 */
 .btn-text
 {
@@ -496,23 +496,23 @@ ol.award li{
 
 .link-btn-square
 {
-	-webkit-border-radius: 14;
+  -webkit-border-radius: 14;
   `	-moz-border-radius: 14;
-	border-radius: 14px;
-	font-family: 'Roboto';
-	font-size: 15px;
-	background: #3a8000;
-	padding: 0.4rem 0.7rem 0.4rem 0.7rem;
-	border: solid #3a8000 2px;
-	text-decoration: none;
+  border-radius: 14px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background: #3a8000;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+  border: solid #3a8000 2px;
+  text-decoration: none;
   text-align: center;
   cursor : pointer;
 }
 
 .link-btn-square:hover
 {
-	background: #ffffff;
-	text-decoration: none;
+  background: #ffffff;
+  text-decoration: none;
 }
 
 .link-btn-square:hover > .btn-text
@@ -546,165 +546,165 @@ ol.award li{
 /* tag */
 .tag-class-current
 {
-	padding: 0.3rem 0.8rem 0.3rem 0.8rem;
-	color: #ffffff;
-	font-family: 'Roboto';
-	background-color: #275900;
-	border-color: #275900;
-	text-align: center;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #275900;
+  border-color: #275900;
+  text-align: center;
 }
 
 .tag-class-previous
 {
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
-	color: #ffffff;
-	font-family: 'Roboto';
-	background-color: #333333;
-	border-color: #333333;
-	text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #333333;
+  border-color: #333333;
+  text-align: center;
 }
 
 .tag-class-student-year
 {
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
-	color: #ffffff;
-	font-family: 'Roboto';
-	background-color: #001672;
-	border-color: #001672;
-	text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #001672;
+  border-color: #001672;
+  text-align: center;
 }
 
 /* link */
 .link-class-header
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 16px;
-	font-weight: bold;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .link-class-header:active
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 16px;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .link-class-header:hover
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 16px;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .link-class-header:visit
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 16px;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .link-class-details
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 12px;
-	text-decoration: underline dotted;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: underline dotted;
 }
 
 .link-class-details:hover
 {
-	color: #ffffff;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 12px;
-	text-decoration: none;
-	background-color: #275900;
-	border-color: #275900;
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #275900;
+  border-color: #275900;
 }
 
 .link-class-details:active
 {
-	color: #ffffff;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 12px;
-	text-decoration: none;
-	background-color: #275900;
-	border-color: #275900;
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #275900;
+  border-color: #275900;
 }
 
 .link-class-details:visit
 {
-	color: #ffffff;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 12px;
-	text-decoration: none;
-	background-color: #275900;
-	border-color: #275900;
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #275900;
+  border-color: #275900;
 }
 
 .link-with-image-overlay
 {
-	position: relative;
-	width: 70%;
+  position: relative;
+  width: 70%;
 }
 
 .link-with-image-overlay-container
 {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: #3a8000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3a8000;
 }
 
 .link-with-image-overlay:hover .link-with-image-overlay-container
 {
-	opacity: 1;
+  opacity: 1;
 }
 
 .link-with-image-overlay-image
 {
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .link-with-image-overlay-text
 {
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* information */
 .info-class-details
 {
-	color: #000000;
-	font-family: 'Roboto';
-	text-align: justify;
-	font-size: 11px;
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 11px;
 }
