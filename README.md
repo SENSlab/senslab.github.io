@@ -16,6 +16,6 @@
 
 4. ```$ git commit -m "適当なコミットメッセージ"```
 
-5. ```$ git push origin deploy```
+5. ```$ git push origin develop```
 
 6. ```$ npp start deploy```
