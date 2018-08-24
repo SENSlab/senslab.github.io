@@ -2,17 +2,17 @@
   <div class="mt-6">
   </div>
 
-  <ng-container *ngFor="let people of allMember">
+  <ng-container *ngFor="let grade of members">
     <div class="row">
       <div class="col">
-        <h3 class="big-headline mt-4">{{people.attribute}}
+        <h3 class="big-headline mt-4">{{grade.attribute}}
           <hr/>
         </h3>
       </div>
     </div>
 
     <div class="row">
-      <ng-container *ngFor="let member of people.people">
+      <ng-container *ngFor="let member of grade.people">
         <div class='col-md-3 mb-5'>
           <div class='current-lab-member-photo'>
             <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
@@ -46,8 +46,68 @@
       </ng-container>
     </div>
   </ng-container>
-</div>
 
+  <div class="row">
+    <div class="col">
+      <h3 class="big-headline mt-4">Alumnus / 卒業生
+        <hr/>
+      </h3>
+    </div>
+  </div>
+
+  <ng-container *ngFor="let grade of showingAlumni">
+    <div class="row">
+      <div class="col">
+        <h4 class="mt-4">{{grade.attribute}}
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <ng-container *ngFor="let member of grade.people">
+        <div class='col-md-3 mb-5'>
+          <div class='current-lab-member-photo'>
+            <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+          </div>
+          <div class='current-lab-member-name'>
+            <ng-container *ngIf='member.link !== undefined'>
+              <a class='member-link' href={{member.link}} target='_new'>
+                {{member.nameJP}}
+              </a>
+            </ng-container>
+            <ng-container *ngIf='member.link === undefined'>
+              <div>
+                {{member.nameJP}}
+              </div>
+            </ng-container>
+            <div>
+              {{member.nameEN}}
+            </div>
+            <ng-container *ngIf='member.position !== undefined'>
+              <div class='current-lab-member-position'>
+                {{member.position}}
+              </div>
+            </ng-container>
+            <ng-container *ngIf='member.positionOther !== undefined'>
+              <div class='current-lab-member-position'>
+                {{member.positionOther}}
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+
+  <div class="row">
+    <div class="col">
+      <div class="my-3"></div>
+      <a id="show_more_news_btn" class="link-btn-square" (click)="showPrevAlumni()" [hidden]="!alumniIsLeft">
+        <span class="btn-text">▼ show more</span>
+      </a>
+    </div>
+  </div>
+</div>
 
 <div class="container">
   <div class="row">

@@ -58,8 +58,12 @@ export class DataService {
     return this.http.get<ResearchData>(this.location.prepareExternalUrl('/data/research.json'));
   }
 
-  getMember() {
-    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/member.json'));
+  getMembers() {
+    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/members.json'));
+  }
+
+  getAlumni() {
+    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/alumni.json'));
   }
 
   getAwards(id: string, apikey: string) {
