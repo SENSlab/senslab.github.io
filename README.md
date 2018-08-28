@@ -23,11 +23,11 @@
    * 各ページのHtmlは`src/app/xxxxx/xxxx.component.html`
    * News, History, Researches, Membersの情報を格納しているJSONとリーフレットのPDFは`src/data`の中
    * 各種写真は`src/images`の中
-3. 仮のサーバーを立ち上げて変更内容を確認<br>`$ npm start -- -o`(勝手にブラウザが開きます。確認後は`<Ctrl> + c`で終了)
+3. 仮のサーバーを立ち上げて変更内容を確認<br>`npm start -- -o`(勝手にブラウザが開きます。確認後は`<Ctrl> + c`で終了)
 4. 変更をステージ<br>`git add -A`
 5. コミット<br>`git commit -m "適当なコミットメッセージ"`
 6. 本番サーバーに変更を反映<br>`npm run deploy`
-7. 変更後のソースコードをリモートリポジトリ(GitHub)にアップロード<br>`$ git push origin develop```
+7. 変更後のソースコードをリモートリポジトリ(GitHub)にアップロード<br>`git push origin develop`
 
 ## Information for developpers
 
