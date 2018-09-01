@@ -1,0 +1,40 @@
+.current-lab-member-photo
+{
+  text-align: center;
+}
+
+.current-lab-member-name
+{
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.current-lab-member-position
+{
+  font-size: 13px;
+  font-family: 'Roboto';
+  padding-bottom: 7px;
+  text-align: center;
+}
+
+.member-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.member-link:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.member-link:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.member-link:hover {
+  color: #005920;
+  text-decoration: underline;
+}
+

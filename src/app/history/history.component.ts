@@ -18,12 +18,10 @@ export class HistoryComponent implements OnInit {
   }
 
   scrollToTop() {
-    try 
-    { 
+    try {
       window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
-      } catch (e) {
-        window.scrollTo(0, 0);
-      }
+    } catch (e) {
+      window.scrollTo(0, 0);
+    }
   }
-
 }

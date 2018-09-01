@@ -1,0 +1,153 @@
+.classes-strong
+{
+  font-size: 120%;
+  font-family: 'Roboto';
+}
+
+.classes-ul
+{
+  padding: 0rem;
+}
+
+.classes-ul li
+{
+  color: #404040;
+  border-left: solid 6px #055622;/*左側の線*/
+  border-bottom: solid 2px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  margin-bottom: 0rem;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5rem;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.class-details
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+}
+
+/* tag */
+.tag-class-current
+{
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #275900;
+  border-color: #275900;
+  text-align: center;
+}
+
+.tag-class-previous
+{
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #333333;
+  border-color: #333333;
+  text-align: center;
+}
+
+.tag-class-student-year
+{
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #001672;
+  border-color: #001672;
+  text-align: center;
+}
+
+/* link */
+.link-class-header
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link-class-header:active
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.link-class-header:hover
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.link-class-header:visit
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.link-class-details
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: underline dotted;
+}
+
+.link-class-details:hover
+{
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #275900;
+  border-color: #275900;
+}
+
+.link-class-details:active
+{
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #275900;
+  border-color: #275900;
+}
+
+.link-class-details:visit
+{
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #275900;
+  border-color: #275900;
+}
+
+.info-class-details
+{
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: justify;
+  font-size: 11px;
+}

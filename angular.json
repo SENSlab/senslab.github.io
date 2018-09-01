@@ -47,9 +47,7 @@
             "styles": [
               "./node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss",
               "./node_modules/angular-bootstrap-md/scss/mdb-free.scss",
-              "src/styles.css",
-              "src/css/custom-setting.css",
-              "src/css/timelineVertical-style.css"
+              "src/styles.css"
             ],
             "scripts": [
               "./node_modules/chart.js/dist/Chart.js",

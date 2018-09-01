@@ -1,0 +1,57 @@
+.research-image
+{
+  width: 100%;
+}
+
+.research-title
+{
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.research-publication
+{
+  text-align: left;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.research-abstract
+{
+  text-align: left;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.research-collaboration
+{
+  text-align: left;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.research-link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.research-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.research-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.research-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
