@@ -1,42 +1,20 @@
 <header id="page-top" data-spy="scroll">
-  <div class="page-navigation">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-background fixed-top">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <a class="navbar-brand" href="http://www.sens.sys.es.osaka-u.ac.jp/">
-            <img src="images/logos/sens-lab-logo-white.png" alt="SENS Laboratory" height="75px">
-          </a>
-        </div>
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark navbar-background fixed-top">
+    <mdb-navbar-brand class="navbar-brand">
+      <a href="http://www.sens.sys.es.osaka-u.ac.jp/">
+        <img src="images/logos/sens-lab-logo-white.png" alt="SENS Laboratory" height="75px">
+      </a>
+    </mdb-navbar-brand>
 
-        <button #navbarToggler type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber"
-          aria-expanded="false">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="Navber">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/home" (click)="collapseNav()"><div class="mx-3 nav-text">Home</div></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/research" (click)="collapseNav()"><div class="mx-3 nav-text">Research</div></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/publication" (click)="collapseNav()"><div class="mx-3 nav-text">Publication</div></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/classes" (click)="collapseNav()"><div class="mx-3 nav-text">Classes</div></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/member" (click)="collapseNav()"><div class="mx-3 nav-text">Members</div></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/contact" (click)="collapseNav()"><div class="mx-3 nav-text">Contact Us</div></a>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-
+    <links>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link waves-light" routerLink="/home" mdbWavesEffect routerLinkActive="active">Home</a>
+        <a class="nav-item nav-link waves-light" routerLink="/research" routerLinkActive="active">Research</a>
+        <a class="nav-item nav-link waves-light" routerLink="/publication" routerLinkActive="active">Publication</a>
+        <a class="nav-item nav-link waves-light" routerLink="/classes" routerLinkActive="active">Classes</a>
+        <a class="nav-item nav-link waves-light" routerLink="/member" routerLinkActive="active">Members</a>
+        <a class="nav-item nav-link waves-light" routerLink="/contact" routerLinkActive="active">Contact Us</a>
       </div>
-    </nav>
-  </div>
+    </links>
+  </mdb-navbar>
 </header>
