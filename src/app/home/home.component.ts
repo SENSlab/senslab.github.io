@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService, News, NewsInAYear } from '../data.service';
-declare var startSlider;
 
 @Component({
   selector: 'app-home',
@@ -17,8 +16,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    startSlider(); //defined in homeBxslider.js
-
     this.data.getNews().subscribe(
       val => {
         this.allNews = val;
