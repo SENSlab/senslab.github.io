@@ -1,15 +1,19 @@
-<div class="container header-slider-container">
-  <div class="col">
-    <ul #bxslider class="bxslider">
-      <!--
-            Image size should be 1300px * 540px
-            -->
-      <li><img src="images/teasers/research-nigiri.jpg" class="header-slider-image" /></li>
-      <li><img src="images/teasers/research-motion-analysis.jpg" class="header-slider-image" /></li>
-      <li><img src="images/teasers/research-wearable-projector.jpg" class="header-slider-image" /></li>
-      <li><img src="images/teasers/1200px-sens-teaser-lab-201807.jpg" class="header-slider-image" /></li>
-    </ul>
-  </div>
+<div id="home-photo" class="container">
+  <mdb-carousel [isControls]="true" [animation]="'slide'">
+    <!-- Image size should be 1300px * 540px -->
+    <mdb-carousel-item>
+      <img class="d-block w-100" src="images/teasers/research-nigiri.jpg" alt="nigiri">
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img class="d-block w-100" src="images/teasers/research-motion-analysis.jpg" alt="motion analysis">
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img class="d-block w-100" src="images/teasers/research-wearable-projector.jpg" alt="wearable projector">
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img class="d-block w-100" src="images/teasers/1200px-sens-teaser-lab-201807.jpg" alt="sens teaser lab">
+    </mdb-carousel-item>
+  </mdb-carousel>
 </div>
 
 <div class="container">

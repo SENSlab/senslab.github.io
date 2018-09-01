@@ -53,6 +53,7 @@
             ],
             "scripts": [
               "./node_modules/chart.js/dist/Chart.js",
+              "src/js/browserDetecter.js",
               "src/js/analytics.js"
             ]
           },
