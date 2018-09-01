@@ -51,7 +51,7 @@ AngularはGoogleを中心とする開発コミュニティが開発を進めて�
 >その後version 2をリリースするタイミングでAngularという名前に変わり、言語をTypeScriptに切り替えるなど大幅な変更が加わりました。
 >ネットで記事を検索する際、AngularJSと題された記事は古いものであることに留意してください。
 
-### Bootstrap + jQuery
+### Bootstrap + Material Design
 
 デザインは主に`Bootstrap`を利用して作成しています。
 また一部で`Material Design for Bootstrap`のUIコンポーネントを使用しています。
