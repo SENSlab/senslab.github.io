@@ -26,20 +26,6 @@ html
   height: 100%;
 }
 
-/* Margin */
-.mt-6
-{
-  margin: 6rem 0rem 0rem 0rem;
-}
-.mt-7
-{
-  margin: 7rem 0rem 0rem 0rem;
-}
-.mt-8
-{
-  margin: 8rem 0rem 0rem 0rem;
-}
-
 .pt-2_5
 {
   padding: 0.75rem 0rem 0rem 0rem;
@@ -74,6 +60,7 @@ html
 .navbar-background
 {
   background-color: #055622;
+  padding: 0px;
 }
 
 /* Footer */
