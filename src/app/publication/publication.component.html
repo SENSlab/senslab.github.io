@@ -1,7 +1,13 @@
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-md-6">
       <h3 class="headline mb-3">Publication / 研究業績</h3>
+    </div>
+    <div class="col-md-6">
+      <form class="form-inline md-form form-sm">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input class="form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="publication-search" placeholder="Search">
+      </form>
     </div>
   </div>
 
@@ -17,7 +23,7 @@
     </div>
 
     <div id="award">
-      <ng-container *ngFor="let pubs of showingAwards">
+      <ng-container *ngFor="let pubs of ([awards, showingAwards] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol class="award">
           <ng-container *ngFor="let con of pubs.contents">
@@ -31,7 +37,7 @@
     <div class="row">
       <div class="col">
         <div class="my-2"></div>
-        <a id="show_more_award_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevAwards()" [hidden]="!awardsAreLeft">
+        <a id="show_more_award_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevAwards()" [hidden]="!awardsAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
@@ -47,7 +53,7 @@
     </div>
 
     <div id="journal">
-      <ng-container *ngFor="let pubs of showingJournals">
+      <ng-container *ngFor="let pubs of ([journals, showingJournals] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
@@ -61,7 +67,7 @@
     <div class="row">
       <div class="col">
         <div class="my-2"></div>
-        <a id="show_more_journal_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevJournals()" [hidden]="!journalsAreLeft">
+        <a id="show_more_journal_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevJournals()" [hidden]="!journalsAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
@@ -77,12 +83,11 @@
     </div>
 
     <div id="international_conference">
-      <ng-container *ngFor="let pubs of showingInternationalConfs">
+      <ng-container *ngFor="let pubs of ([internationalConfs, showingInternationalConfs] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
             <li>{{con.title}}</li>
-            {{con.detail}}
           </ng-container>
         </ol>
       </ng-container>
@@ -92,7 +97,7 @@
       <div class="col">
         <div class="my-2"></div>
         <a id="show_more_international_conference_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevInternationalConfs()"
-          [hidden]="!internationalConfsAreLeft">
+          [hidden]="!internationalConfsAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
@@ -108,12 +113,11 @@
     </div>
 
     <div id="domestic_conference">
-      <ng-container *ngFor="let pubs of showingDomesticConfs">
+      <ng-container *ngFor="let pubs of ([domesticConfs, showingDomesticConfs] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
             <li>{{con.title}}</li>
-            {{con.detail}}
           </ng-container>
         </ol>
       </ng-container>
@@ -123,7 +127,7 @@
       <div class="col">
         <div class="my-2"></div>
         <a id="show_more_domestic_conference_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevDomesticConfs()"
-          [hidden]="!domesticConfsAreLeft">
+          [hidden]="!domesticConfsAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
@@ -139,12 +143,11 @@
     </div>
 
     <div id="survey">
-      <ng-container *ngFor="let pubs of showingSurveys">
+      <ng-container *ngFor="let pubs of ([surveys, showingSurveys] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
             <li>{{con.title}}</li>
-            {{con.detail}}
           </ng-container>
         </ol>
       </ng-container>
@@ -153,7 +156,7 @@
     <div class="row">
       <div class="col">
         <div class="my-2"></div>
-        <a id="show_more_survey_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevSurveys()" [hidden]="!surveysAreLeft">
+        <a id="show_more_survey_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevSurveys()" [hidden]="!surveysAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
@@ -169,12 +172,11 @@
     </div>
 
     <div id="press">
-      <ng-container *ngFor="let pubs of showingPresses">
+      <ng-container *ngFor="let pubs of ([presses, showingPresses] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
             <li>{{con.title}}</li>
-            {{con.detail}}
           </ng-container>
         </ol>
       </ng-container>
@@ -183,7 +185,7 @@
     <div class="row">
       <div class="col">
         <div class="my-2"></div>
-        <a id="show_more_press_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevPresses()" [hidden]="!pressesAreLeft">
+        <a id="show_more_press_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevPresses()" [hidden]="!pressesAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
@@ -199,12 +201,11 @@
     </div>
 
     <div id="book">
-      <ng-container *ngFor="let pubs of showingBooks">
+      <ng-container *ngFor="let pubs of ([books, showingBooks] | publicationFilter: searchText)">
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
             <li>{{con.title}}</li>
-            {{con.detail}}
           </ng-container>
         </ol>
       </ng-container>
@@ -213,7 +214,7 @@
     <div class="row">
       <div class="col">
         <div class="my-2"></div>
-        <a id="show_more_book_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevBooks()" [hidden]="!booksAreLeft">
+        <a id="show_more_book_btn" class="link-btn-square" style="text-align: center;" (click)="showPrevBooks()" [hidden]="!booksAreLeft || searchText">
           <span class="btn-text">▼ previous year</span>
         </a>
       </div>
