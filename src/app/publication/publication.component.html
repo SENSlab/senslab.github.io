@@ -27,8 +27,8 @@
         <h4>{{pubs.year}}</h4>
         <ol class="award">
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
-            {{con.detail}}<br>
+            <li><span [innerHTML]="con.title"></span></li>
+            <span [innerHTML]="con.detail"></span><br>
           </ng-container>
         </ol>
       </ng-container>
@@ -57,8 +57,7 @@
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
-            {{con.detail}}
+            <li><span [innerHTML]="con.title"></span></li>
           </ng-container>
         </ol>
       </ng-container>
@@ -87,7 +86,7 @@
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
+            <li><span [innerHTML]="con.title"></span></li>
           </ng-container>
         </ol>
       </ng-container>
@@ -117,7 +116,7 @@
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
+            <li><span [innerHTML]="con.title"></span></li>
           </ng-container>
         </ol>
       </ng-container>
@@ -147,7 +146,7 @@
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
+            <li><span [innerHTML]="con.title"></span></li>
           </ng-container>
         </ol>
       </ng-container>
@@ -176,7 +175,7 @@
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
+            <li><span [innerHTML]="con.title"></span></li>
           </ng-container>
         </ol>
       </ng-container>
@@ -205,7 +204,7 @@
         <h4>{{pubs.year}}</h4>
         <ol>
           <ng-container *ngFor="let con of pubs.contents">
-            <li>{{con.title}}</li>
+            <li><span [innerHTML]="con.title"></span></li>
           </ng-container>
         </ol>
       </ng-container>
