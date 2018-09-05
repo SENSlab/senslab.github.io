@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +18,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { MemberComponent } from './member/member.component';
 import { PublicationComponent } from './publication/publication.component';
 import { HistoryComponent } from './history/history.component';
+import { PublicationFilterPipe } from './publication-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -30,12 +32,14 @@ import { HistoryComponent } from './history/history.component';
     MemberComponent,
     PublicationComponent,
     HistoryComponent,
+    PublicationFilterPipe,
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [
     DataService

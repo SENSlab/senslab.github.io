@@ -140,3 +140,7 @@ html
 {
   color: #3a8000;
 }
+
+.search-found {
+  background-color: orange;
+}

@@ -2,3 +2,11 @@ ol.award li{
   color: #dc143c;
   font-weight: bolder;
 }
+
+.form-inline {
+  margin: 0px;
+}
+
+.form-control {
+  width: 90%;
+}

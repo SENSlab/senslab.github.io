@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import * as CryptoJS from 'crypto-js';
 
-class Publication {
+export class Publication {
   title: string;
   detail: string;
 }
 
-class PubInAYear {
+export class PubInAYear {
   year: string;
   contents: Publication[];
 }
@@ -18,6 +18,7 @@ class PubInAYear {
   styleUrls: ['./publication.component.css']
 })
 export class PublicationComponent implements OnInit {
+  searchText: String;
   awards: PubInAYear[]; showingAwards: PubInAYear[]; awardsAreLeft: Boolean;
   journals: PubInAYear[]; showingJournals: PubInAYear[]; journalsAreLeft: Boolean;
   internationalConfs: PubInAYear[]; showingInternationalConfs: PubInAYear[]; internationalConfsAreLeft: Boolean;
@@ -90,37 +91,37 @@ export class PublicationComponent implements OnInit {
   }
 
   showPrevAwards() {
-    this.showingAwards.push(this.awards.shift());
-    this.awardsAreLeft = this.awards.length != 0;
+    this.showingAwards.push(this.awards[this.showingAwards.length]);
+    this.awardsAreLeft = this.awards.length != this.showingAwards.length;
   }
 
   showPrevJournals() {
-    this.showingJournals.push(this.journals.shift());
-    this.journalsAreLeft = this.journals.length != 0;
+    this.showingJournals.push(this.journals[this.showingJournals.length]);
+    this.journalsAreLeft = this.journals.length != this.showingJournals.length;
   }
 
   showPrevInternationalConfs() {
-    this.showingInternationalConfs.push(this.internationalConfs.shift());
-    this.internationalConfsAreLeft = this.internationalConfs.length != 0;
+    this.showingInternationalConfs.push(this.internationalConfs[this.showingInternationalConfs.length]);
+    this.internationalConfsAreLeft = this.internationalConfs.length != this.showingInternationalConfs.length;
   }
 
   showPrevDomesticConfs() {
-    this.showingDomesticConfs.push(this.domesticConfs.shift());
-    this.domesticConfsAreLeft = this.domesticConfs.length != 0;
+    this.showingDomesticConfs.push(this.domesticConfs[this.showingDomesticConfs.length]);
+    this.domesticConfsAreLeft = this.domesticConfs.length != this.showingDomesticConfs.length;
   }
 
   showPrevSurveys() {
-    this.showingSurveys.push(this.surveys.shift());
-    this.surveysAreLeft = this.surveys.length != 0;
+    this.showingSurveys.push(this.surveys[this.showingSurveys.length]);
+    this.surveysAreLeft = this.surveys.length != this.showingSurveys.length;
   }
 
   showPrevPresses() {
-    this.showingPresses.push(this.presses.shift());
-    this.pressesAreLeft = this.presses.length != 0;
+    this.showingPresses.push(this.presses[this.showingPresses.length]);
+    this.pressesAreLeft = this.presses.length != this.showingPresses.length;
   }
 
   showPrevBooks() {
-    this.showingBooks.push(this.books.shift());
-    this.booksAreLeft = this.books.length != 0;
+    this.showingBooks.push(this.books[this.showingBooks.length]);
+    this.booksAreLeft = this.books.length != this.showingBooks.length;
   }
 }
