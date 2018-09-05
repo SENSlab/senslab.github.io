@@ -18,6 +18,7 @@ export class PubInAYear {
   styleUrls: ['./publication.component.css']
 })
 export class PublicationComponent implements OnInit {
+  searchText: String;
   awards: PubInAYear[]; showingAwards: PubInAYear[]; awardsAreLeft: Boolean;
   journals: PubInAYear[]; showingJournals: PubInAYear[]; journalsAreLeft: Boolean;
   internationalConfs: PubInAYear[]; showingInternationalConfs: PubInAYear[]; internationalConfsAreLeft: Boolean;
