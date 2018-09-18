@@ -51,19 +51,19 @@ export class DataService {
   constructor(private http: HttpClient, private location: Location) { }
 
   getNews() {
-    return this.http.get<NewsInAYear[]>(this.location.prepareExternalUrl('/data/news.json'));
+    return this.http.get<NewsInAYear[]>('/data/news.json');
   }
 
   getResearches() {
-    return this.http.get<ResearchData>(this.location.prepareExternalUrl('/data/research.json'));
+    return this.http.get<ResearchData>('/data/research.json');
   }
 
   getMembers() {
-    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/members.json'));
+    return this.http.get<MemberData[]>('/data/members.json');
   }
 
   getAlumni() {
-    return this.http.get<MemberData[]>(this.location.prepareExternalUrl('/data/alumni.json'));
+    return this.http.get<MemberData[]>('/data/alumni.json');
   }
 
   getAwards(id: string, apikey: string) {
@@ -95,6 +95,6 @@ export class DataService {
   }
 
   getHistory() {
-    return this.http.get<HistoryData>(this.location.prepareExternalUrl('/data/history.json'));
+    return this.http.get<HistoryData>('/data/history.json');
   }
 }
