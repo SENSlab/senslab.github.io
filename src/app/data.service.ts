@@ -55,7 +55,7 @@ export class DataService {
   }
 
   getResearches() {
-    return this.http.get<ResearchData>('/data/research.json');
+    return this.http.get<ResearchData[]>('/data/research.json');
   }
 
   getMembers() {
@@ -95,6 +95,6 @@ export class DataService {
   }
 
   getHistory() {
-    return this.http.get<HistoryData>('/data/history.json');
+    return this.http.get<HistoryData[]>('/data/history.json');
   }
 }

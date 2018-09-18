@@ -8,7 +8,7 @@ import { DataService, ResearchData } from '../data.service';
   encapsulation: ViewEncapsulation.None, // needed to apply css to innerhtml
 })
 export class ResearchComponent implements OnInit {
-  researches: ResearchData;
+  researches: ResearchData[];
 
   constructor(private data: DataService) { }
 
