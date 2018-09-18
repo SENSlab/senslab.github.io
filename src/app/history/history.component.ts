@@ -7,7 +7,7 @@ import { DataService, HistoryData } from '../data.service';
   styleUrls: ['./history.component.css']
 })
 export class HistoryComponent implements OnInit {
-  historyData: HistoryData
+  historyData: HistoryData[]
 
   constructor(private data: DataService) { }
 
