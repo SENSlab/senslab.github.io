@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "ng lint",
-    "deploy": "ng build --prod && ngh --branch=master --repo https://github.com/SENSlab/senslab.github.io.git"
+    "deploy": "ng build --prod && ngh --branch=master --cname=www.sens.sys.es.osaka-u.ac.jp --repo https://github.com/SENSlab/senslab.github.io.git"
   },
   "private": true,
   "dependencies": {
