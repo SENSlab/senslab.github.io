@@ -124,4 +124,8 @@ export class PublicationComponent implements OnInit {
     this.showingBooks.push(this.books[this.showingBooks.length]);
     this.booksAreLeft = this.books.length != this.showingBooks.length;
   }
+
+  clearQuery(){
+    this.searchText = '';
+  }
 }

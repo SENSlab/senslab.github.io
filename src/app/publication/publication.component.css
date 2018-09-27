@@ -10,3 +10,7 @@ ol.award li{
 .form-control {
   width: 90%;
 }
+
+.custom-button {
+  cursor : pointer;
+}
