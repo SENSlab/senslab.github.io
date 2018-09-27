@@ -52,5 +52,14 @@
         "abstract": "くつろいだ姿勢でバーチャル空間を効率的に探索するためのインタフェースの概念LazyNavを提唱した。手に荷物を持っていても問題なくバーチャル空間を探索できるよう、体幹と脚のジェスチャ（ただし、小さい動きに限る）を採用し、身体動作とバーチャル空間の移動回転の自然な対応を調査した。...",
         "link": "https://perso.telecom-paristech.fr/boubek/papers/LazyNav/",
         "collaboration": "フランスTelecom ParisTechのTamy Boubekeur教授 [<a href='https://perso.telecom-paristech.fr/boubek/' target='_new' class='research-link'>HP</a>]との共同調査"
+    },
+    {
+        "photoPass": "images/researches/deforme.jpg",
+        "titleJP": "DeforMe: 柔軟物体の変形可視化プロジェクション",
+        "titleEN": "DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures",
+        "publication": "KJMR 2013, ACM SIGGRAPH Asia 2013: Emerging Technologies, and Springer VR 2015",
+        "abstract": "柔軟物体の変形をプロジェクションマッピングにより可視化する技術の研究を行っている。投影像に影響を受けない赤外線のみを選択的に吸収する特殊なインクで柔軟物に人の目には見えない特徴点を書き込み、それを赤外線カメラを用いて計測することで変形の計測を行った。ユーザインタラクションによる遮蔽がある場合でも頑健に変形計測が動作する。...",
+        "link": "https://punpongsanon.info/deforme/",
+        "collaboration": ""
     }
 ]
