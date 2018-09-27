@@ -7,6 +7,7 @@
       <form class="form-inline md-form form-sm">
         <i class="fa fa-search" aria-hidden="true"></i>
         <input class="form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="publication-search" placeholder="Search">
+        <i class="far fa-times-circle" aria-hidden="true" (click)='clearQuery()'></i>
       </form>
     </div>
   </div>
