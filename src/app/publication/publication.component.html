@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-12 col-md-4">
       <h3 class="headline mb-3">Publication / 研究業績</h3>
     </div>
-    <div class="col-md-6">
+    <div class="col-12 col-md-8">
       <form class="form-inline md-form form-sm">
         <i class="fa fa-search" aria-hidden="true"></i>
-        <input class="form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="publication-search" placeholder="Search">
-        <i class="far fa-times-circle" aria-hidden="true" (click)='clearQuery()'></i>
+        <input class="col-8 col-md-7 form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="publication-search" placeholder="Search">
+        <i class="far fa-times-circle custom-button" aria-hidden="true" (click)='clearQuery()'></i>
       </form>
     </div>
   </div>
