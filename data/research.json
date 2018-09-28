@@ -139,7 +139,7 @@
       "titleJP": "色と温度の感覚間相互作用",
       "titleEN": "Combining colour and temperature",
       "publication": "Scientific Reports 2014",
-      "abstract": "一般に、赤い色は温かい印象を、青い色は冷たい印象を引き起こすと考えられている。しかし我々は、温度を直接手で触れて感じるときには、逆の関係性があることを示した。実験1では、色の付いた物体に触れたときに「温かい」と感じられる最低の温度を計測した。その結果、青い色の物体の方が、赤い色の物体よりも低い温度で「温かい」と感じられることを...",
+      "abstract": "一般に、赤い色は温かい印象を、青い色は冷たい印象を引き起こすと考えられている。しかし我々は、温度を直接手で触れて感じるときには、逆の関係性があることを示した。実験1では、色の付いた物体に触れたときに「温かい」と感じられる最低の温度を計測した。...",
       "link": "http://daisukeiwai.org/jp/research/bluewarm.html",
       "collaboration": ""
     },
@@ -157,7 +157,7 @@
       "titleJP": "実影に映像が浮かび上がるテーブルトップ型コンピュータ",
       "titleEN": "Making Graphical Information Visible in Real Shadows on Interactive Tabletops",
       "publication": "IEEE TVCG 2014, ISMAR 2014",
-      "abstract": "我々は、インタラクティブサーフェスの研究において、サーフェス上にできるユーザの影の中に情報を浮かび上がらせる画像情報隠蔽技法を提案する。提案手法では3台のプロジェクタを使用する。1台はサーフェス背面に設置し、他の2台はサーフェス上方に設置する。背面のプロジェクタより画像情報を投影表示し、上方のプロジェクタ1台より...",
+      "abstract": "我々は、インタラクティブサーフェスの研究において、サーフェス上にできるユーザの影の中に情報を浮かび上がらせる画像情報隠蔽技法を提案する。提案手法では3台のプロジェクタを使用する。1台はサーフェス背面に設置し、他の2台はサーフェス上方に設置する。...",
       "link": "http://daisukeiwai.org/jp/research/shadow.html",
       "collaboration": ""
     },
@@ -166,7 +166,7 @@
       "titleJP": "高精度プロジェクション色補正",
       "titleEN": "Artifact Reduction in Radiometric Compensation of Projector-Camera Systems for Steep Reflectance Variations",
       "publication": "IEEE TCSVT 2014",
-      "abstract": "投影対象の反射率が投影1画素内で空間的に均一でない場合の色補正精度の悪化を最小化するため、近年低コストで入手できるようになった1,000万オーダーの画素数をもつ高解像度カメラを用いて、この問題を解決する技術を提案する。投影1画素内の投影反射色を高密度に計測し、プロジェクタに入力する画素値と投影表示される反射色との関係を得る...",
+      "abstract": "投影対象の反射率が投影1画素内で空間的に均一でない場合の色補正精度の悪化を最小化するため、近年低コストで入手できるようになった1,000万オーダーの画素数をもつ高解像度カメラを用いて、この問題を解決する技術を提案する。投影1画素内の投影反射色を高密度に計測し、プロジェクタに入力する画素値と投影表示される反射色との関係を得る。...",
       "link": "http://daisukeiwai.org/jp/research/radcomp.html",
       "collaboration": ""
     },
@@ -184,7 +184,7 @@
       "titleJP": "プロジェクションされたAR情報の最適レイアウト",
       "titleEN": "View Management of Projected Labels on Non-Planar and Textured Surfaces",
       "publication": "IEEE TVCG 2013, ISMAR 2013",
-      "abstract": "実物体の表面に直接仮想情報を重畳させるプロジェクション方式を採用する。投影型複合現実感においてアノテーションの提示を行う際には、アノテーションのレイアウトを行う際に留意すべき点に加え、投影型アプローチ特有の問題を考慮しなければならず、特に投影面の状態により投影像の可読性が大きく低下するという問題が大きい。本研...",
+      "abstract": "実物体の表面に直接仮想情報を重畳させるプロジェクション方式を採用する。投影型複合現実感においてアノテーションの提示を行う際には、アノテーションのレイアウトを行う際に留意すべき点に加え、投影型アプローチ特有の問題を考慮しなければならず、特に投影面の状態により投影像の可読性が大きく低下するという問題が大きい。...",
       "link": "http://daisukeiwai.org/jp/research/layout.html",
       "collaboration": ""
     },
@@ -193,7 +193,7 @@
       "titleJP": "3D高ダイナミックレンジ投影",
       "titleEN": "High Dynamic Range 3D Display System with Projector and 3D Color Printer Output",
       "publication": "ISMAR 2011",
-      "abstract": "本研究では、3次元のハイダイナミックレンジディスプレイを提案する。我々は、立体視の手法を用いるのではなく、カラー3Dプリンタ出力模型に、印刷されているのと同様のテクスチャをプロジェクタから投影して光を二重変調することで、3次元立体面上でのハイダイナミックレンジ表示を実現する。複数台のプロジェクタから、カラー3D...",
+      "abstract": "本研究では、3次元のハイダイナミックレンジディスプレイを提案する。我々は、立体視の手法を用いるのではなく、カラー3Dプリンタ出力模型に、印刷されているのと同様のテクスチャをプロジェクタから投影して光を二重変調することで、3次元立体面上でのハイダイナミックレンジ表示を実現する。...",
       "link": "http://daisukeiwai.org/jp/research/3DSDR.html",
       "collaboration": ""
     },
@@ -202,7 +202,7 @@
       "titleJP": "インタラクティブ本棚",
       "titleEN": "Interactive Bookshelf Surface for In Situ Book Searching and Storing Support",
       "publication": "Augmented Human 2011",
-      "abstract": "我々は，身近な実物体表面をインタラクティブサーフェス化することで，広範囲の日常活動を支援することができると考え，本論文では，本棚をインタラクティブサーフェス化し，収納された文書の探索および収納を支援することを提案した．具体的には、まず，ユーザが指先で本棚の棚表面をなぞると，指先の接触している棚の真上およびその...",
+      "abstract": "我々は，身近な実物体表面をインタラクティブサーフェス化することで，広範囲の日常活動を支援することができると考え，本論文では，本棚をインタラクティブサーフェス化し，収納された文書の探索および収納を支援することを提案した．...",
       "link": "http://daisukeiwai.org/jp/research/IBS.html",
       "collaboration": ""
     },
@@ -211,7 +211,7 @@
       "titleJP": "プロジェクション映像の焦点ボケ補償および影除去",
       "titleEN": "Dynamic Defocus and Occlusion Compensation of Projected Imagery by Model-Based Optimal Projector Selection in Multi-projection Environment",
       "publication": "Virtual Reality 2011",
-      "abstract": "複数台のプロジェクタを使用する投影型複合現実感環境において, プロジェクタ・投影対象の幾何学的情報に基づき, 対象上で影のない鮮明な投影像表示を実現する多重焦点制御手法について述べる. 投影型MR環境では, プロジェクタの焦点ボケ及び対象面の傾斜による投影像の空間分解能低下と, 遮蔽物による投影像の影という2種の問題を...",
+      "abstract": "複数台のプロジェクタを使用する投影型複合現実感環境において, プロジェクタ・投影対象の幾何学的情報に基づき, 対象上で影のない鮮明な投影像表示を実現する多重焦点制御手法について述べる。 ...",
       "link": "http://daisukeiwai.org/jp/research/multiprojection.html",
       "collaboration": ""
     },
@@ -220,7 +220,7 @@
       "titleJP": "高ダイナミックレンジ投影",
       "titleEN": "Superimposing Dynamic Range",
       "publication": "ACM TOG 2008, Siggraph Asia 2008",
-      "abstract": "我々は、反射型画像変調により、シンプルかつ安価な静止画HDRディスプレイを実現した。提案システムでは、ハードコピー（写真、X線プリント、電子ペーパー等）にプロジェクタより画像を投影重畳して画像を表示することで、ハードコピーのみ（環境光下で観察）やプロジェクタのみ（通常のスクリーンに投影）での画像表示に比べて...",
+      "abstract": "我々は、反射型画像変調により、シンプルかつ安価な静止画HDRディスプレイを実現した。...",
       "link": "http://daisukeiwai.org/jp/research/SDR.html",
       "collaboration": "Bauhaus-Universität Weimar, Germany [<a href='http://www.uni-weimar.de/medien/AR/' target='_new' class='research-link'>HP</a>]との共同研究"
     },
@@ -229,7 +229,7 @@
       "titleJP": "ThermoReality: サーモグラフィープロジェクション",
       "titleEN": "Optical Superimposition of Infrared Thermography through Video Projection",
       "publication": "Infrared Physics & Technology 2010",
-      "abstract": "熱情報を媒介する特殊な波長域である遠赤外領域の光を捉えることのできる赤外線カメラは、対象物体の温度情報を非接触で2次元画像として可視化することが可能であり、これまで検査・医療・災害救助といった分野での利用がなされてきている。しかしながら、ユーザインタフェースの観点から見ると、赤外線カメラによって撮影された...",
+      "abstract": "熱情報を媒介する特殊な波長域である遠赤外領域の光を捉えることのできる赤外線カメラは、対象物体の温度情報を非接触で2次元画像として可視化することが可能であり、これまで検査・医療・災害救助といった分野での利用がなされてきている。...",
       "link": "http://daisukeiwai.org/jp/research/thermoreality.html",
       "collaboration": ""
     },
@@ -238,7 +238,7 @@
       "titleJP": "LimpidDesk: 机上書類の透明化プロジェクション",
       "titleEN": "Limpid Desk: See-Through Access to Disorderly Desktop in Projection-Based Mixed Reality",
       "publication": "Virtual Reality 2011",
-      "abstract": "机上に積み重ねられた書類に関して、下層の書類の映像をカメラで取得し、あたかも上層の書類が透明になるように処理した映像を、投影型複合現実感技術の色補正処理を施しつつ、上層の書類へプロジェクタ投影するシステム\"Limpid Desk\"を提案する。並びに、ユーザの手の上層の書類への接触を、特殊な道具を身につけたり持...",
+      "abstract": "机上に積み重ねられた書類に関して、下層の書類の映像をカメラで取得し、あたかも上層の書類が透明になるように処理した映像を、投影型複合現実感技術の色補正処理を施しつつ、上層の書類へプロジェクタ投影するシステム\"Limpid Desk\"を提案する。...",
       "link": "http://daisukeiwai.org/jp/research/limpiddesk.html",
       "collaboration": ""
     },
@@ -247,7 +247,7 @@
       "titleJP": "ThermoPainter: 熱で絵を描くペインティングインタフェース",
       "titleEN": "Heat Sensation in Image Creation with Thermal Vision",
       "publication": "ACE 2005",
-      "abstract": "コンピュータでの描画作業において、マウスとペンしか用いることができないのは直感的でないことに着目し、筆などの道具をそのまま用いてコンピュータ上に描画できるインタフェースの研究を行った。薄い紙面に暖かいものが触れたときの面上の温度変化をサーモグラフィで取得し、接触領域の位置を計測するという方式を提案した。湯...",
+      "abstract": "コンピュータでの描画作業において、マウスとペンしか用いることができないのは直感的でないことに着目し、筆などの道具をそのまま用いてコンピュータ上に描画できるインタフェースの研究を行った。薄い紙面に暖かいものが触れたときの面上の温度変化をサーモグラフィで取得し、接触領域の位置を計測するという方式を提案した。...",
       "link": "http://daisukeiwai.org/jp/research/thermopainter.html",
       "collaboration": ""
     },
@@ -256,7 +256,7 @@
       "titleJP": "日本人と南米人の踊りのノリ",
       "titleEN": "Analysis and Synthesis of Latin Dance using Motion Capture Data",
       "publication": "Journal of ITE 2011",
-      "abstract": "コンピュータでの描画作業において、マウスとペンしか用いることができないのは直感的でないことに着目し、筆などの道具をそのまま用いてコンピュータ上に描画できるインタフェースの研究を行った。薄い紙面に暖かいものが触れたときの面上の温度変化をサーモグラフィで取得し、接触領域の位置を計測するという方式を提案した。湯...",
+      "abstract": "クラブなんかに踊りに行くと、踊っているシルエットを見るだけで、その人が日本人なのか他の外国の人なのかがわかる。この違いは、どこにあるのかを調べようと思って、同じクラスの留学生と始めた研究。留学生の子が南米人ということもあって、とりあえず日本人と南米人で調べることに。...",
       "link": "http://daisukeiwai.org/jp/research/dance.html",
       "collaboration": ""
     },
