@@ -61,5 +61,212 @@
         "abstract": "柔軟物体の変形をプロジェクションマッピングにより可視化する技術の研究を行っている。投影像に影響を受けない赤外線のみを選択的に吸収する特殊なインクで柔軟物に人の目には見えない特徴点を書き込み、それを赤外線カメラを用いて計測することで変形の計測を行った。ユーザインタラクションによる遮蔽がある場合でも頑健に変形計測が動作する。...",
         "link": "https://punpongsanon.info/deforme/",
         "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/STAR18.jpg",
+      "titleJP": "最新のプロジェクションマッピング研究動向の網羅的調査",
+      "titleEN": "Recent Advances in Projection Mapping Algorithms, Hardware and Applications",
+      "publication": "Computer Graphics Forum 2018, Eurographics 2018",
+      "abstract": "プロジェクションマッピングの最新の研究動向を網羅的に調査しました。非平面投影時の位置合わせ、模様面投影時の色補償といった基盤技術に加え、ここ数年、技術進歩の著しい動的プロジェクションマッピングを実現するアルゴリズムについてまとめています。さらに、通常のプロジェクタの技術的制約を解決し、広ダイナミックレンジ・高速・高解像度・広被写界深度な投影を実現する新たなハードウェアに技術ついても紹介しています。...",
+      "link": "https://www.disneyresearch.com/publication/recent-advances-in-projection-mapping-algorithms/",
+      "collaboration": "Disney Research Zürich[<a href='https://www.disneyresearch.com/' target='_new' class='research-link'>HP</a>]との共同調査"
+    },
+    {
+      "photoPass": "images/researches/hysar.jpg",
+      "titleJP": "HySAR: プロジェクションマッピングと透過型ARを組み合わせた質感再現",
+      "titleEN": "HySAR: Hybrid Material Rendering by an Optical See-Through Head-Mounted Display with Spatial Augmented Reality Projection",
+      "publication": "IEEE TVCG 2018, IEEE VR 2018",
+      "abstract": "プロジェクションマッピングと透過型の拡張現実感ディスプレイ(例: ホロレンズ)を組み合わせた、高品位な質感再現フレームワークを提案しました。プロジェクションマッピングを用いることで、現実空間に所望の質感をもつ3次元物体を再現する試みが行われてきました。しかしながら、プロジェクションマッピングで描画される模様は、見る方向が変わっても同じ...",
+      "link": "http://daisukeiwai.org/jp/research/hysar.html",
+      "collaboration": "慶應義塾大学・杉本麻樹准教授[<a href='http://im-lab.net/' target='_new' class='research-link'>HP</a>]、東京工業大学・伊藤勇太助教[<a href='http://www.ar.c.titech.ac.jp/' target='_new' class='research-link'>HP</a>]との共同研究"
+    },
+    {
+      "photoPass": "images/researches/distopt2.jpg",
+      "titleJP": "分散最適化にもとづく協調型プロジェクションマッピング影除去",
+      "titleEN": "Inter-reflection Compensation of Immersive Projection Display by Spatio-Temporal Screen Reflectance Modulation",
+      "publication": "Computer Graphics Forum 2017, Eurographics 2017",
+      "abstract": "プロジェクションマッピングでは、プロジェクタと投影対象との間に遮蔽物があると、映像に影が生じてしまうという問題がある。一方、プロジェクションマッピングでは、複数台のプロジェクタが同時に使用されることが多く、特に大規模な場合には、数十台のプロジェクタが使われることもある。...",
+      "link": "http://daisukeiwai.org/jp/research/distopt2.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/softar.jpg",
+      "titleJP": "SoftAR: プロジェクションマッピングによる柔らかさ知覚操作",
+      "titleEN": "SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality",
+      "publication": "IEEE TVCG 2015, IEEE ISMAR 2015",
+      "abstract": "プロジェクションマッピングによる視覚効果で、触っているものの柔らかさ知覚を操作する研究を行っている。五感の中での視覚の優位性を利用して、触っている指先の色と、対象の模様の動きを視覚的に変調することで、触っているものをより柔らかく感じさせる。準備として、様々な柔らかさの物体を押した時の押す強さと表面模様の動きとの関係を計測...",
+      "link": "http://daisukeiwai.org/jp/research/softar.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/distopt.jpg",
+      "titleJP": "分散最適化にもとづく協調型プロジェクションマッピング色補正",
+      "titleEN": "Radiometric Compensation for Cooperative Distributed Multi-Projection System through 2-DOF Distributed Control",
+      "publication": "IEEE TVCG 2015, IEEE ISMAR 2015",
+      "abstract": "継ぎ目のないプロジェクションマッピングを行うためには多くのプロジェクタが必要となる。各プロジェクタに対して画像を生成するのは非常にコストが高く、1台の端末で行うことは困難である。さらに、生成された画像を各プロジェクタに伝送することは通信量が膨大となり現実的ではない。一方、非白色面に映像投影する際に生じる色ズレを補償し、所望...",
+      "link": "http://daisukeiwai.org/jp/research/distopt.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/ffsp.jpg",
+      "titleJP": "高速焦点スイープ投影によるプロジェクタの被写界深度拡大",
+      "titleEN": "Extended Depth-of-Field Projector by Fast Focal Sweep Projection",
+      "publication": "IEEE TVCG 2015, IEEE ISMAR 2015",
+      "abstract": "プロジェクタの被写界深度を拡大するシンプルな手法を提案する。コンピュータ制御により焦点距離を変調できる液体レンズを、プロジェクタレンズの前面に設置し、人の視覚の臨界融合周波数の頻度で焦点距離を周期的に変調する。これにより、投影画像の合焦距離を、投影シーン中にプロジェクタに対して前後方向に高速にスイープすることができる...",
+      "link": "http://daisukeiwai.org/jp/research/ffsp.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/synthprocams.jpg",
+      "titleJP": "合成開口撮投影による影除去",
+      "titleEN": "Shadow Removal of Projected Imagery by Occluder Shape Measurement in a Multiple Overlapping Projection System",
+      "publication": "Virtual Reality 2014",
+      "abstract": "分散配置された複数台のプロジェクタからの映像を投影対象に重畳させる環境を構築して、遮蔽によってプロジェクション映像に生じる影を除去する。これまでの研究では、影を検出するために投影対象を撮影するカメラは遮蔽されないことが仮定されており、実応用には適さなかった。本研究ではこの制約を緩和するため、複数台のカメラを分散配置し、合成開口...",
+      "link": "http://daisukeiwai.org/jp/research/synthprocams.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/pantilt.jpg",
+      "titleJP": "パンチルト投影でのモーションブラー抑制",
+      "titleEN": "Reducing Motion Blur Artifact of Foveal Projection for Dynamic Focus-Plus-Context Display",
+      "publication": "IEEE TCSVT 2014",
+      "abstract": "本研究では、パンチルト投影を用いて、動的なフォーカス・プラス・コンテキスト(F+C)ディスプレイを実現する際に、パンチルト投影のモーションブラーを抑制する技法を提案する。動的F+Cディスプレイでは、観察者が注目する領域に追従して高解像度表示するプロジェクタと、そうでない領域全体を低解像度表示する固定プロジェクタによって構成され...",
+      "link": "http://daisukeiwai.org/jp/research/pantilt.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/bluewarm.jpg",
+      "titleJP": "色と温度の感覚間相互作用",
+      "titleEN": "Combining colour and temperature",
+      "publication": "Scientific Reports 2014",
+      "abstract": "一般に、赤い色は温かい印象を、青い色は冷たい印象を引き起こすと考えられている。しかし我々は、温度を直接手で触れて感じるときには、逆の関係性があることを示した。実験1では、色の付いた物体に触れたときに「温かい」と感じられる最低の温度を計測した。その結果、青い色の物体の方が、赤い色の物体よりも低い温度で「温かい」と感じられることを...",
+      "link": "http://daisukeiwai.org/jp/research/bluewarm.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/phc.jpg",
+      "titleJP": "高コントラスト投影のためのフォトクロミズムを利用した動的反射率制御",
+      "titleEN": "Projection Screen Reflectance Control for High Contrast Display using Photochromic Compounds and UV LEDs",
+      "publication": "Optics Express 2014",
+      "abstract": "本研究では、スクリーンの反射率を時空間的に制御することで、プロジェクションディスプレイのコントラストを向上させる手法を提案する。明るい映像を表示する箇所の反射率を高く、暗い映像を表示する箇所の反射率を低く制御することによって、通常の単一白色のスクリーンを使用するときと比べて、投影結果のコントラストをブーストさせることができる。...",
+      "link": "http://daisukeiwai.org/jp/research/phc.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/shadow.jpg",
+      "titleJP": "実影に映像が浮かび上がるテーブルトップ型コンピュータ",
+      "titleEN": "Making Graphical Information Visible in Real Shadows on Interactive Tabletops",
+      "publication": "IEEE TVCG 2014, ISMAR 2014",
+      "abstract": "我々は、インタラクティブサーフェスの研究において、サーフェス上にできるユーザの影の中に情報を浮かび上がらせる画像情報隠蔽技法を提案する。提案手法では3台のプロジェクタを使用する。1台はサーフェス背面に設置し、他の2台はサーフェス上方に設置する。背面のプロジェクタより画像情報を投影表示し、上方のプロジェクタ1台より...",
+      "link": "http://daisukeiwai.org/jp/research/shadow.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/radcomp.jpg",
+      "titleJP": "高精度プロジェクション色補正",
+      "titleEN": "Artifact Reduction in Radiometric Compensation of Projector-Camera Systems for Steep Reflectance Variations",
+      "publication": "IEEE TCSVT 2014",
+      "abstract": "投影対象の反射率が投影1画素内で空間的に均一でない場合の色補正精度の悪化を最小化するため、近年低コストで入手できるようになった1,000万オーダーの画素数をもつ高解像度カメラを用いて、この問題を解決する技術を提案する。投影1画素内の投影反射色を高密度に計測し、プロジェクタに入力する画素値と投影表示される反射色との関係を得る...",
+      "link": "http://daisukeiwai.org/jp/research/radcomp.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/avatar.jpg",
+      "titleJP": "アンドロイド顔表情の高品位化",
+      "titleEN": "Augmenting Physical Avatars Using Projector-Based Illumination",
+      "publication": "ACM TOG 2013, Siggraph Asia 2013",
+      "abstract": "アンドロイドの顔表情を豊かにするために、プロジェクタからの映像投影技術を利用することを提案する。ロボットの物理的制約により再現可能な動作は低周波数なものになってしまうことから、陰影映像投影により、不足している高周波数な動作を重畳することで、極めて印象的な顔表情を再現することを可能とした。...",
+      "link": "https://www.disneyresearch.com/publication/augmenting-physical-avatars-using-projector-based-illumination/",
+      "collaboration": "Disney Research Zürich [<a href='https://www.disneyresearch.com/' target='_new' class='research-link'>HP</a>]との共同研究"
+    },
+    {
+      "photoPass": "images/researches/layout.jpg",
+      "titleJP": "プロジェクションされたAR情報の最適レイアウト",
+      "titleEN": "View Management of Projected Labels on Non-Planar and Textured Surfaces",
+      "publication": "IEEE TVCG 2013, ISMAR 2013",
+      "abstract": "実物体の表面に直接仮想情報を重畳させるプロジェクション方式を採用する。投影型複合現実感においてアノテーションの提示を行う際には、アノテーションのレイアウトを行う際に留意すべき点に加え、投影型アプローチ特有の問題を考慮しなければならず、特に投影面の状態により投影像の可読性が大きく低下するという問題が大きい。本研...",
+      "link": "http://daisukeiwai.org/jp/research/layout.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/3DSDR.jpg",
+      "titleJP": "3D高ダイナミックレンジ投影",
+      "titleEN": "High Dynamic Range 3D Display System with Projector and 3D Color Printer Output",
+      "publication": "ISMAR 2011",
+      "abstract": "本研究では、3次元のハイダイナミックレンジディスプレイを提案する。我々は、立体視の手法を用いるのではなく、カラー3Dプリンタ出力模型に、印刷されているのと同様のテクスチャをプロジェクタから投影して光を二重変調することで、3次元立体面上でのハイダイナミックレンジ表示を実現する。複数台のプロジェクタから、カラー3D...",
+      "link": "http://daisukeiwai.org/jp/research/3DSDR.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/sonic.jpg",
+      "titleJP": "インタラクティブ本棚",
+      "titleEN": "Interactive Bookshelf Surface for In Situ Book Searching and Storing Support",
+      "publication": "Augmented Human 2011",
+      "abstract": "我々は，身近な実物体表面をインタラクティブサーフェス化することで，広範囲の日常活動を支援することができると考え，本論文では，本棚をインタラクティブサーフェス化し，収納された文書の探索および収納を支援することを提案した．具体的には、まず，ユーザが指先で本棚の棚表面をなぞると，指先の接触している棚の真上およびその...",
+      "link": "http://daisukeiwai.org/jp/research/IBS.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/momo.jpg",
+      "titleJP": "プロジェクション映像の焦点ボケ補償および影除去",
+      "titleEN": "Dynamic Defocus and Occlusion Compensation of Projected Imagery by Model-Based Optimal Projector Selection in Multi-projection Environment",
+      "publication": "Virtual Reality 2011",
+      "abstract": "複数台のプロジェクタを使用する投影型複合現実感環境において, プロジェクタ・投影対象の幾何学的情報に基づき, 対象上で影のない鮮明な投影像表示を実現する多重焦点制御手法について述べる. 投影型MR環境では, プロジェクタの焦点ボケ及び対象面の傾斜による投影像の空間分解能低下と, 遮蔽物による投影像の影という2種の問題を...",
+      "link": "http://daisukeiwai.org/jp/research/multiprojection.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/SDR.jpg",
+      "titleJP": "高ダイナミックレンジ投影",
+      "titleEN": "Superimposing Dynamic Range",
+      "publication": "ACM TOG 2008, Siggraph Asia 2008",
+      "abstract": "我々は、反射型画像変調により、シンプルかつ安価な静止画HDRディスプレイを実現した。提案システムでは、ハードコピー（写真、X線プリント、電子ペーパー等）にプロジェクタより画像を投影重畳して画像を表示することで、ハードコピーのみ（環境光下で観察）やプロジェクタのみ（通常のスクリーンに投影）での画像表示に比べて...",
+      "link": "http://daisukeiwai.org/jp/research/SDR.html",
+      "collaboration": "Bauhaus-Universität Weimar, Germany [<a href='http://www.uni-weimar.de/medien/AR/' target='_new' class='research-link'>HP</a>]との共同研究"
+    },
+    {
+      "photoPass": "images/researches/ThermoReality.jpg",
+      "titleJP": "ThermoReality: サーモグラフィープロジェクション",
+      "titleEN": "Optical Superimposition of Infrared Thermography through Video Projection",
+      "publication": "Infrared Physics & Technology 2010",
+      "abstract": "熱情報を媒介する特殊な波長域である遠赤外領域の光を捉えることのできる赤外線カメラは、対象物体の温度情報を非接触で2次元画像として可視化することが可能であり、これまで検査・医療・災害救助といった分野での利用がなされてきている。しかしながら、ユーザインタフェースの観点から見ると、赤外線カメラによって撮影された...",
+      "link": "http://daisukeiwai.org/jp/research/thermoreality.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/LimpidDesk.jpg",
+      "titleJP": "LimpidDesk: 机上書類の透明化プロジェクション",
+      "titleEN": "Limpid Desk: See-Through Access to Disorderly Desktop in Projection-Based Mixed Reality",
+      "publication": "Virtual Reality 2011",
+      "abstract": "机上に積み重ねられた書類に関して、下層の書類の映像をカメラで取得し、あたかも上層の書類が透明になるように処理した映像を、投影型複合現実感技術の色補正処理を施しつつ、上層の書類へプロジェクタ投影するシステム\"Limpid Desk\"を提案する。並びに、ユーザの手の上層の書類への接触を、特殊な道具を身につけたり持...",
+      "link": "http://daisukeiwai.org/jp/research/limpiddesk.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/ThermoPainter.jpg",
+      "titleJP": "ThermoPainter: 熱で絵を描くペインティングインタフェース",
+      "titleEN": "Heat Sensation in Image Creation with Thermal Vision",
+      "publication": "ACE 2005",
+      "abstract": "コンピュータでの描画作業において、マウスとペンしか用いることができないのは直感的でないことに着目し、筆などの道具をそのまま用いてコンピュータ上に描画できるインタフェースの研究を行った。薄い紙面に暖かいものが触れたときの面上の温度変化をサーモグラフィで取得し、接触領域の位置を計測するという方式を提案した。湯...",
+      "link": "http://daisukeiwai.org/jp/research/thermopainter.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/dance.jpg",
+      "titleJP": "日本人と南米人の踊りのノリ",
+      "titleEN": "Analysis and Synthesis of Latin Dance using Motion Capture Data",
+      "publication": "Journal of ITE 2011",
+      "abstract": "コンピュータでの描画作業において、マウスとペンしか用いることができないのは直感的でないことに着目し、筆などの道具をそのまま用いてコンピュータ上に描画できるインタフェースの研究を行った。薄い紙面に暖かいものが触れたときの面上の温度変化をサーモグラフィで取得し、接触領域の位置を計測するという方式を提案した。湯...",
+      "link": "http://daisukeiwai.org/jp/research/dance.html",
+      "collaboration": ""
+    },
+    {
+      "photoPass": "images/researches/nonverbal_top.jpg",
+      "titleJP": "共感覚（音と色のノンバーバルマッピング）",
+      "titleEN": "Non-verbal Mapping between Sound and Color - Mapping Derived from Colored Hearing Synesthetes and Its Applications",
+      "publication": "ICEC 2005",
+      "abstract": "映画やテレビ番組、そしてWebデザインなどの映像作品に対して、それに合う音楽をつけるという作業は、その道のエキスパートでさえも困難なものである。しかし、ひとたび合う音楽がつけば作品の魅力は2倍にも3倍にもふくれあがる。このことから、映像に合う音楽を抽出するルールを生成することで、このような創造活動を支援する...",
+      "link": "http://daisukeiwai.org/jp/research/synesthesia.html",
+      "collaboration": ""
     }
 ]
