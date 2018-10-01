@@ -127,3 +127,28 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/*link*/
+.link-link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.link-link:link
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.link-link:visited
+{
+  color: #058c36;
+  text-decoration: none;
+}
+
+.link-link:hover
+{
+  color: #005920;
+  text-decoration: underline dotted;
+}
