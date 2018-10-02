@@ -171,6 +171,13 @@
         "nameEN": "Takumi Kaminokado",
         "position": "Research Student / 研究生",
         "photoPass": "images/members/kaminokado.jpg"
+      },
+      {
+        "nameJP": "林 映汝",
+        "nameEN": "Ying Ju Lin",
+        "position": "Exchange student / 留学生",
+        "positionOther": "(iExpo project)",
+        "photoPass": "images/members/lin.jpg"
       }
     ]
   }
