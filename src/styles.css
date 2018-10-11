@@ -20,6 +20,10 @@ body
   font-weight: 400;
 }
 
+h1 {
+  margin: 0;
+}
+
 html
 {
   width: 100%;
