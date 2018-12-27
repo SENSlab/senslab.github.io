@@ -29,6 +29,11 @@
 6. 本番サーバーに変更を反映<br>`npm run deploy`
 7. 変更後のソースコードをリモートリポジトリ(GitHub)にアップロード<br>`git push origin develop`
 
+### メンバー写真
+
+メンバー写真は350*350pxのjpg形式です。
+
+
 ## Information for developpers
 
 ### Angular
