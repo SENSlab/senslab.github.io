@@ -9,8 +9,7 @@ import { PublicationComponent } from './publication/publication.component';
 import { HistoryComponent } from './history/history.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'research', component: ResearchComponent },
   { path: 'publication', component: PublicationComponent },
   { path: 'contact', component: ContactusComponent },
