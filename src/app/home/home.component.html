@@ -56,8 +56,7 @@
       </div>
       <ng-container *ngFor="let nt of ny.topic">
         <div class='row'>
-          <div class='col-md-2 pb-1'>
-            {{nt.date}}
+          <div class='col-md-2 pb-1' [innerHTML]="nt.date">
           </div>
           <div class='col-md-10' [innerHTML]="nt.content">
           </div>
