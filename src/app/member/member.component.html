@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
         <h3 class="big-headline mt-4">{{grade.attribute}}
-          <hr/>
+          <hr />
         </h3>
       </div>
     </div>
@@ -47,7 +47,7 @@
   <div class="row">
     <div class="col">
       <h3 class="big-headline mt-4">Alumnus / 卒業生
-        <hr/>
+        <hr />
       </h3>
     </div>
   </div>
@@ -61,40 +61,212 @@
     </div>
 
     <div class="row">
-      <ng-container *ngFor="let member of grade.people">
-        <div class='col-md-3 mb-5'>
-          <div class='current-lab-member-photo'>
-            <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
-          </div>
-          <div class='current-lab-member-name'>
-            <ng-container *ngIf='member.link !== undefined'>
-              <a class='member-link' href={{member.link}} target='_new'>
-                {{member.nameJP}}
-              </a>
-            </ng-container>
-            <ng-container *ngIf='member.link === undefined'>
-              <div>
-                {{member.nameJP}}
-              </div>
-            </ng-container>
-            <div>
-              {{member.nameEN}}
+      <div class="col">
+        <ng-container *ngIf='grade.doctor !== undefined'>
+          <h5 class="ml-4">
+            Doctoral Student /博士後期課程
+          </h5>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container *ngIf='grade.doctor !== undefined'>
+        <ng-container *ngFor="let member of grade.doctor">
+          <div class='col-md-3 mb-5'>
+            <div class='current-lab-member-photo'>
+              <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
             </div>
-            <ng-container *ngIf='member.position !== undefined'>
-              <div class='current-lab-member-position'>
-                {{member.position}}
+            <div class='current-lab-member-name'>
+              <ng-container *ngIf='member.link !== undefined'>
+                <a class='member-link' href={{member.link}} target='_new'>
+                  {{member.nameJP}}
+                </a>
+              </ng-container>
+              <ng-container *ngIf='member.link === undefined'>
+                <div>
+                  {{member.nameJP}}
+                </div>
+              </ng-container>
+              <div>
+                {{member.nameEN}}
               </div>
-            </ng-container>
-            <ng-container *ngIf='member.positionOther !== undefined'>
-              <div class='current-lab-member-position'>
-                {{member.positionOther}}
-              </div>
-            </ng-container>
+              <ng-container *ngIf='member.positionOther !== undefined'>
+                <div class='current-lab-member-position'>
+                  {{member.positionOther}}
+                </div>
+              </ng-container>
+            </div>
           </div>
-        </div>
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <ng-container *ngIf='grade.master !== undefined'>
+          <h5 class="ml-4">
+            Master Student / 博士前期課程
+          </h5>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container *ngIf='grade.master !== undefined'>
+        <ng-container *ngFor="let member of grade.master">
+          <div class='col-md-3 mb-5'>
+            <div class='current-lab-member-photo'>
+              <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+            </div>
+            <div class='current-lab-member-name'>
+              <ng-container *ngIf='member.link !== undefined'>
+                <a class='member-link' href={{member.link}} target='_new'>
+                  {{member.nameJP}}
+                </a>
+              </ng-container>
+              <ng-container *ngIf='member.link === undefined'>
+                <div>
+                  {{member.nameJP}}
+                </div>
+              </ng-container>
+              <div>
+                {{member.nameEN}}
+              </div>
+              <ng-container *ngIf='member.positionOther !== undefined'>
+                <div class='current-lab-member-position'>
+                  {{member.positionOther}}
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <ng-container *ngIf='grade.bachelor !== undefined'>
+          <h5 class="ml-4">
+            Bachelor Student / 学士課程
+          </h5>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container *ngIf='grade.bachelor !== undefined'>
+        <ng-container *ngFor="let member of grade.bachelor">
+          <div class='col-md-3 mb-5'>
+            <div class='current-lab-member-photo'>
+              <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+            </div>
+            <div class='current-lab-member-name'>
+              <ng-container *ngIf='member.link !== undefined'>
+                <a class='member-link' href={{member.link}} target='_new'>
+                  {{member.nameJP}}
+                </a>
+              </ng-container>
+              <ng-container *ngIf='member.link === undefined'>
+                <div>
+                  {{member.nameJP}}
+                </div>
+              </ng-container>
+              <div>
+                {{member.nameEN}}
+              </div>
+              <ng-container *ngIf='member.positionOther !== undefined'>
+                <div class='current-lab-member-position'>
+                  {{member.positionOther}}
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <ng-container *ngIf='grade.research !== undefined'>
+          <h5 class="ml-4">
+            Research Student / 研究生
+          </h5>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container *ngIf='grade.research !== undefined'>
+        <ng-container *ngFor="let member of grade.research">
+          <div class='col-md-3 mb-5'>
+            <div class='current-lab-member-photo'>
+              <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+            </div>
+            <div class='current-lab-member-name'>
+              <ng-container *ngIf='member.link !== undefined'>
+                <a class='member-link' href={{member.link}} target='_new'>
+                  {{member.nameJP}}
+                </a>
+              </ng-container>
+              <ng-container *ngIf='member.link === undefined'>
+                <div>
+                  {{member.nameJP}}
+                </div>
+              </ng-container>
+              <div>
+                {{member.nameEN}}
+              </div>
+              <ng-container *ngIf='member.positionOther !== undefined'>
+                <div class='current-lab-member-position'>
+                  {{member.positionOther}}
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <ng-container *ngIf='grade.exchange !== undefined'>
+          <h5 class="ml-4">
+            Exchange Student / 留学生
+          </h5>
+        </ng-container>
+      </div>
+    </div>
+
+    <div class="row">
+      <ng-container *ngIf='grade.exchange !== undefined'>
+        <ng-container *ngFor="let member of grade.exchange">
+          <div class='col-md-3 mb-5'>
+            <div class='current-lab-member-photo'>
+              <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+            </div>
+            <div class='current-lab-member-name'>
+              <ng-container *ngIf='member.link !== undefined'>
+                <a class='member-link' href={{member.link}} target='_new'>
+                  {{member.nameJP}}
+                </a>
+              </ng-container>
+              <ng-container *ngIf='member.link === undefined'>
+                <div>
+                  {{member.nameJP}}
+                </div>
+              </ng-container>
+              <div>
+                {{member.nameEN}}
+              </div>
+              <ng-container *ngIf='member.positionOther !== undefined'>
+                <div class='current-lab-member-position'>
+                  {{member.positionOther}}
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
       </ng-container>
     </div>
   </ng-container>
+
 
   <div class="row">
     <div class="col">
@@ -110,16 +282,19 @@
   <div class="row">
     <div class="col">
       <h3 class="headline mt-4">After Graduation
-        <hr/>
+        <hr />
       </h3>
     </div>
   </div>
 
   <div class="row">
     <div class="col" style="text-align: justify;">
-      国立大助教、 産業技術総合研究所、 NTT研究所、 関西電力、 キヤノン、 三菱電機、 三菱重工、 パナソニック、 ソニー、 リコー、 東芝、 富士通、 村田製作所、 横河電機、 オムロン、 インテル、 キーエンス、 ニコン、 マツダ、 クボタ、
-      JFEスチール、 ダイキン、 きんでん、 コマツ、 TOA、 凸版印刷、 グローリー工業、 シスメックス、 旭化成、 日本IBM、 KDDI、 ソニーモバイル、 日本HP、 新日鉄ソリューションズ、 NECシステムテクノロジー、
-      TIS、 サイボウズ、 電通国際情報サービス、 ニイウス、 PFU、 ニッセイIT、 野村総研、 フューチャーアーキテクト、 阪神電鉄、 NHK、 朝日放送、 フジテレビ、 毎日放送、 朝日新聞、 ジュピターテレコム、 ミクシィ、
+      国立大助教、 産業技術総合研究所、 NTT研究所、 関西電力、 キヤノン、 三菱電機、 三菱重工、 パナソニック、 ソニー、 リコー、 東芝、 富士通、 村田製作所、 横河電機、 オムロン、 インテル、 キーエンス、 ニコン、
+      マツダ、 クボタ、
+      JFEスチール、 ダイキン、 きんでん、 コマツ、 TOA、 凸版印刷、 グローリー工業、 シスメックス、 旭化成、 日本IBM、 KDDI、 ソニーモバイル、 日本HP、 新日鉄ソリューションズ、
+      NECシステムテクノロジー、
+      TIS、 サイボウズ、 電通国際情報サービス、 ニイウス、 PFU、 ニッセイIT、 野村総研、 フューチャーアーキテクト、 阪神電鉄、 NHK、 朝日放送、 フジテレビ、 毎日放送、 朝日新聞、 ジュピターテレコム、
+      ミクシィ、
       P&G、 島津製作所、 SIE、 CAPCOM
     </div>
   </div>
