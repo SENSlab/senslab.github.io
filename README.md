@@ -10,10 +10,11 @@
 
 #### 初回のみ
 
+1. SENSLabリポジトリのOwnerの方から、[こちら](https://github.com/orgs/SENSlab/people)より、Ownerにしてもらいましょう。
 1. Node.jsをインストールする
-2. Gitをインストールする
-3. GitHubのアカウント登録とSSH Keyの登録をする
-4. Git Bashを開き、このリポジトリをCloneする<br>`git clone git@github.com:SENSlab/senslab.github.io.git`
+1. Gitをインストールする
+1. GitHubのアカウント登録とSSH Keyの登録をする
+1. Git Bashを開き、このリポジトリをCloneする<br>`git clone git@github.com:SENSlab/senslab.github.io.git`
 
 #### ルーティン
 

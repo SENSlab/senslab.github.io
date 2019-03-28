@@ -45,61 +45,15 @@
     "attribute": "Doctoral Student /博士後期課程",
     "people": [
       {
-        "nameJP": "五十川 麻理子",
-        "nameEN": "Mariko Isogawa",
-        "position": "D3",
-        "photoPass": "images/members/silhouette.jpg"
-      },
-      {
         "nameJP": "西村 章宏",
         "nameEN": "Akihiro Nishimura",
-        "position": "D1",
+        "position": "D2",
         "photoPass": "images/members/silhouette.jpg"
       }
     ]
   },
   {
     "attribute": "M2 /博士前期課程2年",
-    "people": [
-      {
-        "nameJP": "河原 拓海",
-        "nameEN": "Takumi Kawahara",
-        "photoPass": "images/members/kawahara.jpg"
-      },
-      {
-        "nameJP": "佐藤 貴俊",
-        "nameEN": "Takatoshi Sato",
-        "photoPass": "images/members/tsato.jpg"
-      },
-      {
-        "nameJP": "竹澤 拓朗",
-        "nameEN": "Takuro Takezawa",
-        "photoPass": "images/members/takezawa.jpg"
-      },
-      {
-        "nameJP": "田辺 育暉",
-        "nameEN": "Naruki Tanabe",
-        "photoPass": "images/members/tanabe.jpg"
-      },
-      {
-        "nameJP": "刀根 大樹",
-        "nameEN": "Daiki Tone",
-        "photoPass": "images/members/silhouette.jpg"
-      },
-      {
-        "nameJP": "萩野 和音",
-        "nameEN": "Kazune Hagino",
-        "photoPass": "images/members/hagino.jpg"
-      },
-      {
-        "nameJP": "峯 隆太郎",
-        "nameEN": "Ryutaro Mine",
-        "photoPass": "images/members/mine.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "上田 龍幸",
@@ -119,7 +73,7 @@
     ]
   },
   {
-    "attribute": "B4 /学部4回生",
+    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "稲垣 理也",
@@ -156,23 +110,16 @@
         "nameJP": "三好 幹",
         "nameEN": "Motoki Miyoshi",
         "photoPass": "images/members/miyoshi.jpg"
-      },
-      {
-        "nameJP": "松井 孝太",
-        "nameEN": "Kota Matsui",
-        "photoPass": "images/members/matsui.jpg"
       }
     ]
   },
   {
+    "attribute": "B4 /学部4回生",
+    "people": []
+  },
+  {
     "attribute": "Research Student / 研究生 : Exchange Student / 留学生",
     "people": [
-      {
-        "nameJP": "神之門 拓己",
-        "nameEN": "Takumi Kaminokado",
-        "position": "Research Student / 研究生",
-        "photoPass": "images/members/kaminokado.jpg"
-      },
       {
         "nameJP": "林 映汝",
         "nameEN": "Ying Ju Lin",

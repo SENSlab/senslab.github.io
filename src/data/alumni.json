@@ -1,11 +1,71 @@
 [
   {
+    "attribute": "2019",
+    "doctor": [
+      {
+        "nameJP": "五十川 麻理子",
+        "nameEN": "Mariko Isogawa",
+        "photoPass": "images/members/silhouette.jpg"
+      }
+    ],
+    "master": [
+      {
+        "nameJP": "河原 拓海",
+        "nameEN": "Takumi Kawahara",
+        "photoPass": "images/members/kawahara.jpg"
+      },
+      {
+        "nameJP": "佐藤 貴俊",
+        "nameEN": "Takatoshi Sato",
+        "photoPass": "images/members/tsato.jpg"
+      },
+      {
+        "nameJP": "竹澤 拓朗",
+        "nameEN": "Takuro Takezawa",
+        "photoPass": "images/members/takezawa.jpg"
+      },
+      {
+        "nameJP": "田辺 育暉",
+        "nameEN": "Naruki Tanabe",
+        "photoPass": "images/members/tanabe.jpg"
+      },
+      {
+        "nameJP": "刀根 大樹",
+        "nameEN": "Daiki Tone",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "萩野 和音",
+        "nameEN": "Kazune Hagino",
+        "photoPass": "images/members/hagino.jpg"
+      },
+      {
+        "nameJP": "峯 隆太郎",
+        "nameEN": "Ryutaro Mine",
+        "photoPass": "images/members/mine.jpg"
+      }
+    ],
+    "bachelor": [
+      {
+        "nameJP": "松井 孝太",
+        "nameEN": "Kota Matsui",
+        "photoPass": "images/members/matsui.jpg"
+      }
+    ],
+    "research": [
+      {
+        "nameJP": "神之門 拓己",
+        "nameEN": "Takumi Kaminokado",
+        "photoPass": "images/members/kaminokado.jpg"
+      }
+    ]
+  },
+  {
     "attribute": "2018",
-    "people": [
+    "exchange": [
       {
         "nameJP": "段 廷霖",
         "nameEN": "Tinglin Francis Duan ",
-        "position": "Exchange Student / 留学生",
         "positionOther": "(FrontierLab project)",
         "photoPass": "images/members/francis.jpg"
       }
