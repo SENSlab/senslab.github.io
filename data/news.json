@@ -1,144 +1,151 @@
-[   {
+[
+    {
         "year": 2019,
         "topic": [
             {
-              "date": "3.12&ndash;14",
-              "content": "M1 藤野、<a class='news-link' href='https://www.iee.jp/blog/taikai2019/' target='_new'>平成31年電気学会全国⼤会</a>にて口頭発表"
-            }, 
-            {
-              "date": "3.2&ndash;3",
-              "content": "B4 稲垣、佐藤、<a class='news-link' href='http://science-i.mext.go.jp/index.php#list_wrap' target='_new'>サイエンスインカレ</a>にて、SIC奨励賞とファーウェイ賞を受賞"
+                "date": "3.23&ndash;27",
+                "content": "M1 平谷、<a class='news-link' href='http://ieeevr.org/2019/' target='_new'>IEEE VR 2019</a>にてIEEEVR2019 Best Research Demo Runner-up awardを受賞"
             },
             {
-              "date": "3.2&ndash;3",
-              "content": "B4 稲垣、木村、佐藤、三好、<a class='news-link' href='http://science-i.mext.go.jp/' target='_new'>サイエンスインカレ</a>にて口頭発表"
+                "date": "3.23&ndash;27",
+                "content": "<p><a class='news-link' href='http://ieeevr.org/2019/' target='_new'>IEEE VR 2019</a>にてM2 竹澤：口頭発表、M1 藤野：ポスター発表、M1 平谷、藤野、B4 佐藤、森田：デモ発表"
             },
             {
-              "date": "2.20&ndash;21",
-              "content": "B4、卒論発表会"
+                "date": "3.12&ndash;14",
+                "content": "M1 藤野、<a class='news-link' href='https://www.iee.jp/blog/taikai2019/' target='_new'>平成31年電気学会全国⼤会</a>にて口頭発表"
             },
             {
-              "date": "2.6&ndash;7",
-              "content": "M2、修論発表会"
+                "date": "3.2&ndash;3",
+                "content": "B4 稲垣、佐藤、<a class='news-link' href='http://science-i.mext.go.jp/index.php#list_wrap' target='_new'>サイエンスインカレ</a>にて、SIC奨励賞とファーウェイ賞を受賞"
             },
             {
-              "date": "1.22",
-              "content": "OB安部、2018年サイバースペース研究賞を受賞"
+                "date": "3.2&ndash;3",
+                "content": "B4 稲垣、木村、佐藤、三好、<a class='news-link' href='http://science-i.mext.go.jp/' target='_new'>サイエンスインカレ</a>にて口頭発表"
             },
             {
-              "date": "1.11&ndash;13",
-              "content": "<a class='news-link' href='https://www.uic.osaka-u.ac.jp/event/3998/' target='_new'>大阪大学と光であそぼう</a>にてShdaowless Projectorのデモ展示"
+                "date": "2.20&ndash;21",
+                "content": "B4、卒論発表会"
+            },
+            {
+                "date": "2.6&ndash;7",
+                "content": "M2、修論発表会"
+            },
+            {
+                "date": "1.22",
+                "content": "OB安部、2018年サイバースペース研究賞を受賞"
+            },
+            {
+                "date": "1.11&ndash;13",
+                "content": "<a class='news-link' href='https://www.uic.osaka-u.ac.jp/event/3998/' target='_new'>大阪大学と光であそぼう</a>にてShdaowless Projectorのデモ展示"
             }
-
         ]
     },
     {
         "year": 2018,
         "topic": [
-
             {
-              "date": "12.12&ndash;14",
-              "content": "M2 佐藤、<a class='news-link' href='https://www.idw.or.jp/' target='_new'>第25回国際ディスプレイワークショップ(IDW'18)</a>にてポスター発表"
+                "date": "12.12&ndash;14",
+                "content": "M2 佐藤、<a class='news-link' href='https://www.idw.or.jp/' target='_new'>第25回国際ディスプレイワークショップ(IDW'18)</a>にてポスター発表"
             },
             {
-              "date": "12.12&ndash;14",
-              "content": "岩井准教授、<a class='news-link' href='https://www.idw.or.jp/' target='_new'>第25回国際ディスプレイワークショップ(IDW'18)</a>にて招待講演"
+                "date": "12.12&ndash;14",
+                "content": "岩井准教授、<a class='news-link' href='https://www.idw.or.jp/' target='_new'>第25回国際ディスプレイワークショップ(IDW'18)</a>にて招待講演"
             },
             {
-              "date": "12.13",
-              "content": "B4 松井、<a class='news-link' href='https://www.sice-si.org/conf/si2018/' target='_new'>第19回計測自動制御学会</a>にてショートスピーチとポスター発表"
+                "date": "12.13",
+                "content": "B4 松井、<a class='news-link' href='https://www.sice-si.org/conf/si2018/' target='_new'>第19回計測自動制御学会</a>にてショートスピーチとポスター発表"
             },
             {
-              "date": "12.4&ndash;7",
-              "content": "OB Francis、<a class='news-link' href='https://sa2018.siggraph.org/jp/' target='_new'>第11回ACM SIGGRAPH Asia 2018 Technical Briefs</a>にて口頭発表"
+                "date": "12.4&ndash;7",
+                "content": "OB Francis、<a class='news-link' href='https://sa2018.siggraph.org/jp/' target='_new'>第11回ACM SIGGRAPH Asia 2018 Technical Briefs</a>にて口頭発表"
             },
             {
-              "date": "11.14&ndash;16",
-              "content": "M1 平谷、<a class='news-link' href='https://www.dcexpo.jp/' target='_new'>Digital Content Expo 2018(Innovative Technologies 2018)</a>にてデモ発表"
+                "date": "11.14&ndash;16",
+                "content": "M1 平谷、<a class='news-link' href='https://www.dcexpo.jp/' target='_new'>Digital Content Expo 2018(Innovative Technologies 2018)</a>にてデモ発表"
             },
             {
-              "date": "10.25",
-              "content": "M1 平谷、<a class='news-link' href='https://www.ite.or.jp/ken/form/index.php?tgs_regid=471a289627177cb2ba211e5e5e9806fd230d21a8d655edff7c2e84590e1e7026&cmd=info&lang=' target='_new'>映像情報メディア学会</a>にて口頭発表"
+                "date": "10.25",
+                "content": "M1 平谷、<a class='news-link' href='https://www.ite.or.jp/ken/form/index.php?tgs_regid=471a289627177cb2ba211e5e5e9806fd230d21a8d655edff7c2e84590e1e7026&cmd=info&lang=' target='_new'>映像情報メディア学会</a>にて口頭発表"
             },
             {
-              "date": "9.19&ndash;21",
-              "content": "M1 上田、<a class='news-link' href='http://conference.vrsj.org/ac2018/' target='_new'>第23回日本バーチャルリアリティ学会大会</a>にて口頭発表"
+                "date": "9.19&ndash;21",
+                "content": "M1 上田、<a class='news-link' href='http://conference.vrsj.org/ac2018/' target='_new'>第23回日本バーチャルリアリティ学会大会</a>にて口頭発表"
             },
             {
-              "date": "8.8",
-              "content": "D3 五十川、<a class='news-link' href='https://sites.google.com/view/miru2018sapporo/' target='_new'>第21回 画像の認識・理解シンポジウム(MIRU2018)</a>にてMIRUインタラクティブ発表賞を受賞"
+                "date": "8.8",
+                "content": "D3 五十川、<a class='news-link' href='https://sites.google.com/view/miru2018sapporo/' target='_new'>第21回 画像の認識・理解シンポジウム(MIRU2018)</a>にてMIRUインタラクティブ発表賞を受賞"
             },
             {
-              "date": "8.5&ndash;8",
-              "content": "D3 五十川、<a class='news-link' href='https://sites.google.com/view/miru2018sapporo/' target='_new'>第21回 画像の認識・理解シンポジウム(MIRU2018)</a>にてポスター発表"
+                "date": "8.5&ndash;8",
+                "content": "D3 五十川、<a class='news-link' href='https://sites.google.com/view/miru2018sapporo/' target='_new'>第21回 画像の認識・理解シンポジウム(MIRU2018)</a>にてポスター発表"
             },
             {
-              "date": "7.1",
-              "content": "Extended Handが<a class='news-link' href='http://www.es.osaka-u.ac.jp/' target='_new'>大阪大学 基礎工学部/大学院基礎工学研究科</a>の最新研究情報で「<a class='news-link' href='http://www.es.osaka-u.ac.jp/ja/research/news/20180703-044528.html' target='_new'>身体と五感のサイバー拡張</a>」として紹介されました"
+                "date": "7.1",
+                "content": "Extended Handが<a class='news-link' href='http://www.es.osaka-u.ac.jp/' target='_new'>大阪大学 基礎工学部/大学院基礎工学研究科</a>の最新研究情報で「<a class='news-link' href='http://www.es.osaka-u.ac.jp/ja/research/news/20180703-044528.html' target='_new'>身体と五感のサイバー拡張</a>」として紹介されました"
             },
             {
-              "date": "6.21&ndash;23",
-              "content": "M2 刀根、<a class='news-link' href='http://cgvi.jp/vc2018/' target='_new'>第26回 Visual Computing 2018</a>にてポスター発表"
+                "date": "6.21&ndash;23",
+                "content": "M2 刀根、<a class='news-link' href='http://cgvi.jp/vc2018/' target='_new'>第26回 Visual Computing 2018</a>にてポスター発表"
             },
             {
-              "date": "6.3",
-              "content": "研究室遠足(<a class='news-link' href='http://noseden.hankyu.co.jp/mountain/bbqterrace/' target='_new'>妙見の森(兵庫県川西市)</a>)を敢行"
+                "date": "6.3",
+                "content": "研究室遠足(<a class='news-link' href='http://noseden.hankyu.co.jp/mountain/bbqterrace/' target='_new'>妙見の森(兵庫県川西市)</a>)を敢行"
             },
             {
-              "date": "5.23",
-              "content": "M1 上田、<a class='news-link' href='https://sci18.iscie.or.jp/' target='_new'>第62回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
+                "date": "5.23",
+                "content": "M1 上田、<a class='news-link' href='https://sci18.iscie.or.jp/' target='_new'>第62回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
             },
             {
-              "date": "5.16&ndash;18",
-              "content": "M1 上田、平谷、藤野、<a class='news-link' href='https://sci18.iscie.or.jp/' target='_new'>第62回システム制御情報学会研究発表講演会</a>にて口頭発表"
+                "date": "5.16&ndash;18",
+                "content": "M1 上田、平谷、藤野、<a class='news-link' href='https://sci18.iscie.or.jp/' target='_new'>第62回システム制御情報学会研究発表講演会</a>にて口頭発表"
             },
             {
-              "date": "4.16&ndash;20",
-              "content": "岩井准教授、<a class='news-link' href='https://www.eurographics2018.nl/' target='_new'>Eurographics 2018</a>にて、プロジェクションマッピング研究の最新動向調査を報告 (報告書は国際論文誌Computer Graphics Forumに採録)"
+                "date": "4.16&ndash;20",
+                "content": "岩井准教授、<a class='news-link' href='https://www.eurographics2018.nl/' target='_new'>Eurographics 2018</a>にて、プロジェクションマッピング研究の最新動向調査を報告 (報告書は国際論文誌Computer Graphics Forumに採録)"
             },
             {
-              "date": "3.25&ndash;28",
-              "content": "M1 田辺、触覚バーチャルリアリティに関する国際会議<a class='news-link' href='http://2018.hapticssymposium.org/' target='_new'>IEEE Haptics Symposium</a>にてデモ発表"
+                "date": "3.25&ndash;28",
+                "content": "M1 田辺、触覚バーチャルリアリティに関する国際会議<a class='news-link' href='http://2018.hapticssymposium.org/' target='_new'>IEEE Haptics Symposium</a>にてデモ発表"
             },
             {
-              "date": "3.19&ndash;24",
-              "content": "岩井准教授、バーチャルリアリティに関する国際会議<a class='news-link' href='http://ieeevr.org/2018/' target='_new'>IEEE VR</a>にて2件の口頭発表（いずれも国際論文誌IEEE TVCGに採録）"
+                "date": "3.19&ndash;24",
+                "content": "岩井准教授、バーチャルリアリティに関する国際会議<a class='news-link' href='http://ieeevr.org/2018/' target='_new'>IEEE VR</a>にて2件の口頭発表（いずれも国際論文誌IEEE TVCGに採録）"
             },
             {
-              "date": "3.14&ndash;16",
-              "content": "B4 青木、神之門、<a class='news-link' href='https://www.gakkai-web.net/gakkai/iee/program/2018/index.html' target='_new'>電気学会全国大会</a>にて口頭発表"
+                "date": "3.14&ndash;16",
+                "content": "B4 青木、神之門、<a class='news-link' href='https://www.gakkai-web.net/gakkai/iee/program/2018/index.html' target='_new'>電気学会全国大会</a>にて口頭発表"
             },
             {
-              "date": "3.7&ndash;11",
-              "content": "M1 河原、<a class='news-link' href='http://iui.acm.org/2018/' target='_new'>知的ユーザインタフェースに関する国際会議ACM IUI</a>にてポスター発表"
+                "date": "3.7&ndash;11",
+                "content": "M1 河原、<a class='news-link' href='http://iui.acm.org/2018/' target='_new'>知的ユーザインタフェースに関する国際会議ACM IUI</a>にてポスター発表"
             },
             {
-              "date": "3.5&ndash;7",
-              "content": "M1 田辺、<a class='news-link' href='http://www.interaction-ipsj.org/2018/' target='_new'>インタラクション2018</a>にてインタラクティブ発表"
+                "date": "3.5&ndash;7",
+                "content": "M1 田辺、<a class='news-link' href='http://www.interaction-ipsj.org/2018/' target='_new'>インタラクション2018</a>にてインタラクティブ発表"
             },
             {
-              "date": "3.3&ndash;4",
-              "content": "B4 安部、上田、神之門、平谷、藤野、松井、<a class='news-link' href='http://www.science-i.jp/' target='_new'>サイエンスインカレ</a>にて口頭発表"
+                "date": "3.3&ndash;4",
+                "content": "B4 安部、上田、神之門、平谷、藤野、松井、<a class='news-link' href='http://www.science-i.jp/' target='_new'>サイエンスインカレ</a>にて口頭発表"
             },
             {
-              "date": "2.28",
-              "content": "B4 阿部、<a class='news-link' href='http://www.sigcs.org/2018/02/63.html' target='_new'>日本バーチャルリアリティ学会サイバースペースと仮想都市研究会第63回研究会</a>にて口頭発表"
+                "date": "2.28",
+                "content": "B4 阿部、<a class='news-link' href='http://www.sigcs.org/2018/02/63.html' target='_new'>日本バーチャルリアリティ学会サイバースペースと仮想都市研究会第63回研究会</a>にて口頭発表"
             },
             {
-              "date": "2.22&ndash;23",
-              "content": "B4、卒論発表会"
+                "date": "2.22&ndash;23",
+                "content": "B4、卒論発表会"
             },
             {
-              "date": "2.7&ndash;8",
-              "content": "M2、修論発表会"
+                "date": "2.7&ndash;8",
+                "content": "M2、修論発表会"
             },
             {
-              "date": "2.1",
-              "content": "D3 王、国際論文誌IEEE Access掲載の論文が<a class='news-link' href='http://ieeeaccess.ieee.org/uncategorized/2017-ieee-access-best-multimedia-contest-part-1-winners/' target='_new'>2017 IEEE Access Best Multimedia Contest Part 1</a>のGrand Prizeを受賞       "
+                "date": "2.1",
+                "content": "D3 王、国際論文誌IEEE Access掲載の論文が<a class='news-link' href='http://ieeeaccess.ieee.org/uncategorized/2017-ieee-access-best-multimedia-contest-part-1-winners/' target='_new'>2017 IEEE Access Best Multimedia Contest Part 1</a>のGrand Prizeを受賞       "
             },
             {
-              "date": "1.19",
-              "content": "岩井准教授、<a class='news-link' href='http://www.ieice.org/ken/program/index.php?tgs_regid=93eec620b80c4adaf78e37e53cc6728431e7a7aec4eddb0774c5287d3a2ec203&tgid=IEICE-PRMU&lang=' target='_new'>電子情報通信学会パターン認識・メディア理解研究会（PRMU）</a>にて招待講演"
+                "date": "1.19",
+                "content": "岩井准教授、<a class='news-link' href='http://www.ieice.org/ken/program/index.php?tgs_regid=93eec620b80c4adaf78e37e53cc6728431e7a7aec4eddb0774c5287d3a2ec203&tgid=IEICE-PRMU&lang=' target='_new'>電子情報通信学会パターン認識・メディア理解研究会（PRMU）</a>にて招待講演"
             }
         ]
     },
@@ -150,144 +157,144 @@
                 "content": "M1 竹澤、基礎工学部同窓会 海外研修奨励賞を受賞"
             },
             {
-              "date": "12.14",
-              "content": "D3 王、公聴会"
+                "date": "12.14",
+                "content": "D3 王、公聴会"
             },
             {
-              "date": "11.28",
-              "content": "OB北嶋、<a class='news-link' href='https://sa2017.siggraph.org/attendees/ieee-tvcg-session?view=session&sid=86' target='_new'>SIGGRAPHA ASIA 2017</a>のTVCG Special Session on Mixed and Augmented Realityにて招待講演"
+                "date": "11.28",
+                "content": "OB北嶋、<a class='news-link' href='https://sa2017.siggraph.org/attendees/ieee-tvcg-session?view=session&sid=86' target='_new'>SIGGRAPHA ASIA 2017</a>のTVCG Special Session on Mixed and Augmented Realityにて招待講演"
             },
             {
-              "date": "11.10",
-              "content": "OB北嶋の研究成果が、誠文堂新光社の<a class='news-link' href='http://www.seibundo-shinkosha.net/products/detail.php?product_id=5613' target='_new'>「子供の科学」12月号</a>の「コカトピ！」コーナーで「プロジェクションマッピングの新技術」として掲載 <a class='news-link' href='http://sens7.blogspot.jp/2017/11/12.html' target='_new'>(ブログ)</a>"
+                "date": "11.10",
+                "content": "OB北嶋の研究成果が、誠文堂新光社の<a class='news-link' href='http://www.seibundo-shinkosha.net/products/detail.php?product_id=5613' target='_new'>「子供の科学」12月号</a>の「コカトピ！」コーナーで「プロジェクションマッピングの新技術」として掲載 <a class='news-link' href='http://sens7.blogspot.jp/2017/11/12.html' target='_new'>(ブログ)</a>"
             },
             {
-              "date": "11.3",
-              "content": "<a class='news-link' href='http://sens7.blogspot.jp/2017/11/blog-post.html' target='_new'>まちかね祭にてオープンラボを開催</a>"
+                "date": "11.3",
+                "content": "<a class='news-link' href='http://sens7.blogspot.jp/2017/11/blog-post.html' target='_new'>まちかね祭にてオープンラボを開催</a>"
             },
             {
-              "date": "10.27",
-              "content": "岩井准教授、<a class='news-link' href='https://vlda-cons.org/business/committiee/newapps' target='_new'>可視光半導体レーザー応用コンソーシアム新規アプリ専門委員会</a>にて招待講演"
+                "date": "10.27",
+                "content": "岩井准教授、<a class='news-link' href='https://vlda-cons.org/business/committiee/newapps' target='_new'>可視光半導体レーザー応用コンソーシアム新規アプリ専門委員会</a>にて招待講演"
             },
             {
-              "date": "10.26",
-              "content": "M1 峯、<a class='news-link' href='http://www.ieice.org/ken/program/index.php?tgs_regid=b698a31629292f48a54b833b7b22c9c4020d3f5e10bda1ab960dacd098481bc0&tgid=IEICE-EID&lang=' target='_new'>電子情報通信学会電子ディスプレイ研究会</a>にて口頭発表"
+                "date": "10.26",
+                "content": "M1 峯、<a class='news-link' href='http://www.ieice.org/ken/program/index.php?tgs_regid=b698a31629292f48a54b833b7b22c9c4020d3f5e10bda1ab960dacd098481bc0&tgid=IEICE-EID&lang=' target='_new'>電子情報通信学会電子ディスプレイ研究会</a>にて口頭発表"
             },
             {
-              "date": "10.17",
-              "content": "岩井准教授、<a class='news-link' href='http://www.i-photonics.jp/meetings.html#201710173DDD' target='_new'>日本光学会情報フォトニクス研究グループ 3D Displays and Devices WG研究会「次世代映像技術」</a>にて招待講演"
+                "date": "10.17",
+                "content": "岩井准教授、<a class='news-link' href='http://www.i-photonics.jp/meetings.html#201710173DDD' target='_new'>日本光学会情報フォトニクス研究グループ 3D Displays and Devices WG研究会「次世代映像技術」</a>にて招待講演"
             },
             {
-              "date": "10.13",
-              "content": "岩井准教授、<a class='news-link' href='https://ist.ac.at/index.php?id=2480&event_id=883' target='_new'>IST Austria</a>にて招待講演"
+                "date": "10.13",
+                "content": "岩井准教授、<a class='news-link' href='https://ist.ac.at/index.php?id=2480&event_id=883' target='_new'>IST Austria</a>にて招待講演"
             },
             {
-              "date": "10.11&ndash;13",
-              "content": "M1 竹澤、<a class='news-link' href='http://www.jsae.or.jp/2017aki/' target='_new'>自動車技術会2017年秋季大会</a>にて口頭発表"
+                "date": "10.11&ndash;13",
+                "content": "M1 竹澤、<a class='news-link' href='http://www.jsae.or.jp/2017aki/' target='_new'>自動車技術会2017年秋季大会</a>にて口頭発表"
             },
             {
-              "date": "10.11",
-              "content": "岩井准教授、国際会議<a class='news-link' href='https://ismar2017.sciencesconf.org/resource/page/id/42' target='_new'>ISMAR 2017</a>にてOB北嶋の修論研究を口頭発表"
+                "date": "10.11",
+                "content": "岩井准教授、国際会議<a class='news-link' href='https://ismar2017.sciencesconf.org/resource/page/id/42' target='_new'>ISMAR 2017</a>にてOB北嶋の修論研究を口頭発表"
             },
             {
-              "date": "10.9",
-              "content": "岩井准教授、Disney Research Zurichにて招待講演"
+                "date": "10.9",
+                "content": "岩井准教授、Disney Research Zurichにて招待講演"
             },
             {
-              "date": "9.28",
-              "content": "D3 王、岩井准教授、<a class='news-link' href='https://vrsj.org/awards/best_papers/' target='_new'>日本バーチャルリアリティ学会論文賞</a>授与式に出席"
+                "date": "9.28",
+                "content": "D3 王、岩井准教授、<a class='news-link' href='https://vrsj.org/awards/best_papers/' target='_new'>日本バーチャルリアリティ学会論文賞</a>授与式に出席"
             },
             {
-              "date": "9.19",
-              "content": "松倉悠助教、<a class='news-link' href='https://www.jst.go.jp/kisoken/act-i/' target='_new'>平成29年度 戦略的創造研究推進事業（ACT-I）</a>に採択"
+                "date": "9.19",
+                "content": "松倉悠助教、<a class='news-link' href='https://www.jst.go.jp/kisoken/act-i/' target='_new'>平成29年度 戦略的創造研究推進事業（ACT-I）</a>に採択"
             },
             {
-              "date": "9.9&ndash;10",
-              "content": "M2 菊川、<a class='news-link' href='http://www.jface.jp/forum2017/' target='_new'>第22回日本顔学会大会（フォーラム顔学2017）</a>にてポスター発表"
+                "date": "9.9&ndash;10",
+                "content": "M2 菊川、<a class='news-link' href='http://www.jface.jp/forum2017/' target='_new'>第22回日本顔学会大会（フォーラム顔学2017）</a>にてポスター発表"
             },
             {
-              "date": "8.30",
-              "content": "岩井准教授、国際会議<a class='news-link' href='http://imid.or.kr/2017/download/program/Oral/21.pdf' target='_new'>IMID 2017</a>にて招待講演"
+                "date": "8.30",
+                "content": "岩井准教授、国際会議<a class='news-link' href='http://imid.or.kr/2017/download/program/Oral/21.pdf' target='_new'>IMID 2017</a>にて招待講演"
             },
             {
-              "date": "8.5",
-              "content": "岩井准教授、日本表面科学会関西支部主催<a class='news-link' href='http://www.sssj.org/Kansai/kansai_shimin19.html' target='_new'>「第19回市民講座」</a>にて講演"
+                "date": "8.5",
+                "content": "岩井准教授、日本表面科学会関西支部主催<a class='news-link' href='http://www.sssj.org/Kansai/kansai_shimin19.html' target='_new'>「第19回市民講座」</a>にて講演"
             },
             {
-              "date": "7.22",
-              "content": "M1 竹澤、大阪大学人工知能研究会「人工知能ワークショップ」にて講演"
+                "date": "7.22",
+                "content": "M1 竹澤、大阪大学人工知能研究会「人工知能ワークショップ」にて講演"
             },
             {
-              "date": "6.20",
-              "content": "<a class='news-link' href='http://techon.nikkeibp.co.jp/atcl/mag/15/318381/201707/?rt=nocnt' target='_new'>日経エレクトロニクス 2017年7月号</a>「どこでもAR」特集にて、ExtendedHandおよびドローンプロジェクションが紹介されました"
+                "date": "6.20",
+                "content": "<a class='news-link' href='http://techon.nikkeibp.co.jp/atcl/mag/15/318381/201707/?rt=nocnt' target='_new'>日経エレクトロニクス 2017年7月号</a>「どこでもAR」特集にて、ExtendedHandおよびドローンプロジェクションが紹介されました"
             },
             {
-              "date": "6.12&ndash;13",
-              "content": "M1 萩野、峯、<a class='news-link' href='https://scf.acm.org/' target='_new'>SCF2017(ACM SYMPOSIUM ON COMPUTATIONAL FABRICATION)</a>にてポスター発表"
+                "date": "6.12&ndash;13",
+                "content": "M1 萩野、峯、<a class='news-link' href='https://scf.acm.org/' target='_new'>SCF2017(ACM SYMPOSIUM ON COMPUTATIONAL FABRICATION)</a>にてポスター発表"
             },
             {
-              "date": "5.28",
-              "content": "研究室遠足(<a class='news-link' href='http://www.arima-fuji.com/' target='_new'>しい茸園 有馬富士(兵庫県三田市)</a>)を敢行"
+                "date": "5.28",
+                "content": "研究室遠足(<a class='news-link' href='http://www.arima-fuji.com/' target='_new'>しい茸園 有馬富士(兵庫県三田市)</a>)を敢行"
             },
             {
-              "date": "5.23",
-              "content": "M1 河原、峯、<a class='news-link' href='https://sci17.iscie.or.jp/' target='_new'>第61回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
+                "date": "5.23",
+                "content": "M1 河原、峯、<a class='news-link' href='https://sci17.iscie.or.jp/' target='_new'>第61回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
             },
             {
-              "date": "5.23&ndash;26",
-              "content": "M2 奥谷、<a class='news-link' href='https://www.ai-gakkai.or.jp/jsai2017/' target='_new'>2017年度 人工知能学会全国大会（第31回）</a>にて口頭発表"
+                "date": "5.23&ndash;26",
+                "content": "M2 奥谷、<a class='news-link' href='https://www.ai-gakkai.or.jp/jsai2017/' target='_new'>2017年度 人工知能学会全国大会（第31回）</a>にて口頭発表"
             },
             {
-              "date": "5.23&ndash;25",
-              "content": "M2 菊川、M1 河原、佐藤、田辺、刀根、萩野、峯、<a class='news-link' href='https://sci17.iscie.or.jp/' target='_new'>第61回システム制御情報学会研究発表講演会</a>にて口頭発表"
+                "date": "5.23&ndash;25",
+                "content": "M2 菊川、M1 河原、佐藤、田辺、刀根、萩野、峯、<a class='news-link' href='https://sci17.iscie.or.jp/' target='_new'>第61回システム制御情報学会研究発表講演会</a>にて口頭発表"
             },
             {
-              "date": "4.22&ndash;24",
-              "content": "M2 城野、<a class='news-link' href='http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59682&copyownerid=94317' target='_new'>ASIAGRAPH 2017</a>にてポスター発表"
+                "date": "4.22&ndash;24",
+                "content": "M2 城野、<a class='news-link' href='http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59682&copyownerid=94317' target='_new'>ASIAGRAPH 2017</a>にてポスター発表"
             },
             {
-              "date": "4.3",
-              "content": "松倉悠助教 着任"
+                "date": "4.3",
+                "content": "松倉悠助教 着任"
             },
             {
-              "date": "3.22",
-              "content": "B4 河原、楠本賞を受賞"
+                "date": "3.22",
+                "content": "B4 河原、楠本賞を受賞"
             },
             {
-              "date": "3.22",
-              "content": "B4 萩野、基礎工学部賞を受賞"
+                "date": "3.22",
+                "content": "B4 萩野、基礎工学部賞を受賞"
             },
             {
-              "date": "3.22",
-              "content": "M2 浅山、基礎工学研究科賞を受賞"
+                "date": "3.22",
+                "content": "M2 浅山、基礎工学研究科賞を受賞"
             },
             {
-              "date": "3.22",
-              "content": "M2 上田、システム科学領域賞を受賞"
+                "date": "3.22",
+                "content": "M2 上田、システム科学領域賞を受賞"
             },
             {
-              "date": "3.22&ndash;25",
-              "content": "B4 竹澤、<a class='news-link' href='http://www.ieice-taikai.jp/2017general/jpn/' target='_new'>電子情報通信学会総合大会</a>にて口頭発表"
+                "date": "3.22&ndash;25",
+                "content": "B4 竹澤、<a class='news-link' href='http://www.ieice-taikai.jp/2017general/jpn/' target='_new'>電子情報通信学会総合大会</a>にて口頭発表"
             },
             {
-              "date": "3.16&ndash;18",
-              "content": "M1 榎本、<a class='news-link' href='http://ah2017.com/' target='_new'>Augmented Human 2017(AH2017)</a>にて口頭発表"
+                "date": "3.16&ndash;18",
+                "content": "M1 榎本、<a class='news-link' href='http://ah2017.com/' target='_new'>Augmented Human 2017(AH2017)</a>にて口頭発表"
             },
             {
-              "date": "3.10&ndash;11",
-              "content": "M1 浅井、<a class='news-link' href='http://ipsj-aac.org/%e7%a0%94%e7%a9%b6%e4%bc%9a/%e7%ac%ac3%e5%9b%9e%e7%a0%94%e7%a9%b6%e4%bc%9a-2017-aac-003/' target='_new'>情報処理学会 アクセシビリティ研究会 第3回研究会(2017-AAC-003)</a>にて口頭発表"
+                "date": "3.10&ndash;11",
+                "content": "M1 浅井、<a class='news-link' href='http://ipsj-aac.org/%e7%a0%94%e7%a9%b6%e4%bc%9a/%e7%ac%ac3%e5%9b%9e%e7%a0%94%e7%a9%b6%e4%bc%9a-2017-aac-003/' target='_new'>情報処理学会 アクセシビリティ研究会 第3回研究会(2017-AAC-003)</a>にて口頭発表"
             },
             {
-              "date": "3.4&ndash;5",
-              "content": "B4 河原、佐藤、刀根、萩野<a class='news-link' href='http://www.science-i.jp/' target='_new'>サイエンス・インカレ</a>にてポスター発表"
+                "date": "3.4&ndash;5",
+                "content": "B4 河原、佐藤、刀根、萩野<a class='news-link' href='http://www.science-i.jp/' target='_new'>サイエンス・インカレ</a>にてポスター発表"
             },
             {
-              "date": "3.4&ndash;5",
-              "content": "B4 峯、<a class='news-link' href='http://www.science-i.jp/' target='_new'>サイエンス・インカレ</a>にて口頭発表"
+                "date": "3.4&ndash;5",
+                "content": "B4 峯、<a class='news-link' href='http://www.science-i.jp/' target='_new'>サイエンス・インカレ</a>にて口頭発表"
             },
             {
-              "date": "1.19&ndash;20",
-              "content": "M2 青木、北嶋、<a class='news-link' href='http://sigmr.vrsj.org/events/2017Jan.html' target='_new'>複合現実感研究会(SIG-MR)</a>にて口頭発表"
+                "date": "1.19&ndash;20",
+                "content": "M2 青木、北嶋、<a class='news-link' href='http://sigmr.vrsj.org/events/2017Jan.html' target='_new'>複合現実感研究会(SIG-MR)</a>にて口頭発表"
             },
             {
                 "date": "1.17",
