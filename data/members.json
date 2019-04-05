@@ -115,7 +115,43 @@
   },
   {
     "attribute": "B4 /学部4回生",
-    "people": []
+    "people": [
+      {
+        "nameJP": "寺井 晴香",
+        "nameEN": "Terai Haruka",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "本田 健斗",
+        "nameEN": "Honda Kento",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "三木 明穂",
+        "nameEN": "Miki Akiho",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "宮武 大和",
+        "nameEN": "Miyatake Yamato",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "山本 健太",
+        "nameEN": "Yamamoto Kenta",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "義田 遼太郎",
+        "nameEN": "Yoshida Ryotaro",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "渡邊 あきら",
+        "nameEN": "Watanabe Akira",
+        "photoPass": "images/members/silhouette.jpg"
+      }
+    ]
   },
   {
     "attribute": "Research Student / 研究生 : Exchange Student / 留学生",
