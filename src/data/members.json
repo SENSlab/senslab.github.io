@@ -90,7 +90,6 @@
       {
         "nameJP": "影山 雄太",
         "nameEN": "Yuta Kageyama",
-        "position": "",
         "photoPass": "images/members/kageyama.jpg"
       },
       {
@@ -109,14 +108,14 @@
         "photoPass": "images/members/sugimoto.jpg"
       },
       {
-        "nameJP": "森田 耕平",
-        "nameEN": "Kohei Morita",
-        "photoPass": "images/members/morita.jpg"
-      },
-      {
         "nameJP": "三好 幹",
         "nameEN": "Motoki Miyoshi",
         "photoPass": "images/members/miyoshi.jpg"
+      },
+      {
+        "nameJP": "森田 耕平",
+        "nameEN": "Kohei Morita",
+        "photoPass": "images/members/morita.jpg"
       }
     ]
   },
