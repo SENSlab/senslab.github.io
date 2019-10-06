@@ -58,6 +58,20 @@
         "nameEN": "Takumi Kaminokado",
         "photoPass": "images/members/kaminokado.jpg"
       }
+    ],
+    "exchange": [
+      {
+        "nameJP": "林 映汝",
+        "nameEN": "Ying Ju Lin",
+        "positionOther": "(iExpo project)",
+        "photoPass": "images/members/lin.jpg"
+      },
+      {
+        "nameJP": "モロジ フェデリコ",
+        "nameEN": "Federico Morosi",
+        "positionOther": "(SPARK project)",
+        "photoPass": "images/members/federico.jpg"
+      }
     ]
   },
   {
