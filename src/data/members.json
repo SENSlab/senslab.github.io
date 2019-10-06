@@ -100,6 +100,7 @@
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
+        "link": "https://youseegreen.github.io/",
         "photoPass": "images/members/ysato.jpg"
       },
       {
@@ -156,25 +157,6 @@
         "nameJP": "渡邊 あきら",
         "nameEN": "Akira Watanabe",
         "photoPass": "images/members/watanabe.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "Exchange Student / 留学生",
-    "people": [
-      {
-        "nameJP": "林 映汝",
-        "nameEN": "Ying Ju Lin",
-        "position": "Exchange student / 留学生",
-        "positionOther": "(iExpo project)",
-        "photoPass": "images/members/lin.jpg"
-      },
-      {
-        "nameJP": "モロジ フェデリコ",
-        "nameEN": "Federico Morosi",
-        "position": "Exchange student / 留学生",
-        "positionOther": "(SPARK project)",
-        "photoPass": "images/members/federico.jpg"
       }
     ]
   }
