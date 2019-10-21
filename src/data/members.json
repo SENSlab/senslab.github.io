@@ -159,5 +159,15 @@
         "photoPass": "images/members/watanabe.jpg"
       }
     ]
+  },
+  {
+    "attribute": "Exchange Student / 留学生",
+    "people": [
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/lin.jpg"
+      }
+    ]
   }
 ]
