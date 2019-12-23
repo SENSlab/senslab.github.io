@@ -22,7 +22,7 @@
     "@types/crypto-js": "^3.1.43",
     "angular-bootstrap-md": "^6.2.2",
     "chart.js": "^2.9.3",
-    "core-js": "^2.6.10",
+    "core-js": "^2.6.11",
     "crypto-js": "^3.1.9-1",
     "rxjs": "^6.5.3",
     "tslib": "^1.10.0",
