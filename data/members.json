@@ -117,6 +117,11 @@
         "nameJP": "森田 耕平",
         "nameEN": "Kohei Morita",
         "photoPass": "images/members/morita.jpg"
+      },
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   },
@@ -157,16 +162,6 @@
         "nameJP": "渡邊 あきら",
         "nameEN": "Akira Watanabe",
         "photoPass": "images/members/watanabe.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "Exchange Student / 留学生",
-    "people": [
-      {
-        "nameJP": "段 力瑗",
-        "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   }
