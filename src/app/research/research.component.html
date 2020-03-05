@@ -9,52 +9,62 @@
 
   <div class="row">
     <a href='http://senssyses.sakura.ne.jp/research/index.html' target='_new' class='link-btn-square ml-3 mb-3'>
-      <span class='btn-text'>
-      <i class="fas fa-history"></i> Archives
-      </span>
+		<span class='btn-text'>
+		<i class="fas fa-history"></i> Archives
+		</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>All</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>Projector-Camera System / プロジェクタ応用工学</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>User Interfaces / ユーザインタフェース</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>Computer Vision / コンピュータビジョン</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>Digital Achieve / デジタルアーカイブ応</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>Design Engineering / デザイン工学</span>
+    </a>
+	
+	<a id="show_all_res_btn" class="link-btn-square ml-3 mb-3" style="text-align: center;" (click)="showAllRes()" [hidden]="searchText">
+		<span class='btn-text'>Sensor Network / センサネットワーク</span>
     </a>
   </div>
 
   <div id="research" class="research-body"></div>
-  
-  <div class="row portfolio">
-	<div class="col-sm-12" style="text-align: left;">
-			<div class="research-filter-controls">
-			<br />
-			<button type="button" class="control" data-project-toggle="input-all">All Projects</button>
-			<button type="button" class="control" data-project-toggle="input-theme-vr-ar">VR/AR</button>
-			<button type="button" class="control" data-project-toggle="input-theme-perception">Human Perception</button>
-			<button type="button" class="control" data-project-toggle="input-theme-fabrication">Fabrication</button>
+  <ng-container *ngFor="let res of researches">
+	<div class='row mb-5'>
+		<div class='col-md-3'>
+			<img src={{res.photoPass}} class='research-image'>
+		</div>
+		<div class='col-md-9'>
+			<div class='research-title'>{{res.titleJP}}</div>
+			<div class='research-title'>{{res.titleEN}}</div>
+			<div class='research-publication'>({{res.publication}})</div>
+			<div class='research-abstract mt-3'>{{res.abstract}}</div>
+			<div class='research-collaboration mb-3'>
+				<div [innerHTML]="(res.collaboration !== '' ? '(' : '') + res.collaboration + (res.collaboration !== '' ? ')' : '')"></div>
+			</div>
+			<a href={{res.link}} target='_new' class='link-btn-square'>
+			  <span class='btn-text'>
+				<i class='fas fa-link'></i> Details
+			  </span>
+			</a>
 		</div>
 	</div>
-  </div>
-  
-  <div class="search-included" data-project-toggle="search-included" id="container">
-  <ng-container *ngFor="let res of researches">
-    <div class='row mb-5'>
-      <div class='col-md-3'>
-        <img src={{res.photoPass}} class='research-image'>
-      </div>
-      <div class='col-md-9'>
-        <div class='research-title'>{{res.titleJP}}</div>
-        <div class='research-title'>{{res.titleEN}}</div>
-        <div class='research-publication'>({{res.publication}})</div>
-        <div class='research-abstract mt-3'>{{res.abstract}}</div>
-        <div class='research-collaboration mb-3'>
-          <div [innerHTML]="(res.collaboration !== '' ? '(' : '') + res.collaboration + (res.collaboration !== '' ? ')' : '')"></div>
-        </div>
-        <a href={{res.link}} target='_new' class='link-btn-square'>
-          <span class='btn-text'>
-            <i class='fas fa-link'></i> Detail
-          </span>
-        </a>
-      </div>
-    </div>
   </ng-container>
-  </div>
 </div>
-
-<script type="text/javascript" src="research.component.min.js"></script>
-<script type="text/javascript" src="research.component.search.js"></script>
 
 <div class="mb-5"></div>

@@ -13,6 +13,7 @@ export class NewsInAYear {
 }
 
 export class ResearchData {
+  catagory: String;
   photoPass: String;
   titleJP: String;
   titleEN: String;

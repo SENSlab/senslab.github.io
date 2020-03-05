@@ -14,8 +14,7 @@ export class ResearchComponent implements OnInit {
 
   ngOnInit() {
     this.data.getResearches().subscribe(
-      val => this.researches = val
+		val => this.researches = val
     );
   }
-
 }
