@@ -1,5 +1,6 @@
 [
     {
+		"theme": "vr",
         "photoPass": "images/researches/colormod.jpg",
         "titleJP": "3Dプリント後でも自由に色が変えられる",
         "titleEN": "ColorMod: Recoloring 3D Printed Objects using Photochromic Inks",
@@ -9,6 +10,7 @@
         "collaboration": "HCI Engineering Group@MIT CSAIL [<a href='http://hcie.csail.mit.edu/' target='_new' class='research-link'>HP</a>]との共同調査"
     },
     {
+		"theme": "vr",
         "photoPass": "images/researches/markerfab.jpg",
         "titleJP": "隠消型プロジェクションマッピングマーカー",
         "titleEN": "Fabricating Diminishable Visual Markers for Projection Mapping",
