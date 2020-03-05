@@ -35,7 +35,7 @@
         "link": "http://daisukeiwai.org/jp/research/spap.html",
         "collaboration": ""
     },
-    {
+    {	
         "photoPass": "images/researches/makeup.jpg",
         "titleJP": "Makeup Lamps: 顔へのリアルタイムプロジェクションマッピング",
         "titleEN": "Makeup Lamps: Live Augmentation of Human Faces via Projection",
@@ -72,22 +72,22 @@
       "collaboration": "Disney Research Zürich[<a href='https://www.disneyresearch.com/' target='_new' class='research-link'>HP</a>]との共同調査"
     },
     {
-      "photoPass": "images/researches/hysar.jpg",
-      "titleJP": "HySAR: プロジェクションマッピングと透過型ARを組み合わせた質感再現",
-      "titleEN": "HySAR: Hybrid Material Rendering by an Optical See-Through Head-Mounted Display with Spatial Augmented Reality Projection",
-      "publication": "IEEE TVCG 2018, IEEE VR 2018",
-      "abstract": "プロジェクションマッピングと透過型の拡張現実感ディスプレイ(例: ホロレンズ)を組み合わせた、高品位な質感再現フレームワークを提案しました。プロジェクションマッピングを用いることで、現実空間に所望の質感をもつ3次元物体を再現する試みが行われてきました。しかしながら、プロジェクションマッピングで描画される模様は、見る方向が変わっても同じ...",
-      "link": "http://daisukeiwai.org/jp/research/hysar.html",
-      "collaboration": "慶應義塾大学・杉本麻樹准教授[<a href='http://im-lab.net/' target='_new' class='research-link'>HP</a>]、東京工業大学・伊藤勇太助教[<a href='http://www.ar.c.titech.ac.jp/' target='_new' class='research-link'>HP</a>]との共同研究"
+        "photoPass": "images/researches/hysar.jpg",
+		"titleJP": "HySAR: プロジェクションマッピングと透過型ARを組み合わせた質感再現",
+		"titleEN": "HySAR: Hybrid Material Rendering by an Optical See-Through Head-Mounted Display with Spatial Augmented Reality Projection",
+		"publication": "IEEE TVCG 2018, IEEE VR 2018",
+		"abstract": "プロジェクションマッピングと透過型の拡張現実感ディスプレイ(例: ホロレンズ)を組み合わせた、高品位な質感再現フレームワークを提案しました。プロジェクションマッピングを用いることで、現実空間に所望の質感をもつ3次元物体を再現する試みが行われてきました。しかしながら、プロジェクションマッピングで描画される模様は、見る方向が変わっても同じ...",
+		"link": "http://daisukeiwai.org/jp/research/hysar.html",
+		"collaboration": "慶應義塾大学・杉本麻樹准教授[<a href='http://im-lab.net/' target='_new' class='research-link'>HP</a>]、東京工業大学・伊藤勇太助教[<a href='http://www.ar.c.titech.ac.jp/' target='_new' class='research-link'>HP</a>]との共同研究"
     },
     {
-      "photoPass": "images/researches/distopt2.jpg",
-      "titleJP": "分散最適化にもとづく協調型プロジェクションマッピング影除去",
-      "titleEN": "Inter-reflection Compensation of Immersive Projection Display by Spatio-Temporal Screen Reflectance Modulation",
-      "publication": "Computer Graphics Forum 2017, Eurographics 2017",
-      "abstract": "プロジェクションマッピングでは、プロジェクタと投影対象との間に遮蔽物があると、映像に影が生じてしまうという問題がある。一方、プロジェクションマッピングでは、複数台のプロジェクタが同時に使用されることが多く、特に大規模な場合には、数十台のプロジェクタが使われることもある。...",
-      "link": "http://daisukeiwai.org/jp/research/distopt2.html",
-      "collaboration": ""
+		"photoPass": "images/researches/distopt2.jpg",
+		"titleJP": "分散最適化にもとづく協調型プロジェクションマッピング影除去",
+		"titleEN": "Inter-reflection Compensation of Immersive Projection Display by Spatio-Temporal Screen Reflectance Modulation",
+		"publication": "Computer Graphics Forum 2017, Eurographics 2017",
+		"abstract": "プロジェクションマッピングでは、プロジェクタと投影対象との間に遮蔽物があると、映像に影が生じてしまうという問題がある。一方、プロジェクションマッピングでは、複数台のプロジェクタが同時に使用されることが多く、特に大規模な場合には、数十台のプロジェクタが使われることもある。...",
+		"link": "http://daisukeiwai.org/jp/research/distopt2.html",
+		"collaboration": ""
     },
     {
       "photoPass": "images/researches/softar.jpg",
