@@ -45,10 +45,20 @@
 	<a href='http://senssyses.sakura.ne.jp/research/sensor.html' target='_new' class='link-btn-square ml-3 mb-3'>
 		<span class='btn-text'>Sensor Network / センサネットワーク</span>
     </a>
+	
+	    <div class="col-12 col-md-6">
+      <form class="form-inline md-form form-sm">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input class="col-8 col-md-10 form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="research-search"
+          placeholder="Search">
+        <i class="far fa-times-circle custom-button" aria-hidden="true" (click)='clearQuery()'></i>
+      </form>
+    </div>
+	
   </div>
 
   <div id="research" class="research-body"></div>
-  <ng-container *ngFor="let res of researches">
+  <ng-container *ngFor="let res of (researches | researchFilter: searchText)">
 	<div class='row mb-5'>
 		<div class='col-md-3'>
 			<img src={{res.photoPass}} class='research-image'>

@@ -8,6 +8,7 @@ import { DataService, ResearchData } from '../data.service';
   encapsulation: ViewEncapsulation.None, // needed to apply css to innerhtml
 })
 export class ResearchComponent implements OnInit {
+  searchText: String;
   researches: ResearchData[];
 
   constructor(private data: DataService) { }
@@ -15,8 +16,12 @@ export class ResearchComponent implements OnInit {
   ngOnInit() {
 
     this.data.getResearches().subscribe(
-		val => this.researches = val
+	val => {this.researches = val}
     ); 
+  }
+  
+  clearQuery(){
+    this.searchText = '';
   }
   
 }

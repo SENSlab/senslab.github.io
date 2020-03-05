@@ -19,6 +19,7 @@ import { MemberComponent } from './member/member.component';
 import { PublicationComponent } from './publication/publication.component';
 import { HistoryComponent } from './history/history.component';
 import { PublicationFilterPipe } from './publication-filter.pipe';
+import { ResearchFilterPipe } from './research-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { PublicationFilterPipe } from './publication-filter.pipe';
     PublicationComponent,
     HistoryComponent,
     PublicationFilterPipe,
+	ResearchFilterPipe,
   ],
   imports: [
     BrowserModule,
