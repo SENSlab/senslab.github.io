@@ -14,12 +14,13 @@ export class ResearchComponent implements OnInit {
   constructor(private data: DataService) { }
 
   ngOnInit() {
-
-    this.data.getResearches().subscribe(
-	val => {this.researches = val}
-    ); 
+    this.data.getResearches().subscribe(val => {this.researches = val}); 
   }
   
+  viewTheme(input: String){
+    this.searchText = input;
+  }
+
   clearQuery(){
     this.searchText = '';
   }

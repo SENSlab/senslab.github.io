@@ -7,20 +7,10 @@ import { ResearchData } from './data.service';
 export class ResearchFilterPipe implements PipeTransform {
 
   transform(value: ResearchData[], searchText: string): ResearchData[] {
-	if (!value || !searchText)
+	  if (!value || !searchText)
       return value;
 	
-
-    //const srchreg = new RegExp(searchText, 'i');
-    //const repreg = new RegExp('(' + searchText + ')', 'gi');
-	
-	return value.filter( value => {
-	return value.theme.toLowerCase().match(searchText.toLowerCase());
-	});
-
-    //return value.filter(c =>
-    //c.theme.match(searchText));
-    //.filter(y => y.theme.length != 0)
+    return value.filter( val => {return val.theme.match(searchText);});
   }
 
 }

@@ -8,54 +8,46 @@
   </div>
 
   <div class="row">
-    <a href='http://senssyses.sakura.ne.jp/research/index.html' target='_new' class='link-btn-square ml-3 mb-3'>
-		<span class='btn-text'>
-		<i class="fas fa-history"></i> Archives
-		</span>
-    </a>
-  </div>
-
-  <div class="row">
-	<!--
-	<a href='http://senssyses.sakura.ne.jp/research/index.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='clearQuery()'> 
 		<span class='btn-text'>All</span>
-    </a>
-	-->
+	</a>
 
-	<a href='http://senssyses.sakura.ne.jp/research/mr.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='viewTheme("projector-camera system")'> 
 		<span class='btn-text'>Projector-Camera System / プロジェクタ応用工学</span>
     </a>
 
-	<a href='http://senssyses.sakura.ne.jp/research/if.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='viewTheme("user interfaces")'> 
 		<span class='btn-text'>User Interfaces / ユーザインタフェース</span>
     </a>
 	
-	<a href='http://senssyses.sakura.ne.jp/research/cv.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='viewTheme("computer vision")'> 
 		<span class='btn-text'>Computer Vision / コンピュータビジョン</span>
     </a>
 	
-	<a href='http://senssyses.sakura.ne.jp/research/digital.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='viewTheme("digital achieve")'> 
 		<span class='btn-text'>Digital Achieve / デジタルアーカイブ応</span>
     </a>
 	
-	<a href='http://senssyses.sakura.ne.jp/research/design.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='viewTheme("design engineering")'> 
 		<span class='btn-text'>Design Engineering / デザイン工学</span>
     </a>
 	
-	<a href='http://senssyses.sakura.ne.jp/research/sensor.html' target='_new' class='link-btn-square ml-3 mb-3'>
+	<a class='link-btn-square ml-3 mb-3' (click)='viewTheme("sensor network")'> 
 		<span class='btn-text'>Sensor Network / センサネットワーク</span>
     </a>
-	
-	    <div class="col-12 col-md-6">
-      <form class="form-inline md-form form-sm">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        <input class="col-8 col-md-10 form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="research-search"
-          placeholder="Search">
-        <i class="far fa-times-circle custom-button" aria-hidden="true" (click)='clearQuery()'></i>
-      </form>
-    </div>
-	
   </div>
+
+  	<!-- only available when the search panel is needed in this module -->
+	<!--
+	<div class="col-12 col-md-6">
+    	<form class="form-inline md-form form-sm">
+        	<i class="fa fa-search" aria-hidden="true"></i>
+        	<input class="col-8 col-md-10 form-control form-control-sm ml-3" type="search" [(ngModel)]="searchText" name="research-search"
+          	placeholder="Search">
+        	<i class="far fa-times-circle custom-button" aria-hidden="true" (click)='clearQuery()'></i>
+      	</form>
+    </div>
+	-->
 
   <div id="research" class="research-body"></div>
   <ng-container *ngFor="let res of (researches | researchFilter: searchText)">
@@ -79,6 +71,15 @@
 		</div>
 	</div>
   </ng-container>
+
+  	<div class="row">
+		<a href='http://senssyses.sakura.ne.jp/research/index.html' target='_new' class='link-btn-square ml-3 mb-3'>
+			<span class='btn-text'>
+			<i class="fas fa-history"></i> Archives
+			</span>
+		</a>
+	</div>
+
 </div>
 
 <div class="mb-5"></div>
