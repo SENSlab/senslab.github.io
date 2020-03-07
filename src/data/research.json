@@ -290,7 +290,7 @@
     }, 
     {
 		"theme": "computer vision",
-        "photoPass": "images/researches/alparslan.jfif",
+        "photoPass": "images/researches/alparslan.jpg",
         "titleJP": "Reconfiguration of Pan-tilt-zoom Cameras（パン・チルト・ズームカメラの視線制御に関する研究）",
         "titleEN": "研究者: Yildiz Alparslan Omer",
         "publication": "論文種別・提出年: 博士論文，大阪大学大学院基礎工学研究科，Mar．2015．",
@@ -310,7 +310,7 @@
     }, 
     {
 		"theme": "computer vision",
-        "photoPass": "images/researches/satos.jfif",
+        "photoPass": "images/researches/satos.jpg",
         "titleJP": "偏光カメラ画像を用いた未知環境の映り込みに頑健な光沢物体のリアルタイム三次元姿勢推定",
         "titleEN": "研究者: 佐藤　博俊",
         "publication": "論文種別・提出年: 修士論文，大阪大学大学院基礎工学研究科，Mar．2015．",
@@ -320,7 +320,7 @@
     }, 
     {
 		"theme": "computer vision",
-        "photoPass": "images/researches/yoshiyamak.jfif",
+        "photoPass": "images/researches/yoshiyamak.jpg",
         "titleJP": "間歇的照明下における動きベクトル推定を用いた昼間化画像処理",
         "titleEN": "研究者: 吉山　仁望",
         "publication": "論文種別・提出年: 卒業論文，大阪大学基礎工学部，Mar．2015．",
