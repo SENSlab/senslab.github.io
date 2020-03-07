@@ -1,6 +1,6 @@
 [
     {
-		"theme": "design engineering",
+		"theme": "digital achieve",
         "photoPass": "images/researches/",
         "titleJP": "",
         "titleEN": "",
@@ -10,7 +10,17 @@
         "collaboration": ""
     }, 
     {
-		"theme": "design engineering",
+		"theme": "digital achieve",
+        "photoPass": "images/researches/",
+        "titleJP": "",
+        "titleEN": "",
+        "publication": "",
+        "abstract": "",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
+		"theme": "digital achieve",
         "photoPass": "images/researches/",
         "titleJP": "",
         "titleEN": "",
@@ -276,6 +286,16 @@
         "titleEN": "研究者: 浅山　弘孝",
         "publication": "論文種別・提出年: 卒業論文，大阪大学基礎工学部，Mar. 2015.",
         "abstract": "複合現実感技術の一つに，色や形状のある三次元物体に投影を行うプロジェクションマッピング(PM) がある．PMでは，投影対象の色や形状に合わせて投影画像の補正を様々に行うため，投影対象の位置や姿勢などを測定する必要がある．この測定は投影対象が動く度に行わなければならないので，PMの投影対象は静的な物体であることが多く，動的な物体を対象としたPMは少ない. 以上のことから，本研究では動的な物体へのPMに注目する．従来の動的PMの位置姿勢推定手法は，投影対象にマーカを取り付ける手法と取り付けない手法に分けられる．前者には，追跡が行えるように投影対象は緩やかな動きに限られるという制約があり，後者においては，マーカを手作業で貼付することが多いため，手間に加えて誤差が発生して推定精度が低下する可能性がある．そこで，本研究では動的PM における位置姿勢推定のために，あらかじめ3D モデルにマーカを埋め込み，3D プリンタで投影対象を作成する手法を提案する．3D モデルに対するマーカの埋め込み，および3D プリンタによる投影対象の作成は，マーカ取り付けの手間と誤差を削減することや，事前のシミュレーションによって位置姿勢推定が正しく行えるようなマーカ配置を自動的に見つけることを可能にするといった利点がある．また，3D プリンタのフルカラー印刷技術により，マーカの色の濃さを自由に変えることが可能である．そのため，色を薄くすることで，プロジェクタの投影によって観測者からマーカを視認できなくすることが可能である．提案手法では，そのようなマーカの色を決定し，任意の方向から安定に位置姿勢推定ができるマーカ配置を遺伝的アルゴリズムによって自動的に算出する．この提案手法による動的PM の実現を本研究の目的とする．",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
+		"theme": "digital achieve",
+        "photoPass": "images/researches/morita.jpg",
+        "titleJP": "加工痕を利用した分割遺物の自動マッチング",
+        "titleEN": "研究者: 森多 花梨",
+        "publication": "論文種別・提出年: 卒業論文, 大阪大学基礎工学部, Mar. 2014.",
+        "abstract": "考古学において,発掘された遺物の元の形状を知るために遺物復元は重要な作業の一つである.しかし,現状の遺物復元は手作業による部分が大きいため,復元には多くの時間と労力を費やすことに加え,実際の遺物を使った復元では作業中に遺物が損傷する恐れもある.そこで,遺物を計測して得た三次元形状データを用いて遺物の形状を復元することが考えられる.本研究では,特に遺物復元における破片の接合面のマッチングを扱う. 提案手法は,加工痕の検出,初期位置推定,ICP アルゴリズムの大きく 3 つの処理に分かれる.まず,入力された遺物の三次元形状データから加工痕を検出する.加工痕は石材表面の他の部分に比べ平らであり,面積がほぼ一定であるという特徴を利用し,法線を用いた領域拡張法を適用することで加工痕の検出を行う.次に,検出した加工痕の位置から,断面の位置合わせのために初期位置を推定する.その初期位置から ICP アルゴリズムによって断面の位置合わせをすることで分割遺物の自動マッチングを行う.この ICP アルゴリズムでは,より正しい位置合わせを行えるよう,対応点間の距離と法線を用いて不要な対応関係の除去を施した.実際の遺物を計測して取得した三次元形状データを使用した実験により,加工痕を利用して分割遺物の自動マッチングが行えることを確認した.",
         "link": "",
         "collaboration": ""
     }, 
@@ -729,6 +749,16 @@
         "collaboration": ""
     }, 
     {
+		"theme": "digital achieve",
+        "photoPass": "images/researches/nakayamag.jpg",
+        "titleJP": "２Ｄデバイスによる３Ｄフォトブラウジングのための視点切替手法",
+        "titleEN": "研究者: 中山 太一郎",
+        "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2008.",
+        "abstract": "デジタルアーカイブは，写真や 3 次元形状データを取得しデータベース化する技術で，遺跡・遺物の色や形状の保存・閲覧に用いられてきた．近年は，WEB 技術の発展に伴い，データベースとして保存するだけにとどまらず一般的に公開を行うことが求められている．本研究ではWEB上でデジタルアーカイブの閲覧を効率的に行うことができるシステムを構築する．写真は，色や陰影による凹凸情報や周辺の様子が含まれる情報量の多いデータであると考えられるため，本システムでユーザに対して提示するデータは写真として利用する．しかし，写真データではユーザに写真間の位置関係や写真に対象の形状を知覚させることは難しく，さらに，写真は一般的にデータ数が多くなるため，ユーザは望む写真を探すために時間や労力を費やすことになる．そこで，本システムでは，3 次元形状情報をユーザに知覚させるために，3Dデータを用いて写真を3次元的に切り替える．ユーザにとって自然な3次元写真切替は，写真の高速な検索も可能にすると考えられる．さらに，3次元写真切替操作のためのデバイスは一般的に普及している 2D操作デバイスを用いることが望ましい．本論文では，2Dデバイスを用いて3Dフォトブラウジングを行うための一手法として，3次元頂点データを用いて構成したポテンシャル面に沿った視点移動を行う手法を提案した．さらに，Ajaxを用いたWEBアプリケー        ションやスマートデスクシステムで実装し，WEB上で実現できることやマウス以外の2Dデバイスでの操作に対しても応用できることを示した．",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
 		"theme": "sensor network",
         "photoPass": "images/researches/nakata.jpg",
         "titleJP": "カメラと光源を搭載した集中画像処理型センサネットワークの構築",
@@ -785,6 +815,26 @@
         "titleEN": "研究者: 宋 寛勝",
         "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2008.",
         "abstract": "近年，工業デザインや建築，そして漫画などの分野では，コンピュータの利用が盛んになっている．しかしながら，工業デザイナ，建築家，漫画家は作りたいもののイメージをまずハンドドローイングによる手描きラフスケッチによって表現する．本論文では，創作活動の初期のステップで行うハンドドローイングに対するコンピュータ支援システムを二つ提案する．一つ目は，ハンドドローイングを行う全ての人をターゲットユーザとする「hyperdraw: 推定ガイドラインのリアルタイム提示によるハンドドローイング支援システム」である．二つ目は，手描きパース制作を行う建築家や漫画家等をターゲットユーザとする「Hyperspective: パース制作中の消失点移動と補助線提示による手描きパース制作支援システム」である．両者の評価のために被験者実験を行った．hyperdrawに関しては，推定ガイドラインの提示がイメージ通りの線を描くことを支援していたかどうかを検証した．Hyperspectiveに関しては，「パースの補助線の提示機能」と「描画中に消失点を移動できる機能」の有効性を検証した．被験者実験の結果，提案システムのハンドドローイングに対する支援が有効であることを確認した．",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
+		"theme": "digital achieve",
+        "photoPass": "images/researches/minata.jpg",
+        "titleJP": "RFID を用いた作業映像の記録・管理システム",
+        "titleEN": "研究者: 南部 俊輔",
+        "publication": "論文種別・提出年: 卒業論文, 大阪大学基礎工学部, Mar. 2007.",
+        "abstract": "作業時に作業記録をつけておくことにより，後の作業を効率的に行うことができる．また，作業記録として映像データを記録しておけば，作業後に作業の検証を行う際や，第三者に作業の様子を伝える際に効果的に利用できる．そこで，本研究では RFID の非接触認証機能を利用することで，作業映像を自動で記録し，効率的に参照できるシステムの構築を目指す．具体的には，作業対象に IC タグを取り付けることで，作業者の作業対象への接触を感知し，それをトリガとして自動的に作業映像の記録を行う．また，作業場面ごとに IC タグから得られる作業者情報や作業場所情報などのメタ情報を記録映像に付加して保存する．付加されたメタ情報によってデータの管理が容易になる．さらに，作業対象に付加されたタグを読み取ることで直観的な記録映像の検索を可能とする．本論文では，システムの提案に加えて，システム構築のための基礎実験，および試作システムの実装と検証実験を行い，有効性を確認した．",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
+		"theme": "digital achieve",
+        "photoPass": "images/researches/tsukida.jpg",
+        "titleJP": "考古調査情報共有のための写真ブラウジングシステム",
+        "titleEN": "研究者: 鷹田 陽介",
+        "publication": "論文種別・提出年: 卒業論文, 大阪大学基礎工学部, Mar. 2007.",
+        "abstract": "考古調査におけるミーティングは，図面を机上に広げて行われることが多い．その図面を用いて議論をし，調査計画や調査報告を行う．そのとき提示される調査データや写真は，膨大な量であり，管理が十分にされていない場合は提示する側と提示される側との間で情報共有にかかる負荷が大きい．本研究では，考古調査のミーティングにおける情報共有を支援することを目的とし，調査データへの直観的なアクセス，実空間との幾何整合性が高い調査データの提示を目指す．本論文では調査データとして写真を扱い，考古調査において重要な要素となる位置情報を用いて写真の管理，写真へのアクセスを行い，実空間と幾何整合性の取れた写真提示が可能となるシステムを提案する．図面上に置かれたディスプレイの位置・方位をシステムの入力とし，その位置・方位に対応する実空間の位置・方位で撮影された写真を，システムの出力としてディスプレイに表示する．被験者実験により，本システムは，直観的な操作，写真へのアクセス，写真の提示が可能であり，また本写真提示手法は実空間との幾何整合性が高いことが示された．",
         "link": "",
         "collaboration": ""
     }, 
@@ -945,6 +995,16 @@
         "titleEN": "研究者: 坂本 武士",
         "publication": "論文種別・提出年: 卒業論文, 大阪大学基礎工学部, Mar. 2006.",
         "abstract": " テキスタイルデザインにおいて, 意匠パタンは製品（作品）の印象や価値を決める重要な要素である. 意匠パタンの審美的解析と合成は興味深い. 本研究は図形の印象が生まれるメカニズムを解明することを目的とする. 具体的には, フラクタル２次元パタンを L-System を用いて生成し, その図形のもつ印象を解析する. 解析手法として, フラクタル収束度と, 構造組成分析を提案し, これらの解析手法が人間の印象をよく区別可能であることを実験的に示す.",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
+		"theme": "digital achieve",
+        "photoPass": "images/researches/hang.jpg",
+        "titleJP": "A Study of photo archiving based on shooting position and orientation for field work",
+        "titleEN": "研究者: Hang Thi Thuy Bui",
+        "publication": "論文種別・提出年: Master Thesis, Graduate School of Engineering Science, Osaka University, Sep. 2005.",
+        "abstract": "Conventional photo browsers show photos as a grid of thumbnails that users can see a high resolution version of a photo by clicking on it. One of the problems when using these browsers is the difficulty to get an overview of the scene where the photos were taken. In this thesis, the author introduces a 3D photo browser that replaces the conventional grid of thumbnails by a simulated 3D space contains thumbnails. The browser is created base on shooting positions and orientations of cameras. With the purpose of determining orientations and positions of cameras used outdoor and even in severe conditions, the author uses direction to the sun, marker point and the flatness of terrain as constraints. In the proposed system, each camera is fixed with another fisheye lens camera, so that its orientation is determined through that of the fisheye lens camera. The orientation of the fisheye lens cameras can be determined using direction to the sun. As we know, depending on information of time and observed location we can determine position of the sun in the world coordinate system. Besides that, position of the sun relative to a fisheye lens camera coordinate system is determined through its coordinates in the image plane. Using the relationship between coordinates of the same point in different coordinate systems and an additional assumption that camera does not rotate about its y axis, orientation of the fisheye lens camera relative to the world coordinate system is determined. Assuming that the height from the ground to the normal camera is known, position of the camera is determined by using a marker point of which coordinates relative to the world coordinate system and coordinates of image point in image plane are known. As we know, field of view of a photo depends on image sensor size and focal length of the camera. So that, in the proposed system, appearance of a thumbnail photo in the browser is decided depending on the values of these two parameters. The image sensor size and focal length of a camera is obtained and calculated directly from Exif tag data of the photo. At last, to help viewers get an overview of the scene where the photos were taken, the proposed system allows users rotate the browser to see “the scene” from different directions, move “the scene” around the screen and they can also zoom in or zoom out “the scene” to change the viewpoint of the browser. And the browser also supports the function of displaying the high resolution version of the photo in a 2D window when user clicks on its thumbnail photo in the simulated 3D space.",
         "link": "",
         "collaboration": ""
     }, 
