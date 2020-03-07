@@ -49,8 +49,9 @@
     </div>
 	-->
 
-  <div id="research" class="research-body"></div>
-  <ng-container *ngFor="let res of (researches | researchFilter: searchText)">
+	<div id="research" class="research-body"></div>
+	  
+  	<ng-container *ngFor="let res of (researches | researchFilter: searchText)">
 	<div class='row mb-5'>
 		<div class='col-md-3'>
 			<img src={{res.photoPass}} class='research-image'>
@@ -70,8 +71,9 @@
 			</a>
 		</div>
 	</div>
-  </ng-container>
-
+  	</ng-container>
+	
+	<!--
   	<div class="row">
 		<a href='http://senssyses.sakura.ne.jp/research/index.html' target='_new' class='link-btn-square ml-3 mb-3'>
 			<span class='btn-text'>
@@ -79,6 +81,7 @@
 			</span>
 		</a>
 	</div>
+	-->
 
 </div>
 

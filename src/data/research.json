@@ -101,7 +101,7 @@
     }, 
     {
 		"theme": "computer vision",
-        "photoPass": "images/researches/yoshiyama.jpg",
+        "photoPass": "images/researches/yoshiyama.png",
         "titleJP": "符号化間歇照明による照明識別を利用した昼間化画像処理",
         "titleEN": "研究者: 吉山　仁望",
         "publication": "論文種別・提出年: 修士論文，大阪大学大学院基礎工学研究科，Mar. 2017.",
@@ -1589,7 +1589,7 @@
     },
     {
 		"theme": "computer vision",
-        "photoPass": "images/researches/moritani,jpg",
+        "photoPass": "images/researches/moritani.jpg",
         "titleJP": "多視点画像とCG 画像の比較に基づく動物体追跡に関する研究",
         "titleEN": "研究者: 森谷 貴行",
         "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2004.",
