@@ -1,6 +1,6 @@
 [
     {
-		"theme": "user interfaces",
+		"theme": "olfactory system",
         "photoPass": "images/researches/fujino.png",
         "titleJP": "匂い源に関する視覚情報を隠蔽した場合における人間の匂い源探索行動の調査",
         "titleEN": "研究者: 藤野　佑一",
@@ -30,7 +30,7 @@
         "collaboration": ""
     }, 
     {
-		"theme": "user interfaces",
+		"theme": "olfactory system",
         "photoPass": "images/researches/abe.png",
         "titleJP": "顔の位置や顔の角度によって匂いの放出位置や匂いの種類を切り替え可能なSmelling Screenの開発",
         "titleEN": "研究者: 安部 直喜",
