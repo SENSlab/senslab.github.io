@@ -63,26 +63,6 @@
     "attribute": "M2 /博士前期課程2年",
     "people": [
       {
-        "nameJP": "上田 龍幸",
-        "nameEN": "Tatsuyuki Ueda",
-        "photoPass": "images/members/ueda.jpg"
-      },
-      {
-        "nameJP": "平谷 光佑",
-        "nameEN": "Kosuke Hiratani",
-        "photoPass": "images/members/hiratani.jpg"
-      },
-      {
-        "nameJP": "藤野 佑一",
-        "nameEN": "Yuichi Fujino",
-        "photoPass": "images/members/fujino.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "M1 /博士前期課程1年",
-    "people": [
-      {
         "nameJP": "稲垣 理也",
         "nameEN": "Michiya Inagaki",
         "photoPass": "images/members/inagaki.jpg"
@@ -118,16 +98,11 @@
         "nameJP": "森田 耕平",
         "nameEN": "Kohei Morita",
         "photoPass": "images/members/morita.jpg"
-      },
-      {
-        "nameJP": "段 力瑗",
-        "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   },
   {
-    "attribute": "B4 /学部4回生",
+    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "寺井 晴香",
@@ -138,11 +113,6 @@
         "nameJP": "本田 健斗",
         "nameEN": "Kento Honda",
         "photoPass": "images/members/honda.jpg"
-      },
-      {
-        "nameJP": "三木 明穂",
-        "nameEN": "Akiho Miki",
-        "photoPass": "images/members/miki.jpg"
       },
       {
         "nameJP": "宮武 大和",
@@ -164,6 +134,11 @@
         "nameJP": "渡邊 あきら",
         "nameEN": "Akira Watanabe",
         "photoPass": "images/members/watanabe.jpg"
+      },
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   }
