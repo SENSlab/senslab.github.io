@@ -1,6 +1,47 @@
 [
   {
     "attribute": "2019",
+    "master": [
+      {
+        "nameJP": "上田 龍幸",
+        "nameEN": "Tatsuyuki Ueda",
+        "photoPass": "images/members/ueda.jpg"
+      },
+      {
+        "nameJP": "平谷 光佑",
+        "nameEN": "Kosuke Hiratani",
+        "photoPass": "images/members/hiratani.jpg"
+      },
+      {
+        "nameJP": "藤野 佑一",
+        "nameEN": "Yuichi Fujino",
+        "photoPass": "images/members/fujino.jpg"
+      }
+    ],
+    "bachelor":[
+      {
+        "nameJP": "三木 明穂",
+        "nameEN": "Akiho Miki",
+        "photoPass": "images/members/miki.jpg"
+      }
+    ],
+    "exchange": [
+      {
+        "nameJP": "林 映汝",
+        "nameEN": "Ying Ju Lin",
+        "positionOther": "(iExpo project)",
+        "photoPass": "images/members/lin.jpg"
+      },
+      {
+        "nameJP": "モロジ フェデリコ",
+        "nameEN": "Federico Morosi",
+        "positionOther": "(SPARK project)",
+        "photoPass": "images/members/federico.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "2018",
     "doctor": [
       {
         "nameJP": "五十川 麻理子",
@@ -58,24 +99,10 @@
         "nameEN": "Takumi Kaminokado",
         "photoPass": "images/members/kaminokado.jpg"
       }
-    ],
-    "exchange": [
-      {
-        "nameJP": "林 映汝",
-        "nameEN": "Ying Ju Lin",
-        "positionOther": "(iExpo project)",
-        "photoPass": "images/members/lin.jpg"
-      },
-      {
-        "nameJP": "モロジ フェデリコ",
-        "nameEN": "Federico Morosi",
-        "positionOther": "(SPARK project)",
-        "photoPass": "images/members/federico.jpg"
-      }
     ]
   },
   {
-    "attribute": "2018",
+    "attribute": "2017",
     "exchange": [
       {
         "nameJP": "段 廷霖",
