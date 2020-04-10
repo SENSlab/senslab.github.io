@@ -7,7 +7,7 @@
         "nameEN": "Kosuke Sato",
         "position": "Professor / 教授",
         "link": "https://kosuke-sato.jimdo.com/",
-        "photoPass": "images/members/sato.jpg"
+        "photoPass": "images/members/staff/sato.jpg"
       },
       {
         "nameJP": "岩井 大輔",
@@ -15,14 +15,14 @@
         "position": "Associate Professor / 准教授",
         "positionOther": "（データビリティフロンティア機構、JSTさきがけ 兼）",
         "link": "http://daisukeiwai.org/",
-        "photoPass": "images/members/iwai.jpg"
+        "photoPass": "images/members/staff/iwai.jpg"
       },
       {
         "nameJP": "松倉 悠",
         "nameEN": "Haruka Matsukura",
         "position": "Assistant Professor / 助教",
         "link": "https://haruka-matsu.jimdo.com/",
-        "photoPass": "images/members/matsukura.jpg"
+        "photoPass": "images/members/staff/matsukura.jpg"
       },
       {
         "nameJP": "プンポンサノン パリンヤ",
@@ -30,20 +30,20 @@
         "position": "Assistant Professor / 助教",
         "positionOther": "（高等共創研究院）",
         "link": "http://punpongsanon.info/",
-        "photoPass": "images/members/parinya.jpg"
+        "photoPass": "images/members/staff/parinya.jpg"
       },
       {
         "nameJP": "平木 剛史",
         "nameEN": "Takefumi Hiraki",
         "position": "JSPS Research Fellow / 日本学術振興会特別研究員 (PD)",
         "link": "https://takefumihiraki.com/jp/",
-        "photoPass": "images/members/hiraki.jpg"
+        "photoPass": "images/members/staff/hiraki.jpg"
       },
       {
         "nameJP": "是國 ゆう子",
         "nameEN": "Yuko Korekuni",
         "position": "Administrative Assistant / 事務員",
-        "photoPass": "images/members/korekuni.jpg"
+        "photoPass": "images/members/staff/korekuni.jpg"
       }
     ]
   },
@@ -64,39 +64,39 @@
       {
         "nameJP": "稲垣 理也",
         "nameEN": "Michiya Inagaki",
-        "photoPass": "images/members/inagaki.jpg"
+        "photoPass": "images/members/2018/inagaki.jpg"
       },
       {
         "nameJP": "影山 雄太",
         "nameEN": "Yuta Kageyama",
         "link": "https://kagechan5.github.io/",
-        "photoPass": "images/members/kageyama.jpg"
+        "photoPass": "images/members/2018/kageyama.jpg"
       },
       {
         "nameJP": "木村 宙志",
         "nameEN": "Sorashi Kimura",
-        "photoPass": "images/members/kimura.jpg"
+        "photoPass": "images/members/2018/kimura.jpg"
       },
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
         "link": "https://youseegreen.github.io/",
-        "photoPass": "images/members/ysato.jpg"
+        "photoPass": "images/members/2018/ysato.jpg"
       },
       {
         "nameJP": "杉本 正暁",
         "nameEN": "Masatoki Sugimoto",
-        "photoPass": "images/members/sugimoto.jpg"
+        "photoPass": "images/members/2018/sugimoto.jpg"
       },
       {
         "nameJP": "三好 幹",
         "nameEN": "Motoki Miyoshi",
-        "photoPass": "images/members/miyoshi.jpg"
+        "photoPass": "images/members/2018/miyoshi.jpg"
       },
       {
         "nameJP": "森田 耕平",
         "nameEN": "Kohei Morita",
-        "photoPass": "images/members/morita.jpg"
+        "photoPass": "images/members/2018/morita.jpg"
       }
     ]
   },
@@ -106,38 +106,38 @@
       {
         "nameJP": "寺井 晴香",
         "nameEN": "Haruka Terai",
-        "photoPass": "images/members/terai.jpg"
+        "photoPass": "images/members/2019/terai.jpg"
       },
       {
         "nameJP": "本田 健斗",
         "nameEN": "Kento Honda",
-        "photoPass": "images/members/honda.jpg"
+        "photoPass": "images/members/2019/honda.jpg"
       },
       {
         "nameJP": "宮武 大和",
         "nameEN": "Yamato Miyatake",
         "link": "https://mytkymt.github.io/",
-        "photoPass": "images/members/miyatake.jpg"
+        "photoPass": "images/members/2019/miyatake.jpg"
       },
       {
         "nameJP": "山本 健太",
         "nameEN": "Kenta Yamamoto",
-        "photoPass": "images/members/yamamoto.jpg"
+        "photoPass": "images/members/2019/yamamoto.jpg"
       },
       {
         "nameJP": "義田 遼太朗",
         "nameEN": "Ryotaro Yoshida",
-        "photoPass": "images/members/yoshida.jpg"
+        "photoPass": "images/members/2019/yoshida.jpg"
       },
       {
         "nameJP": "渡邊 あきら",
         "nameEN": "Akira Watanabe",
-        "photoPass": "images/members/watanabe.jpg"
+        "photoPass": "images/members/2019/watanabe.jpg"
       },
       {
         "nameJP": "段 力瑗",
         "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/silhouette.jpg"
+        "photoPass": "images/members/2019/liyuan.jpg"
       }
     ]
   }

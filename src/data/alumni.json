@@ -5,24 +5,24 @@
       {
         "nameJP": "上田 龍幸",
         "nameEN": "Tatsuyuki Ueda",
-        "photoPass": "images/members/ueda.jpg"
+        "photoPass": "images/members/2017/ueda.jpg"
       },
       {
         "nameJP": "平谷 光佑",
         "nameEN": "Kosuke Hiratani",
-        "photoPass": "images/members/hiratani.jpg"
+        "photoPass": "images/members/2017/hiratani.jpg"
       },
       {
         "nameJP": "藤野 佑一",
         "nameEN": "Yuichi Fujino",
-        "photoPass": "images/members/fujino.jpg"
+        "photoPass": "images/members/2017/fujino.jpg"
       }
     ],
     "bachelor":[
       {
         "nameJP": "三木 明穂",
         "nameEN": "Akiho Miki",
-        "photoPass": "images/members/miki.jpg"
+        "photoPass": "images/members/2019/miki.jpg"
       }
     ],
     "exchange": [
@@ -30,13 +30,13 @@
         "nameJP": "林 映汝",
         "nameEN": "Ying Ju Lin",
         "positionOther": "(iExpo project)",
-        "photoPass": "images/members/lin.jpg"
+        "photoPass": "images/members/international/lin.jpg"
       },
       {
         "nameJP": "モロジ フェデリコ",
         "nameEN": "Federico Morosi",
         "positionOther": "(SPARK project)",
-        "photoPass": "images/members/federico.jpg"
+        "photoPass": "images/members/international/federico.jpg"
       }
     ]
   },
@@ -53,22 +53,22 @@
       {
         "nameJP": "河原 拓海",
         "nameEN": "Takumi Kawahara",
-        "photoPass": "images/members/kawahara.jpg"
+        "photoPass": "images/members/2016/kawahara.jpg"
       },
       {
         "nameJP": "佐藤 貴俊",
         "nameEN": "Takatoshi Sato",
-        "photoPass": "images/members/tsato.jpg"
+        "photoPass": "images/members/2016/tsato.jpg"
       },
       {
         "nameJP": "竹澤 拓朗",
         "nameEN": "Takuro Takezawa",
-        "photoPass": "images/members/takezawa.jpg"
+        "photoPass": "images/members/2016/takezawa.jpg"
       },
       {
         "nameJP": "田辺 育暉",
         "nameEN": "Naruki Tanabe",
-        "photoPass": "images/members/tanabe.jpg"
+        "photoPass": "images/members/2016/tanabe.jpg"
       },
       {
         "nameJP": "刀根 大樹",
@@ -78,26 +78,26 @@
       {
         "nameJP": "萩野 和音",
         "nameEN": "Kazune Hagino",
-        "photoPass": "images/members/hagino.jpg"
+        "photoPass": "images/members/2016/hagino.jpg"
       },
       {
         "nameJP": "峯 隆太郎",
         "nameEN": "Ryutaro Mine",
-        "photoPass": "images/members/mine.jpg"
+        "photoPass": "images/members/2016/mine.jpg"
       }
     ],
     "bachelor": [
       {
         "nameJP": "松井 孝太",
         "nameEN": "Kota Matsui",
-        "photoPass": "images/members/matsui.jpg"
+        "photoPass": "images/members/2017/matsui.jpg"
       }
     ],
     "research": [
       {
         "nameJP": "神之門 拓己",
         "nameEN": "Takumi Kaminokado",
-        "photoPass": "images/members/kaminokado.jpg"
+        "photoPass": "images/members/2017/kaminokado.jpg"
       }
     ]
   },
@@ -108,7 +108,7 @@
         "nameJP": "段 廷霖",
         "nameEN": "Tinglin Francis Duan ",
         "positionOther": "(FrontierLab project)",
-        "photoPass": "images/members/francis.jpg"
+        "photoPass": "images/members/international/francis.jpg"
       }
     ]
   }
