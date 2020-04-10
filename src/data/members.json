@@ -109,6 +109,11 @@
         "photoPass": "images/members/2019/terai.jpg"
       },
       {
+        "nameJP": "堀 悠太郎",
+        "nameEN": "Yutaro Hori",
+        "photoPass": "images/members/2020/hori.jpg"
+      },
+      {
         "nameJP": "本田 健斗",
         "nameEN": "Kento Honda",
         "photoPass": "images/members/2019/honda.jpg"
@@ -138,6 +143,51 @@
         "nameJP": "段 力瑗",
         "nameEN": "Liyuan Duan",
         "photoPass": "images/members/2019/liyuan.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "B4 /学部4年",
+    "people": [
+      {
+        "nameJP": "石田 仰輝",
+        "nameEN": "Kouki Ishida",
+        "photoPass": "images/members/2020/ishida.jpg"
+      },
+      {
+        "nameJP": "内田 琢也",
+        "nameEN": "Takuya Uchida",
+        "photoPass": "images/members/2020/uchida.jpg"
+      },
+      {
+        "nameJP": "大村 恭歌",
+        "nameEN": "Kyoka Omura",
+        "photoPass": "images/members/2020/omura.jpg"
+      },
+      {
+        "nameJP": "岡本 祥宏",
+        "nameEN": "Yoshihiro Okamoto",
+        "photoPass": "images/members/2020/okamoto.jpg"
+      },
+      {
+        "nameJP": "金城 和志",
+        "nameEN": "Kazushi Kinjo",
+        "photoPass": "images/members/2020/kinjou.jpg"
+      },
+      {
+        "nameJP": "竹内 正稀",
+        "nameEN": "Masaki Takeuchi",
+        "photoPass": "images/members/2020/takeuchi.jpg"
+      },
+      {
+        "nameJP": "牧田 整明",
+        "nameEN": "Yoshiaki Makita",
+        "photoPass": "images/members/2020/makita.jpg"
+      },
+      {
+        "nameJP": "松井 尚樹",
+        "nameEN": "Naoki Matsui",
+        "photoPass": "images/members/2020/nmatsui.jpg"
       }
     ]
   }
