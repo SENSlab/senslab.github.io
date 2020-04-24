@@ -1,32 +1,36 @@
 [
     {
         "year": 2020,
-      "topic": [
-        {
-            "date": "3.22&ndash;3.26",
-            "content": "岩井准教授、M2 上田、バーチャルリアリティに関する国際会議<a class='news-link' href='http://ieeevr.org/2020/' target='_new'>IEEE VR 2020</a>にて口頭発表"
-          },
-        {
-            "date": "3.9&ndash;3.11",
-            "content": "B4 三木、宮武、<a class='news-link' href='https://www.interaction-ipsj.org/2020/' target='_new'>インタラクション2020</a>にてデモ発表"
-          },
-        {
-          "date": "3.2",
-          "content": "M2 藤野、<a class='news-link' href='http://www.sigsbr.org/2020-03' target='_new'>第25回 香り・味と生体情報研究会(SIGSBR)</a>にて口頭発表"
-        },
-        {
-          "date": "2.19&ndash;20",
-          "content": "B4、卒論発表会"
-        },
-        {
-          "date": "2.4&ndash;5",
-          "content": "M2、修論発表会"
-        },
-        {
-          "date": "1.23&ndash;24",
-          "content": "M1 佐藤、<a class='news-link' href='http://sigmr.vrsj.org/events/2020Jan.html' target='_new'>第60回 複合現実感研究会(SIG-MR)</a>にて口頭発表"
-        }
-      ]
+        "topic": [
+            {
+                "date": "3.25",
+                "content": "M1 佐藤、三好、2020年度システム制御情報学会賞「奨励賞」を受賞"
+            },
+            {
+                "date": "3.22&ndash;3.26",
+                "content": "岩井准教授、M2 上田、バーチャルリアリティに関する国際会議<a class='news-link' href='http://ieeevr.org/2020/' target='_new'>IEEE VR 2020</a>にて口頭発表"
+            },
+            {
+                "date": "3.9&ndash;3.11",
+                "content": "B4 三木、宮武、<a class='news-link' href='https://www.interaction-ipsj.org/2020/' target='_new'>インタラクション2020</a>にてデモ発表"
+            },
+            {
+                "date": "3.2",
+                "content": "M2 藤野、<a class='news-link' href='http://www.sigsbr.org/2020-03' target='_new'>第25回 香り・味と生体情報研究会(SIGSBR)</a>にて口頭発表"
+            },
+            {
+                "date": "2.19&ndash;20",
+                "content": "B4、卒論発表会"
+            },
+            {
+                "date": "2.4&ndash;5",
+                "content": "M2、修論発表会"
+            },
+            {
+                "date": "1.23&ndash;24",
+                "content": "M1 佐藤、<a class='news-link' href='http://sigmr.vrsj.org/events/2020Jan.html' target='_new'>第60回 複合現実感研究会(SIG-MR)</a>にて口頭発表"
+            }
+        ]
     },
     {
         "year": 2019,
