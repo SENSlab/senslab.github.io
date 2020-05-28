@@ -50,7 +50,7 @@
         "collaboration": ""
     },
     {
-		"theme": "user interfaces",
+		"theme": "welfare-xr",
         "photoPass": "images/researches/watanabe.png",
         "titleJP": "療養者向け手腕投影システムにおける抽象投影と力覚呈示に関する研究",
         "titleEN": "研究者: 渡邊　あきら",
@@ -310,7 +310,7 @@
         "collaboration": ""
     }, 
     {
-		"theme": "user interfaces",
+		"theme": "welfare-xr",
         "photoPass": "images/researches/asaim.png",
         "titleJP": "車椅子利用者の投影型手腕拡張と拡張手メタファーに基づく移動制御",
         "titleEN": "研究者: 浅井　唯貴",
@@ -510,7 +510,7 @@
         "collaboration": ""
     }, 
     {
-		"theme": "projector-camera system",
+		"theme": "welfare-xr",
         "photoPass": "images/researches/asai.png",
         "titleJP": "バーチャルハンドインタフェース搭載型車椅子のタッチ操作における機械学習による操作対象の推定",
         "titleEN": "研究者: 浅井 唯貴",
