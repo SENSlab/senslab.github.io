@@ -370,6 +370,16 @@
         "collaboration": ""
     }, 
     {
+		"theme": "welfare-xr",
+        "photoPass": "images/researches/kwang.JPG",
+        "titleJP": "Augmented Reality for Stabilizing Hand Tremors",
+        "titleEN": "研究者: 王 凱",
+        "publication": "論文種別・提出年: 博士論文，大阪大学大学院基礎工学研究科，Mar. 2018.",
+        "abstract": "Augmented Reality (AR) is a technology that displaying virtual information directly into real-world environment, has been wildly applied in many fields, such as entertainment, manufacturing, or education. In recent year, AR has been explored to help the impaired people, e.g. visually impaired, hearing impaired. I first develop AR to support hand impaired persons in human-computer interactions (HCI) and computer-mediated communication (CMC). Hand tremors are featured with involuntary shaking of hands, reduce levels of hand capability to perform intentional activities. With widespread use of computers and touching panels, typing or touching becomes very common interactive way to access devices. However, it is difficult for individuals with hand tremors to type or touch devices, especially which having small densely placed targets, like keyboard. Traditional approaches that help trembling hands exist some limitations, including body burden, muscle fatigue, non-application of ordinary device, and rarely solve the problems of HCI and CMC of trembling hands. Therefore, in this thesis, I investigate approaches to facilitate individuals to use their trembling hand to directly interact with ordinary devices. I focus on two critical issues of hand tremors in HCI and CMC, develop AR to enhance individual with tremors in keyboard typing and reaching, and makes the following contributions.",
+        "link": "",
+        "collaboration": ""
+    }, 
+    {
 		"theme": "projector-camera system",
         "photoPass": "images/researches/kawahara.png",
         "titleJP": "投影輝度向上および利用者との衝突回避を目指したプロジェクタドローンの動的配置",
