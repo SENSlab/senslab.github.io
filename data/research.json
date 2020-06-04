@@ -51,7 +51,7 @@
     },
     {
 		"theme": "welfare-xr",
-        "photoPass": "images/researches/watanabe.png",
+        "photoPass": "images/researches/watanabe.JPG",
         "titleJP": "療養者向け手腕投影システムにおける抽象投影と力覚呈示に関する研究",
         "titleEN": "研究者: 渡邊　あきら",
         "publication": "論文種別・提出年: 卒業論文，大阪大学基礎工学部，Mar. 2020.",
@@ -101,7 +101,7 @@
     },
     {
 		"theme": "user interfaces",
-        "photoPass": "images/researches/ysato.png",
+        "photoPass": "images/researches/ysato.jpg",
         "titleJP": "投影バーチャルハンドにおける疑似触覚フィードバックによる接触感呈示",
         "titleEN": "研究者: 佐藤　優志",
         "publication": "論文種別・提出年: 卒業論文，大阪大学基礎工学部，Mar. 2019.",
@@ -160,7 +160,7 @@
         "collaboration": ""
     },
     {
-    	"theme": "user interfaces",
+    	"theme": "welfare-xr",
         "photoPass": "images/researches/kmorita.png",
         "titleJP": "頭部方向を用いた投影型拡張仮想手の操作範囲の拡張",
         "titleEN": "研究者: 森田　耕平",
@@ -371,7 +371,7 @@
     }, 
     {
 		"theme": "welfare-xr",
-        "photoPass": "images/researches/kwang.JPG",
+        "photoPass": "images/researches/kaiwang.jpg",
         "titleJP": "Augmented Reality for Stabilizing Hand Tremors",
         "titleEN": "研究者: 王 凱",
         "publication": "論文種別・提出年: 博士論文，大阪大学大学院基礎工学研究科，Mar. 2018.",
