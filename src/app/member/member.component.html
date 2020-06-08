@@ -16,9 +16,10 @@
           </div>
           <div class='current-lab-member-name'>
             <ng-container *ngIf='member.link !== undefined'>
-              <a class='member-link' href={{member.link}} target='_new'>
+              <div>
                 {{member.nameJP}}
-              </a>
+			  [<a class='member-link' href={{member.link}} target='_new'><!-- <img src='images\icons\personal-hp.png' class='rounded-circle' alt='personal website' width='18' height='18'> -->HP</a>]
+			  </div>
             </ng-container>
             <ng-container *ngIf='member.link === undefined'>
               <div>
