@@ -3,12 +3,52 @@
         "year": 2020,
         "topic": [
             {
+                "date": "9.18",
+                "content": "M2 稲垣の研究成果が読売新聞夕刊に掲載"
+            },
+            {
+                "date": "9.16&ndash;18",
+                "content": "M1 渡邊、M2 稲垣、木村、佐藤、杉本<a class='news-link' href='http://conference.vrsj.org/ac2020/index.html' target='_new'>第25回バーチャルリアリティ学会大会</a>にて口頭発表"
+            },
+            {
+                "date": "9.6&ndash;9",
+                "content": "M1 宮武、<a class='news-link' href='https://eurohaptics2020.org/' target='_new'>EuroHaptics 2020</a>にて口頭発表"
+            },
+            {
+                "date": "9.6",
+                "content": "Punpongsanon助教の研究成果が日本経済新聞に掲載"
+            },
+            {
+                "date": "8.2-5",
+                "content": "M2 影山、<a class='news-link' href='https://sites.google.com/view/miru2020/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0' target='_new'> 第23回 画像の認識・理解シンポジウム</a>にてポスター発表"
+            },
+            {
+                "date": "8.1",
+                "content": "M2 影山、<a class='news-link' href='https://sites.google.com/view/miru2020/%E8%8B%A5%E6%89%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0' target='_new'>MIRU 2020 若手プログラム</a>にてプレゼンテーション賞を受賞"
+            },
+            {
+                "date": "8.1",
+                "content": "M2 影山、<a class='news-link' href='https://sites.google.com/view/miru2020/%E8%8B%A5%E6%89%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0' target='_new'>MIRU 2020 若手プログラム</a>にて口頭発表"
+            },
+            {
+                "date": "7.1",
+                "content": "M2 木村、岩井准教授、佐藤教授の解説記事が、<a class='news-link' href='https://eurohaptics2020.org/' target='_new'>光アライアンス 2020年7月号</a>に掲載"
+            },
+            {
                 "date": "5.24",
                 "content": "M1 山本、義田、<a class='news-link' href='https://sci20.iscie.or.jp/award/' target='_new'>第64回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
             },
             {
                 "date": "5.20&ndash;22",
                 "content": "M1 寺井、山本、渡邊、義田、<a class='news-link' href='https://sci20.iscie.or.jp/' target='_new'>第64回システム制御情報学会研究発表講演会</a>にて口頭発表"
+            },
+            {
+                "date": "4.25",
+                "content": "Punpongsanon助教、<a class='news-link' href='https://asian-chi.github.io/2020/' target='_new'>Asian CHI</a>にてBest Presentationを受賞"
+            },
+            {
+                "date": "4.25",
+                "content": "Punpongsanon助教、<a class='news-link' href='https://asian-chi.github.io/2020/' target='_new'>Asian CHI</a>にて口頭発表"
             },
             {
                 "date": "3.25",
