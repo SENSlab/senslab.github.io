@@ -97,6 +97,11 @@
         "nameJP": "森田 耕平",
         "nameEN": "Kohei Morita",
         "photoPass": "images/members/2018/morita.jpg"
+      },
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/2019/liyuan.jpg"
       }
     ]
   },
@@ -138,11 +143,6 @@
         "nameJP": "渡邊 あきら",
         "nameEN": "Akira Watanabe",
         "photoPass": "images/members/2019/watanabe.jpg"
-      },
-      {
-        "nameJP": "段 力瑗",
-        "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/2019/liyuan.jpg"
       }
     ]
   },
