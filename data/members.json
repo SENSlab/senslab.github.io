@@ -53,8 +53,14 @@
       {
         "nameJP": "西村 章宏",
         "nameEN": "Akihiro Nishimura",
-        "position": "D2",
-        "photoPass": "images/members/silhouette.jpg"
+        "position": "D3",
+        "photoPass": "images/members/2018/nishimura.jpg"
+      },
+      {
+        "nameJP": "钟圣 泽",
+        "nameEN": "Zhong Shengze",
+        "position": "D1",
+        "photoPass": "images/members/international/zhong.jpg"
       }
     ]
   },
