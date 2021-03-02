@@ -1,5 +1,16 @@
 [
   {
+    "attribute": "2020",
+    "staff": [
+      {
+        "nameJP": "平木 剛史",
+        "nameEN": "Takefumi Hiraki",
+		"position": "JSPS Research Fellow / 日本学術振興会特別研究員 (PD)",
+        "photoPass": "images/members/staff/hiraki.jpg"
+      }
+    ]
+  },
+  {
     "attribute": "2019",
     "master": [
       {
