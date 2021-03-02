@@ -60,6 +60,47 @@
         </h4>
       </div>
     </div>
+	
+    <div class="row">
+      <div class="col">
+        <ng-container *ngIf='grade.staff !== undefined'>
+          <h5 class="ml-4">
+            Staff / スタッフ
+          </h5>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row">
+      <ng-container *ngIf='grade.staff !== undefined'>
+        <ng-container *ngFor="let member of grade.staff">
+          <div class='col-md-3 mb-5'>
+            <div class='current-lab-member-photo'>
+              <img src={{member.photoPass}} class='rounded-circle' alt={{member.nameEN}} width='130' height='130'>
+            </div>
+            <div class='current-lab-member-name'>
+              <ng-container *ngIf='member.link !== undefined'>
+                <a class='member-link' href={{member.link}} target='_new'>
+                  {{member.nameJP}}
+                </a>
+              </ng-container>
+              <ng-container *ngIf='member.link === undefined'>
+                <div>
+                  {{member.nameJP}}
+                </div>
+              </ng-container>
+              <div>
+                {{member.nameEN}}
+              </div>
+              <ng-container *ngIf='member.position !== undefined'>
+                <div class='current-lab-member-position'>
+                  {{member.position}}
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
 
     <div class="row">
       <div class="col">
