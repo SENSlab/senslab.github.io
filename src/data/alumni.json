@@ -8,6 +8,33 @@
 		"position": "JSPS Research Fellow / 日本学術振興会特別研究員 (PD)",
         "photoPass": "images/members/staff/hiraki.jpg"
       }
+    ],
+    "master": [
+       {
+        "nameJP": "稲垣 理也",
+        "nameEN": "Michiya Inagaki",
+        "photoPass": "images/members/2018/inagaki.jpg"
+      },
+      {
+        "nameJP": "木村 宙志",
+        "nameEN": "Sorashi Kimura",
+        "photoPass": "images/members/2018/kimura.jpg"
+      },
+      {
+        "nameJP": "杉本 正暁",
+        "nameEN": "Masatoki Sugimoto",
+        "photoPass": "images/members/2018/sugimoto.jpg"
+      },
+      {
+        "nameJP": "三好 幹",
+        "nameEN": "Motoki Miyoshi",
+        "photoPass": "images/members/2018/miyoshi.jpg"
+      },
+      {
+        "nameJP": "森田 耕平",
+        "nameEN": "Kohei Morita",
+        "photoPass": "images/members/2018/morita.jpg"
+      }
     ]
   },
   {
