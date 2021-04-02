@@ -3,6 +3,12 @@
     "attribute": "2020",
     "staff": [
       {
+        "nameJP": "松倉 悠",
+        "nameEN": "Haruka Matsukura",
+        "position": "Assistant Professor / 助教",
+        "photoPass": "images/members/staff/matsukura.jpg"
+      },
+	  {
         "nameJP": "平木 剛史",
         "nameEN": "Takefumi Hiraki",
 		"position": "JSPS Research Fellow / 日本学術振興会特別研究員 (PD)",
@@ -34,13 +40,6 @@
         "nameJP": "森田 耕平",
         "nameEN": "Kohei Morita",
         "photoPass": "images/members/2018/morita.jpg"
-      }
-    ],
-    "bachelor":[
-      {
-        "nameJP": "大村 恭歌",
-        "nameEN": "Kyoka Omura",
-        "photoPass": "images/members/2020/omura.jpg"
       }
     ]
   },

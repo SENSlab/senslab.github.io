@@ -18,17 +18,9 @@
         "photoPass": "images/members/staff/iwai.jpg"
       },
       {
-        "nameJP": "松倉 悠",
-        "nameEN": "Haruka Matsukura",
-        "position": "Assistant Professor / 助教",
-        "link": "https://haruka-matsu.jimdo.com/",
-        "photoPass": "images/members/staff/matsukura.jpg"
-      },
-      {
         "nameJP": "プンポンサノン パリンヤ",
         "nameEN": "Parinya Punpongsanon",
         "position": "Assistant Professor / 助教",
-        "positionOther": "（高等共創研究院）",
         "link": "http://punpongsanon.info/",
         "photoPass": "images/members/staff/parinya.jpg"
       },
@@ -46,31 +38,66 @@
       {
         "nameJP": "西村 章宏",
         "nameEN": "Akihiro Nishimura",
-        "position": "D4",
+        "position": "D3",
         "photoPass": "images/members/2018/nishimura.jpg"
       },
       {
         "nameJP": "钟圣 泽",
         "nameEN": "Zhong Shengze",
-        "position": "D2",
+        "position": "D1",
         "photoPass": "images/members/international/zhong.jpg"
-      },
-	{
-        "nameJP": "影山 雄太",
-        "nameEN": "Yuta Kageyama",
-        "position": "D1",
-        "photoPass": "images/members/2018/kageyama.jpg"
-      },
-      {
-        "nameJP": "佐藤 優志",
-        "nameEN": "Yushi Sato",
-        "position": "D1",
-        "photoPass": "images/members/2018/ysato.jpg"
       }
     ]
   },
   {
     "attribute": "M2 /博士前期課程2年",
+    "people": [
+      {
+        "nameJP": "稲垣 理也",
+        "nameEN": "Michiya Inagaki",
+        "photoPass": "images/members/2018/inagaki.jpg"
+      },
+      {
+        "nameJP": "影山 雄太",
+        "nameEN": "Yuta Kageyama",
+        "link": "https://kagechan5.github.io/",
+        "photoPass": "images/members/2018/kageyama.jpg"
+      },
+      {
+        "nameJP": "木村 宙志",
+        "nameEN": "Sorashi Kimura",
+        "photoPass": "images/members/2018/kimura.jpg"
+      },
+      {
+        "nameJP": "佐藤 優志",
+        "nameEN": "Yushi Sato",
+        "link": "https://youseegreen.github.io/",
+        "photoPass": "images/members/2018/ysato.jpg"
+      },
+      {
+        "nameJP": "杉本 正暁",
+        "nameEN": "Masatoki Sugimoto",
+        "photoPass": "images/members/2018/sugimoto.jpg"
+      },
+      {
+        "nameJP": "三好 幹",
+        "nameEN": "Motoki Miyoshi",
+        "photoPass": "images/members/2018/miyoshi.jpg"
+      },
+      {
+        "nameJP": "森田 耕平",
+        "nameEN": "Kohei Morita",
+        "photoPass": "images/members/2018/morita.jpg"
+      },
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/2019/liyuan.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "寺井 晴香",
@@ -111,7 +138,7 @@
     ]
   },
   {
-    "attribute": "M1 /博士前期課程1年",
+    "attribute": "B4 /学部4年",
     "people": [
       {
         "nameJP": "石田 仰輝",
@@ -122,6 +149,11 @@
         "nameJP": "内田 琢也",
         "nameEN": "Takuya Uchida",
         "photoPass": "images/members/2020/uchida.jpg"
+      },
+      {
+        "nameJP": "大村 恭歌",
+        "nameEN": "Kyoka Omura",
+        "photoPass": "images/members/2020/omura.jpg"
       },
       {
         "nameJP": "岡本 祥宏",
