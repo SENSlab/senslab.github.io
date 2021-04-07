@@ -50,12 +50,14 @@
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
+		"position": "D1",
         "link": "https://youseegreen.github.io/",
         "photoPass": "images/members/2018/ysato.jpg"
       },
       {
         "nameJP": "影山 雄太",
         "nameEN": "Yuta Kageyama",
+		"position": "D1",
         "link": "https://kagechan5.github.io/",
         "photoPass": "images/members/2018/kageyama.jpg"
       }
