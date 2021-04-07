@@ -46,27 +46,6 @@
         "nameEN": "Zhong Shengze",
         "position": "D1",
         "photoPass": "images/members/international/zhong.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "M2 /博士前期課程2年",
-    "people": [
-      {
-        "nameJP": "稲垣 理也",
-        "nameEN": "Michiya Inagaki",
-        "photoPass": "images/members/2018/inagaki.jpg"
-      },
-      {
-        "nameJP": "影山 雄太",
-        "nameEN": "Yuta Kageyama",
-        "link": "https://kagechan5.github.io/",
-        "photoPass": "images/members/2018/kageyama.jpg"
-      },
-      {
-        "nameJP": "木村 宙志",
-        "nameEN": "Sorashi Kimura",
-        "photoPass": "images/members/2018/kimura.jpg"
       },
       {
         "nameJP": "佐藤 優志",
@@ -75,30 +54,21 @@
         "photoPass": "images/members/2018/ysato.jpg"
       },
       {
-        "nameJP": "杉本 正暁",
-        "nameEN": "Masatoki Sugimoto",
-        "photoPass": "images/members/2018/sugimoto.jpg"
-      },
-      {
-        "nameJP": "三好 幹",
-        "nameEN": "Motoki Miyoshi",
-        "photoPass": "images/members/2018/miyoshi.jpg"
-      },
-      {
-        "nameJP": "森田 耕平",
-        "nameEN": "Kohei Morita",
-        "photoPass": "images/members/2018/morita.jpg"
-      },
-      {
-        "nameJP": "段 力瑗",
-        "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/2019/liyuan.jpg"
+        "nameJP": "影山 雄太",
+        "nameEN": "Yuta Kageyama",
+        "link": "https://kagechan5.github.io/",
+        "photoPass": "images/members/2018/kageyama.jpg"
       }
     ]
   },
   {
-    "attribute": "M1 /博士前期課程1年",
+    "attribute": "M2 /博士前期課程2年",
     "people": [
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/2019/liyuan.jpg"
+      },
       {
         "nameJP": "寺井 晴香",
         "nameEN": "Haruka Terai",
@@ -138,7 +108,7 @@
     ]
   },
   {
-    "attribute": "B4 /学部4年",
+    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "石田 仰輝",
@@ -179,6 +149,41 @@
         "nameJP": "松井 尚樹",
         "nameEN": "Naoki Matsui",
         "photoPass": "images/members/2020/nmatsui.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "B4 /学部4年",
+    "people": [
+      {
+        "nameJP": "岩崎　琢己",
+        "nameEN": "Takumi Iwasaki",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "上田　史貴",
+        "nameEN": "Fumitaka Ueda",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "岡本　峻宙",
+        "nameEN": "Takahiro Okamoto",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "谷　　育歩",
+        "nameEN": "Ikuho Tani",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "人見　亜斗",
+        "nameEN": "Ato Hitomi",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "松田　綾美",
+        "nameEN": "Ayami Matsuda",
+        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   }
