@@ -2,11 +2,19 @@
     {
         "year": 2021,
         "topic": [
-	{
+            {
+                "date": "5.31",
+                "content": "M1 松井、<a class='news-link' href='https://sci21.iscie.or.jp/award/' target='_new'>第65回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
+            },
+            {
+                "date": "5.26&ndash;28",
+                "content": "M1 内田、松井、牧田、石田、金城、岡本、<a class='news-link' href='https://sci21.iscie.or.jp/' target='_new'>第65回システム制御情報学会研究発表講演会</a>にて口頭発表"
+            },
+	        {
                 "date": "3.24",
                 "content": "M2 佐藤、基礎工学研究科賞を受賞"
             },
-	{
+	        {
                 "date": "3.24",
                 "content": "M2 稲垣、システム科学領域賞を受賞"
             },
@@ -21,6 +29,10 @@
             {
                 "date": "3.3",
                 "content": "M1 本田、<a class='news-link' href='http://www.sigsbr.org/2021-03' target='_new'>第26回香り・味と生体情報研究会</a>にて口頭発表"
+            },
+            {
+                "date": "3.1",
+                "content": "B4 大村、<a class='news-link' href='https://www.iee.jp/tech_mtg/host/host_2021/' target='_new'>マイクロマシン・センサシステム/ケミカルセンサ/バイオ・マイクロシステム合同研究会</a>にて口頭発表"           
             },
             {
                 "date": "2.16&ndash;17",
