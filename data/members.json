@@ -50,14 +50,14 @@
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
-		"position": "D1",
+        "position": "D1",
         "link": "https://youseegreen.github.io/",
         "photoPass": "images/members/2018/ysato.jpg"
       },
       {
         "nameJP": "影山 雄太",
         "nameEN": "Yuta Kageyama",
-		"position": "D1",
+        "position": "D1",
         "link": "https://kagechan5.github.io/",
         "photoPass": "images/members/2018/kageyama.jpg"
       }
@@ -146,11 +146,16 @@
         "nameJP": "松井 尚樹",
         "nameEN": "Naoki Matsui",
         "photoPass": "images/members/2020/nmatsui.jpg"
-      },
+      }
+    ]
+  },
+  {
+    "attribute": "Research Student /研究生",
+    "people": [
       {
         "nameJP": "イザベラ ミカ タニナカ",
         "nameEN": "Isabella Mika Taninaka",
-        "photoPass": "images/members/2021/taninaka.jpg"
+        "photoPass": "images/members/2021/Isabella.jpg"
       }
     ]
   },
