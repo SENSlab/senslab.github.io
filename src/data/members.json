@@ -44,7 +44,7 @@
       {
         "nameJP": "钟圣 泽",
         "nameEN": "Zhong Shengze",
-        "position": "D1",
+        "position": "D2",
         "photoPass": "images/members/international/zhong.jpg"
       },
       {
@@ -66,11 +66,6 @@
   {
     "attribute": "M2 /博士前期課程2年",
     "people": [
-      {
-        "nameJP": "段 力瑗",
-        "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/2019/liyuan.jpg"
-      },
       {
         "nameJP": "寺井 晴香",
         "nameEN": "Haruka Terai",
@@ -146,12 +141,7 @@
         "nameJP": "松井 尚樹",
         "nameEN": "Naoki Matsui",
         "photoPass": "images/members/2020/nmatsui.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "Research Student /研究生",
-    "people": [
+      },
       {
         "nameJP": "イザベラ ミカ タニナカ",
         "nameEN": "Isabella Mika Taninaka",
