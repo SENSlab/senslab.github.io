@@ -3,12 +3,16 @@
         "year": 2022,
       "topic": [
         {
-            "date": "2.14&ndash;15",
-            "content": "B4、卒論発表会"
-          },
+          "date": "2.14&ndash;15",
+          "content": "B4、卒論発表会"
+        },
         {
           "date": "2.8&ndash;9",
           "content": "M2、修論発表会"
+        },
+        {
+          "date": "1.27&ndash;28",
+          "content": "M2 寺井、M1 石田、第65回 複合現実感研究会(SIG-MR)にて口頭発表"
         }
       ]
     },
@@ -92,115 +96,6 @@
           "content": "M2、修論発表会"
         }
       ]
-    },
-    {
-        "year": 2020,
-        "topic": [
-            {
-                "date": "12.15",
-                "content": "M2 佐藤、IEEE関西支部学生研究奨励賞を受賞"
-            },
-            {
-                "date": "12.9&ndash;11",
-                "content": "M1 宮武、<a class='news-link' href='https://sa2020.siggraph.org/en/' target='_new'>SIGGRAPH Asia 2020 Emerging Technologies</a>にてデモ発表"
-            },
-            {
-                "date": "12.9&ndash;11",
-                "content": "M1 寺井、山本、<a class='news-link' href='https://www.idw.or.jp/' target='_new'>第27回国際ディスプレイワークショップ(IDW'20)</a>にて口頭発表"
-            },
-            {
-                "date": "10.17&ndash;18",
-                "content": "M2 佐藤、<a class='news-link' href='https://jp.his.gr.jp/hic2/' target='_new'>HIC2</a>にて口頭発表"
-            },
-            {
-                "date": "10.13&ndash;16",
-                "content": "M2 Liyuan Duan、<a class='news-link' href='http://www.ieee-gcce.org/2020/' target='_new'>GCCE 2020</a>にてExcellent Student Paper AwardのBronze Prizeを受賞"
-            },
-            {
-                "date": "10.13&ndash;16",
-                "content": "M2 Liyuan Duan、<a class='news-link' href='http://www.ieee-gcce.org/2020/' target='_new'>GCCE 2020</a>にて口頭発表"
-            },
-            {
-                "date": "9.23&ndash;26",
-                "content": "M2 森田、<a class='news-link' href='https://sice2020.sice.jp/' target='_new'>SICE 2020</a>にて口頭発表"
-            },
-            {
-                "date": "9.18",
-                "content": "M2 稲垣の研究成果が読売新聞夕刊に掲載"
-            },
-            {
-                "date": "9.16&ndash;18",
-                "content": "M1 渡邊、M2 稲垣、木村、佐藤、杉本、<a class='news-link' href='http://conference.vrsj.org/ac2020/index.html' target='_new'>第25回バーチャルリアリティ学会大会</a>にて口頭発表"
-            },
-            {
-                "date": "9.6&ndash;9",
-                "content": "M1 宮武、<a class='news-link' href='https://eurohaptics2020.org/' target='_new'>EuroHaptics 2020</a>にて口頭発表"
-            },
-            {
-                "date": "9.6",
-                "content": "Punpongsanon助教の研究成果が日本経済新聞に掲載"
-            },
-            {
-                "date": "8.2-5",
-                "content": "M2 影山、<a class='news-link' href='https://sites.google.com/view/miru2020/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0' target='_new'> 第23回 画像の認識・理解シンポジウム</a>にてポスター発表"
-            },
-            {
-                "date": "8.1",
-                "content": "M2 影山、<a class='news-link' href='https://sites.google.com/view/miru2020/%E8%8B%A5%E6%89%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0' target='_new'>MIRU 2020 若手プログラム</a>にてプレゼンテーション賞を受賞"
-            },
-            {
-                "date": "8.1",
-                "content": "M2 影山、<a class='news-link' href='https://sites.google.com/view/miru2020/%E8%8B%A5%E6%89%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0?authuser=0' target='_new'>MIRU 2020 若手プログラム</a>にて口頭発表"
-            },
-            {
-                "date": "7.1",
-                "content": "M2 木村、岩井准教授、佐藤教授の解説記事が、<a class='news-link' href='https://eurohaptics2020.org/' target='_new'>光アライアンス 2020年7月号</a>に掲載"
-            },
-            {
-                "date": "5.24",
-                "content": "M1 山本、義田、<a class='news-link' href='https://sci20.iscie.or.jp/award/' target='_new'>第64回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
-            },
-            {
-                "date": "5.20&ndash;22",
-                "content": "M1 寺井、山本、渡邊、義田、<a class='news-link' href='https://sci20.iscie.or.jp/' target='_new'>第64回システム制御情報学会研究発表講演会</a>にて口頭発表"
-            },
-            {
-                "date": "4.25",
-                "content": "Punpongsanon助教、<a class='news-link' href='https://asian-chi.github.io/2020/' target='_new'>Asian CHI</a>にてBest Presentationを受賞"
-            },
-            {
-                "date": "4.25",
-                "content": "Punpongsanon助教、<a class='news-link' href='https://asian-chi.github.io/2020/' target='_new'>Asian CHI</a>にて口頭発表"
-            },
-            {
-                "date": "3.25",
-                "content": "M1 佐藤、三好、2020年度システム制御情報学会賞「奨励賞」を受賞"
-            },
-            {
-                "date": "3.22&ndash;26",
-                "content": "岩井准教授、M2 上田、バーチャルリアリティに関する国際会議<a class='news-link' href='http://ieeevr.org/2020/' target='_new'>IEEE VR 2020</a>にて口頭発表"
-            },
-            {
-                "date": "3.9&ndash;11",
-                "content": "B4 三木、宮武、<a class='news-link' href='https://www.interaction-ipsj.org/2020/' target='_new'>インタラクション2020</a>にてデモ発表"
-            },
-            {
-                "date": "3.2",
-                "content": "M2 藤野、<a class='news-link' href='http://www.sigsbr.org/2020-03' target='_new'>第25回 香り・味と生体情報研究会(SIGSBR)</a>にて口頭発表"
-            },
-            {
-                "date": "2.19&ndash;20",
-                "content": "B4、卒論発表会"
-            },
-            {
-                "date": "2.4&ndash;5",
-                "content": "M2、修論発表会"
-            },
-            {
-                "date": "1.23&ndash;24",
-                "content": "M1 佐藤、<a class='news-link' href='http://sigmr.vrsj.org/events/2020Jan.html' target='_new'>第60回 複合現実感研究会(SIG-MR)</a>にて口頭発表"
-            }
-        ]
     },
     {
         "year": 2020,
