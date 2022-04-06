@@ -1,7 +1,7 @@
 [
     {
         "theme": "projector-camera system",
-        "photoPass": "",
+        "photoPass": "images/researches/h_terai.png",
         "titleJP": "空間光位相変調機を用いたプロジェクタ画素の均一再配置",
         "titleEN": "研究者: 寺井　晴香",
         "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2022.",
@@ -61,7 +61,7 @@
     },
     {
         "theme": "projector-camera system",
-        "photoPass":"",
+        "photoPass":"images/researches/k_yamamoto.jpg",
         "titleJP": "拡張機能を組換え可能な単眼プロジェクタ－カメラシステムの構築",
         "titleEN": "研究者: 山本 健太",
         "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2022.",
@@ -91,7 +91,7 @@
     },
     {
 		"theme": "projector-camera system",
-        "photoPass": "",
+        "photoPass": "images/researches/f_ueda.png",
         "titleJP": "フォーカルサーフェス投影によるプロジェクタの被写界深度拡張",
         "titleEN": "研究者: 上田 史貴",
         "publication": "論文種別・提出年: 卒業論文，大阪大学基礎工学部，Mar. 2022.",
