@@ -87,11 +87,6 @@
         "photoPass": "images/members/2020/kinjou.jpg"
       },
       {
-        "nameJP": "竹内 正稀",
-        "nameEN": "Masaki Takeuchi",
-        "photoPass": "images/members/2020/takeuchi.jpg"
-      },
-      {
         "nameJP": "牧田 整明",
         "nameEN": "Yoshiaki Makita",
         "photoPass": "images/members/2020/makita.jpg"
@@ -122,6 +117,11 @@
         "photoPass": "images/members/2021/okamotoT.jpg"
       },
       {
+        "nameJP": "竹内 正稀",
+        "nameEN": "Masaki Takeuchi",
+        "photoPass": "images/members/2020/takeuchi.jpg"
+      },
+      {
         "nameJP": "谷　　育歩",
         "nameEN": "Ikuho Tani",
         "photoPass": "images/members/2021/tani.jpg"
@@ -142,12 +142,37 @@
     "attribute": "B4 /学部4年",
     "people": [
       {
-        "nameJP": "阪大　太郎",
+        "nameJP": "楠山弘基",
+        "nameEN": "Taro Handai",
+        "photoPass": "images/members/2022/kusuyama.jpg"
+      },
+      {
+        "nameJP": "西　隼世",
+        "nameEN": "Taro Handai",
+        "photoPass": "images/members/2022/nishi.PNG"
+      },
+      {
+        "nameJP": "花井　俊",
+        "nameEN": "Taro Handai",
+        "photoPass": "images/members/2022/hanai.png"
+      },
+      {
+        "nameJP": "牧　篤司",
         "nameEN": "Taro Handai",
         "photoPass": "images/members/2022/silhouette.jpg"
       },
       {
-        "nameJP": "阪大　太郎",
+        "nameJP": "松元龍馬",
+        "nameEN": "Taro Handai",
+        "photoPass": "images/members/2022/silhouette.jpg"
+      },
+      {
+        "nameJP": "三浦康平",
+        "nameEN": "Taro Handai",
+        "photoPass": "images/members/2022/miura.jpg"
+      },
+      {
+        "nameJP": "山内耀斗",
         "nameEN": "Taro Handai",
         "photoPass": "images/members/2022/silhouette.jpg"
       }

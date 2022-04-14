@@ -1,5 +1,46 @@
 [
   {
+    "attribute": "2022",
+	"master": [
+      {
+        "nameJP": "寺井 晴香",
+        "nameEN": "Haruka Terai",
+        "photoPass": "images/members/2019/terai.jpg"
+      },
+      {
+        "nameJP": "堀 悠太郎",
+        "nameEN": "Yutaro Hori",
+        "photoPass": "images/members/2020/hori.jpg"
+      },
+      {
+        "nameJP": "本田 健斗",
+        "nameEN": "Kento Honda",
+        "photoPass": "images/members/2019/honda.jpg"
+      },
+      {
+        "nameJP": "宮武 大和",
+        "nameEN": "Yamato Miyatake",
+        "link": "https://yamato-miyatake.netlify.app/",
+        "photoPass": "images/members/2019/miyatake.jpg"
+      },
+      {
+        "nameJP": "山本 健太",
+        "nameEN": "Kenta Yamamoto",
+        "photoPass": "images/members/2019/yamamoto.jpg"
+      },
+      {
+        "nameJP": "義田 遼太朗",
+        "nameEN": "Ryotaro Yoshida",
+        "photoPass": "images/members/2019/yoshida.jpg"
+      },
+      {
+        "nameJP": "渡邊 あきら",
+        "nameEN": "Akira Watanabe",
+        "photoPass": "images/members/2019/watanabe.jpg"
+      }
+	  ]
+  },
+  {
     "attribute": "2021",
 	"master": [
       {
