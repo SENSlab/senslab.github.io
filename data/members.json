@@ -14,14 +14,14 @@
         "nameEN": "Daisuke Iwai",
         "position": "Associate Professor / 准教授",
         "positionOther": "（データビリティフロンティア機構、JSTさきがけ 兼）",
-        "link": "http://daisukeiwai.org/",
+        "link": "https://daisukeiwai.org/",
         "photoPass": "images/members/staff/iwai.jpg"
       },
       {
         "nameJP": "プンポンサノン パリンヤ",
         "nameEN": "Parinya Punpongsanon",
         "position": "Assistant Professor / 助教",
-        "link": "http://punpongsanon.info/",
+        "link": "https://punpongsanon.info/",
         "photoPass": "images/members/staff/parinya.jpg"
       },
       {
@@ -50,14 +50,14 @@
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
-        "position": "D1",
+        "position": "D2",
         "link": "https://youseegreen.github.io/",
         "photoPass": "images/members/2018/ysato.jpg"
       },
       {
         "nameJP": "影山 雄太",
         "nameEN": "Yuta Kageyama",
-        "position": "D1",
+        "position": "D2",
         "link": "https://kagechan5.github.io/",
         "photoPass": "images/members/2018/kageyama.jpg"
       }
@@ -65,47 +65,6 @@
   },
   {
     "attribute": "M2 /博士前期課程2年",
-    "people": [
-      {
-        "nameJP": "寺井 晴香",
-        "nameEN": "Haruka Terai",
-        "photoPass": "images/members/2019/terai.jpg"
-      },
-      {
-        "nameJP": "堀 悠太郎",
-        "nameEN": "Yutaro Hori",
-        "photoPass": "images/members/2020/hori.jpg"
-      },
-      {
-        "nameJP": "本田 健斗",
-        "nameEN": "Kento Honda",
-        "photoPass": "images/members/2019/honda.jpg"
-      },
-      {
-        "nameJP": "宮武 大和",
-        "nameEN": "Yamato Miyatake",
-        "link": "https://yamato-miyatake.netlify.app/",
-        "photoPass": "images/members/2019/miyatake.jpg"
-      },
-      {
-        "nameJP": "山本 健太",
-        "nameEN": "Kenta Yamamoto",
-        "photoPass": "images/members/2019/yamamoto.jpg"
-      },
-      {
-        "nameJP": "義田 遼太朗",
-        "nameEN": "Ryotaro Yoshida",
-        "photoPass": "images/members/2019/yoshida.jpg"
-      },
-      {
-        "nameJP": "渡邊 あきら",
-        "nameEN": "Akira Watanabe",
-        "photoPass": "images/members/2019/watanabe.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "石田 仰輝",
@@ -128,11 +87,6 @@
         "photoPass": "images/members/2020/kinjou.jpg"
       },
       {
-        "nameJP": "竹内 正稀",
-        "nameEN": "Masaki Takeuchi",
-        "photoPass": "images/members/2020/takeuchi.jpg"
-      },
-      {
         "nameJP": "牧田 整明",
         "nameEN": "Yoshiaki Makita",
         "photoPass": "images/members/2020/makita.jpg"
@@ -141,31 +95,31 @@
         "nameJP": "松井 尚樹",
         "nameEN": "Naoki Matsui",
         "photoPass": "images/members/2020/nmatsui.jpg"
-      },
-      {
-        "nameJP": "イザベラ ミカ タニナカ",
-        "nameEN": "Isabella Mika Taninaka",
-        "photoPass": "images/members/2021/Isabella.jpg"
       }
     ]
   },
   {
-    "attribute": "B4 /学部4年",
+    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
+        "nameJP": "イザベラ ミカ タニナカ",
+        "nameEN": "Isabella Mika Taninaka",
+        "photoPass": "images/members/2021/Isabella.jpg"
+      },
+	  {
         "nameJP": "岩崎　琢己",
         "nameEN": "Takumi Iwasaki",
         "photoPass": "images/members/2021/iwasaki.jpg"
       },
       {
-        "nameJP": "上田　史貴",
-        "nameEN": "Fumitaka Ueda",
-        "photoPass": "images/members/2021/ueda.jpg"
-      },
-      {
         "nameJP": "岡本　峻宙",
         "nameEN": "Takahiro Okamoto",
         "photoPass": "images/members/2021/okamotoT.jpg"
+      },
+      {
+        "nameJP": "竹内 正稀",
+        "nameEN": "Masaki Takeuchi",
+        "photoPass": "images/members/2020/takeuchi.jpg"
       },
       {
         "nameJP": "谷　　育歩",
@@ -181,6 +135,46 @@
         "nameJP": "松田　綾美",
         "nameEN": "Ayami Matsuda",
         "photoPass": "images/members/2021/matsuda.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "B4 /学部4年",
+    "people": [
+      {
+        "nameJP": "楠山弘基",
+        "nameEN": "Hiroki Kusuyama",
+        "photoPass": "images/members/2022/kusuyama.jpg"
+      },
+      {
+        "nameJP": "西　隼世",
+        "nameEN": "Hayase Nishi",
+        "photoPass": "images/members/2022/nishi.PNG"
+      },
+      {
+        "nameJP": "花井　俊",
+        "nameEN": "Syun Hanai",
+        "photoPass": "images/members/2022/hanai.png"
+      },
+      {
+        "nameJP": "牧　篤司",
+        "nameEN": "Atsushi Maki",
+        "photoPass": "images/members/2022/silhouette.jpg"
+      },
+      {
+        "nameJP": "松元龍馬",
+        "nameEN": "Ryouma Matsumoto",
+        "photoPass": "images/members/2022/silhouette.jpg"
+      },
+      {
+        "nameJP": "三浦康平",
+        "nameEN": "Kouhei Miura",
+        "photoPass": "images/members/2022/miura.jpg"
+      },
+      {
+        "nameJP": "山内耀斗",
+        "nameEN": "Akito Yamauchi",
+        "photoPass": "images/members/2022/silhouette.jpg"
       }
     ]
   }
