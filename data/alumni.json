@@ -1,7 +1,13 @@
 [
+ 
   {
-    "attribute": "2022",
+    "attribute": "2021",
 	"master": [
+      {
+        "nameJP": "段 力瑗",
+        "nameEN": "Liyuan Duan",
+        "photoPass": "images/members/2019/liyuan.jpg"
+      },
       {
         "nameJP": "寺井 晴香",
         "nameEN": "Haruka Terai",
@@ -38,17 +44,14 @@
         "nameEN": "Akira Watanabe",
         "photoPass": "images/members/2019/watanabe.jpg"
       }
-	  ]
-  },
-  {
-    "attribute": "2021",
-	"master": [
+	  ],
+    "bachelor": [
       {
-        "nameJP": "段 力瑗",
-        "nameEN": "Liyuan Duan",
-        "photoPass": "images/members/2019/liyuan.jpg"
-      }
-	  ]
+            "nameJP": "上田 史貴",
+            "nameEN": "Fumitaka Ueda",
+            "photoPass": "images/members/2021/ueda.jpg"
+         }
+       ] 
   },
   {
     "attribute": "2020",
