@@ -177,5 +177,15 @@
         "photoPass": "images/members/2022/yamauchi.png"
       }
     ]
+  },
+  {
+    "attribute": "Invited researcher / 招へい研究員",
+    "people": [
+      {
+        "nameJP": "ヨタム　エレル",
+        "nameEN": "Yotam Erel",
+        "photoPass": "images/members/2022/silhouette.jpg"
+      }
+    ]
   }
 ]
