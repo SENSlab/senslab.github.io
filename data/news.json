@@ -3,6 +3,10 @@
         "year": 2022,
       "topic": [
         {
+            "date": "8.8&ndash;11",
+            "content": "D2 影山、<a class='news-link' href='https://www.siggraph.org/' target='_new'>ACM SIGGRAPH</a>のTVCG Session on VRにて招待講演"
+        },
+        {
             "date": "5.23",
             "content": "M1 岩﨑、岡本、松田、<a class='news-link' href='https://sci22.iscie.or.jp/award/' target='_new'>第66回システム制御情報学会研究発表講演会</a>にて学生発表賞を受賞"
         },
