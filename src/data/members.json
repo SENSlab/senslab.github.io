@@ -122,7 +122,7 @@
         "photoPass": "images/members/2020/takeuchi.jpg"
       },
       {
-        "nameJP": "谷 　育歩",
+        "nameJP": "谷 育歩",
         "nameEN": "Ikuho Tani",
         "photoPass": "images/members/2021/tani.jpg"
       },
@@ -147,17 +147,17 @@
         "photoPass": "images/members/2022/kusuyama.jpg"
       },
       {
-        "nameJP": "西　 隼世",
+        "nameJP": "西 隼世",
         "nameEN": "Hayase Nishi",
         "photoPass": "images/members/2022/nishi.PNG"
       },
       {
-        "nameJP": "花井 　俊",
+        "nameJP": "花井 俊",
         "nameEN": "Syun Hanai",
         "photoPass": "images/members/2022/hanai.png"
       },
       {
-        "nameJP": "牧　 篤司",
+        "nameJP": "牧 篤司",
         "nameEN": "Atsushi Maki",
         "photoPass": "images/members/2022/maki.jpg"
       },
@@ -182,9 +182,14 @@
     "attribute": "Invited researcher / 招へい研究員",
     "people": [
       {
-        "nameJP": "ヨタム　エレル",
+        "nameJP": "ヨタム エレル",
         "nameEN": "Yotam Erel",
         "photoPass": "images/members/2022/yotamsan.jpg"
+      },
+      {
+        "nameJP": "王 凱",
+        "nameEN": "Wang Kai",
+        "photoPass": "images/members/2022/wang.png"
       }
     ]
   }
