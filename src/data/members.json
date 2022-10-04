@@ -95,17 +95,17 @@
         "nameJP": "松井 尚樹",
         "nameEN": "Naoki Matsui",
         "photoPass": "images/members/2020/nmatsui.jpg"
+      },
+      {
+        "nameJP": "イザベラ ミカ タニナカ",
+        "nameEN": "Isabella Mika Taninaka",
+        "photoPass": "images/members/2021/Isabella.jpg"
       }
     ]
   },
   {
     "attribute": "M1 /博士前期課程1年",
     "people": [
-      {
-        "nameJP": "イザベラ ミカ タニナカ",
-        "nameEN": "Isabella Mika Taninaka",
-        "photoPass": "images/members/2021/Isabella.jpg"
-      },
 	  {
         "nameJP": "岩崎 琢己",
         "nameEN": "Takumi Iwasaki",
