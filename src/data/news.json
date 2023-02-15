@@ -1,10 +1,23 @@
 [
     {
+        "year": 2023,
+        "topic": [
+            {
+                "date": "2.7",
+                "content": "岩井准教授、<a class='news-link' href='https://www.jsps.go.jp/j-jsps-prize/ichiran/ceremony_19.html' target='_new'>第19回日本学術振興会賞 授賞式</a>に参列（<a class='news-link' href='https://twitter.com/EngSci_OsakaU/status/1623131689420742657?cxt=HHwWgoDTuf_qwoYtAAAA' target='_new'>基礎工学研究科 Twitter</a>）"
+            }
+        ]
+    },
+    {
         "year": 2022,
         "topic": [
         {
             "date": "12.15",
-            "content": "岩井准教授、<a class='news-link' href='https://www.jsps.go.jp/j-jsps-prize/' target='_new'>日本学術振興会賞</a>を受賞（<a class='news-link' href='https://www.osaka-u.ac.jp/ja/news/topics/2022/12/16001' target='_new'>大阪大学 公式ニュース</a>, <a class='news-link' href='https://twitter.com/EngSci_OsakaU/status/1623131689420742657?cxt=HHwWgoDTuf_qwoYtAAAA' target='_new'>基礎工学研究科 Twitter</a>）"
+            "content": "岩井准教授、<a class='news-link' href='https://www.jsps.go.jp/j-jsps-prize/' target='_new'>日本学術振興会賞</a>を受賞（<a class='news-link' href='https://www.osaka-u.ac.jp/ja/news/topics/2022/12/16001' target='_new'>大阪大学 公式ニュース</a>）"
+        },
+        {
+            "date": "10.26&ndash;11.2",
+            "content": "Parinya助教、ヒューマンコンピュータインタラクションに関する主要国際会議<a class='news-link' href='https://uist.acm.org/uist2022/' target='_new'>ACM UIST 2022</a>にて、食べられるデータの埋め込みに関する研究を口頭発表（<a class='news-link' href='https://resou.osaka-u.ac.jp/ja/research/2022/20221017_2' target='_new'>阪大プレリリース</a>）"
         },
         {
             "date": "9.13",
