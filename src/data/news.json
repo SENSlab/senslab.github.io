@@ -1,7 +1,11 @@
 [
     {
         "year": 2022,
-      "topic": [
+        "topic": [
+        {
+            "date": "12.15",
+            "content": "岩井准教授、<a class='news-link' href='https://www.jsps.go.jp/j-jsps-prize/' target='_new'>日本学術振興会賞</a>を受賞（<a class='news-link' href='https://www.osaka-u.ac.jp/ja/news/topics/2022/12/16001' target='_new'>大阪大学 公式ニュース</a>, <a class='news-link' href='https://twitter.com/EngSci_OsakaU/status/1623131689420742657?cxt=HHwWgoDTuf_qwoYtAAAA' target='_new'>基礎工学研究科 Twitter</a>）"
+        },
         {
             "date": "9.13",
             "content": "OB 山本、<a class='news-link' href='https://vrsj.org/awards/best_papers/' target='_new'>日本バーチャルリアリティ学会論文賞</a>を受賞"
