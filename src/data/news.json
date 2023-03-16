@@ -3,6 +3,14 @@
         "year": 2023,
         "topic": [
             {
+                "date": "3.10",
+                "content": "M2 岡本、<a class='news-link' href='https://www.interaction-ipsj.org/2023/award' target='_new'>インタラクション2023</a>にてインタラクティブ発表賞（PC推薦）を受賞"
+            },
+            {
+                "date": "3.8&ndash;10",
+                "content": "M2 内田、岡本、<a class='news-link' href='https://www.interaction-ipsj.org/2023/' target='_new'>インタラクション2023</a>にてインタラクティブ発表"
+            },
+            {
                 "date": "3.2&ndash;4",
                 "content":" M1松田、<a class='news-link' href='https://www.ipsj.or.jp/event/taikai/85/index.html' target='_new'>85回情報処理学会全国大会(IPSJ)</a>にて、柔らかい食品上への情報埋め込み方法に関する研究を口頭発表"
             },
