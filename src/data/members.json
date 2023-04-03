@@ -36,12 +36,6 @@
     "attribute": "Doctoral Student /博士後期課程",
     "people": [
       {
-        "nameJP": "西村 章宏",
-        "nameEN": "Akihiro Nishimura",
-        "position": "D3",
-        "photoPass": "images/members/2018/nishimura.jpg"
-      },
-      {
         "nameJP": "钟 圣泽",
         "nameEN": "Zhong Shengze",
         "position": "D3",
@@ -51,15 +45,17 @@
       {
         "nameJP": "影山 雄太",
         "nameEN": "Yuta Kageyama",
-        "position": "D2",
+        "position": "D3",
+        "positionOther": "（JSPS 特別研究員-DC2）",
         "link": "https://kagechan5.github.io/",
         "photoPass": "images/members/2018/kageyama.jpg"
       },
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
-        "position": "D2",
-        "link": "https://youseegreen.github.io/",
+        "position": "D3",
+        "positionOther": "（JSPS 特別研究員-DC2）",
+        "link": "https://yushisato.com/",
         "photoPass": "images/members/2018/ysato.jpg"
       }
     ]
@@ -68,64 +64,20 @@
     "attribute": "M2 /博士前期課程2年",
     "people": [
       {
-        "nameJP": "石田 仰輝",
-        "nameEN": "Kouki Ishida",
-        "photoPass": "images/members/2020/ishida.jpg"
-      },
-      {
-        "nameJP": "内田 琢也",
-        "nameEN": "Takuya Uchida",
-        "photoPass": "images/members/2020/uchida.jpg"
-      },
-      {
-        "nameJP": "岡本 祥宏",
-        "nameEN": "Yoshihiro Okamoto",
-        "photoPass": "images/members/2020/okamoto.jpg"
-      },
-      {
-        "nameJP": "金城 和志",
-        "nameEN": "Kazushi Kinjo",
-        "photoPass": "images/members/2020/kinjou.jpg"
-      },
-      {
-        "nameJP": "牧田 整明",
-        "nameEN": "Yoshiaki Makita",
-        "photoPass": "images/members/2020/makita.jpg"
-      },
-      {
-        "nameJP": "松井 尚樹",
-        "nameEN": "Naoki Matsui",
-        "photoPass": "images/members/2020/matsui.jpg"
-      },
-      {
         "nameJP": "イザベラ ミカ タニナカ",
         "nameEN": "Isabella Mika Taninaka",
         "photoPass": "images/members/2021/Isabella.png"
-      }
-    ]
-  },
-  {
-    "attribute": "M1 /博士前期課程1年",
-    "people": [
-	  {
+      },
+      {
         "nameJP": "岩﨑 琢己",
         "nameEN": "Takumi Iwasaki",
         "photoPass": "images/members/2021/iwasaki.jpg"
       },
-      {
-        "nameJP": "岡本 峻宙",
-        "nameEN": "Takahiro Okamoto",
-        "photoPass": "images/members/2021/okamotoT.jpg"
-      },
+      
       {
         "nameJP": "竹内 正稀",
         "nameEN": "Masaki Takeuchi",
         "photoPass": "images/members/2020/takeuchi.jpg"
-      },
-      {
-        "nameJP": "谷 育歩",
-        "nameEN": "Ikuho Tani",
-        "photoPass": "images/members/2021/tani.jpg"
       },
       {
         "nameJP": "人見 亜斗",
@@ -136,21 +88,31 @@
         "nameJP": "松田 綾美",
         "nameEN": "Ayami Matsuda",
         "photoPass": "images/members/2021/matsuda.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "M1 /博士前期課程1年",
+    "people": [
+      {
+        "nameJP": "岡本 峻宙",
+        "nameEN": "Takahiro Okamoto",
+        "photoPass": "images/members/2021/okamotoT.jpg"
+      },
+      {
+        "nameJP": "楠山 弘基",
+        "nameEN": "Hiroki Kusuyama",
+        "photoPass": "images/members/2022/kusuyama.jpg"
       },
       {
         "nameJP": "シバ シナイ",
         "nameEN": "Shiva Sinaei",
         "photoPass": "images/members/2022/shiva.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "B4 /学部4年",
-    "people": [
+      },
       {
-        "nameJP": "楠山 弘基",
-        "nameEN": "Hiroki Kusuyama",
-        "photoPass": "images/members/2022/kusuyama.jpg"
+        "nameJP": "谷 育歩",
+        "nameEN": "Ikuho Tani",
+        "photoPass": "images/members/2021/tani.jpg"
       },
       {
         "nameJP": "西 隼世",
@@ -181,6 +143,16 @@
         "nameJP": "山内 耀斗",
         "nameEN": "Akito Yamauchi",
         "photoPass": "images/members/2022/yamauchi.png"
+      }
+    ]
+  },
+  {
+    "attribute": "B4 /学部4年",
+    "people": [
+      {
+        "nameJP": "",
+        "nameEN": "Newcomer",
+        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   },

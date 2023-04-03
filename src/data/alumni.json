@@ -1,8 +1,50 @@
 [
- 
+  {
+    "attribute": "2022",
+    "doctor": [
+      {
+        "nameJP": "西村 章宏",
+        "nameEN": "Akihiro Nishimura",
+        "position": "D3",
+        "photoPass": "images/members/2018/nishimura.jpg"
+      }
+    ],
+    "master": [
+      {
+        "nameJP": "石田 仰輝",
+        "nameEN": "Kouki Ishida",
+        "photoPass": "images/members/2020/ishida.jpg"
+      },
+      {
+        "nameJP": "内田 琢也",
+        "nameEN": "Takuya Uchida",
+        "photoPass": "images/members/2020/uchida.jpg"
+      },
+      {
+        "nameJP": "岡本 祥宏",
+        "nameEN": "Yoshihiro Okamoto",
+        "photoPass": "images/members/2020/okamoto.jpg"
+      },
+      {
+        "nameJP": "金城 和志",
+        "nameEN": "Kazushi Kinjo",
+        "photoPass": "images/members/2020/kinjou.jpg"
+      },
+      {
+        "nameJP": "牧田 整明",
+        "nameEN": "Yoshiaki Makita",
+        "photoPass": "images/members/2020/makita.jpg"
+      },
+      {
+        "nameJP": "松井 尚樹",
+        "nameEN": "Naoki Matsui",
+        "photoPass": "images/members/2020/matsui.jpg"
+      }
+    ]
+  },
   {
     "attribute": "2021",
-	"master": [
+	  "master": [
       {
         "nameJP": "段 力瑗",
         "nameEN": "Liyuan Duan",
