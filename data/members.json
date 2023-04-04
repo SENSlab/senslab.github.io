@@ -13,22 +13,27 @@
         "nameJP": "岩井 大輔",
         "nameEN": "Daisuke Iwai",
         "position": "Associate Professor / 准教授",
-        "positionOther": "（データビリティフロンティア機構、JSTさきがけ 兼）",
+        "positionOther": "（データビリティフロンティア機構　兼）",
         "link": "https://daisukeiwai.org/",
         "photoPass": "images/members/staff/iwai.jpg"
-      },
-      {
-        "nameJP": "プンポンサノン パリンヤ",
-        "nameEN": "Parinya Punpongsanon",
-        "position": "Assistant Professor / 助教",
-        "link": "https://punpongsanon.info/",
-        "photoPass": "images/members/staff/parinya.jpg"
       },
       {
         "nameJP": "是國 ゆう子",
         "nameEN": "Yuko Korekuni",
         "position": "Administrative Assistant / 事務員",
         "photoPass": "images/members/staff/korekuni.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "Invited Staff / 招へいスタッフ",
+    "people":[
+      {
+        "nameJP": "プンポンサノン パリンヤ",
+        "nameEN": "Parinya Punpongsanon",
+        "position": "Invited Associate Professor / 招へい准教授",
+        "link": "https://punpongsanon.info/",
+        "photoPass": "images/members/staff/parinya.jpg"
       }
     ]
   },
