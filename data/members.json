@@ -155,9 +155,44 @@
     "attribute": "B4 /学部4年",
     "people": [
       {
-        "nameJP": "",
-        "nameEN": "Newcomer",
-        "photoPass": "images/members/silhouette.jpg"
+        "nameJP": "石川 蒼桜",
+        "nameEN": "Ao Ishikawa",
+        "photoPass": "images/members/2023/ishikawa.jpg"
+      },
+      {
+        "nameJP": "井元 祐亮",
+        "nameEN": "Yusuke Imoto",
+        "photoPass": "images/members/2023/imoto.jpg"
+      },
+      {
+        "nameJP": "河野 巧",
+        "nameEN": "Takumi Kawano",
+        "photoPass": "images/members/2023/kawano.jpg"
+      },
+      {
+        "nameJP": "小西 遥登",
+        "nameEN": "Haruto Konishi",
+        "photoPass": "images/members/2023/konishi.png"
+      },
+      {
+        "nameJP": "竹内 悠人",
+        "nameEN": "Yuto Takeuchi",
+        "photoPass": "images/members/2023/takeuchi.jpg"
+      },
+      {
+        "nameJP": "藤村 航太郎",
+        "nameEN": "Kotaro Fujimura",
+        "photoPass": "images/members/2023/fujimura.jpg"
+      },
+      {
+        "nameJP": "三浦 和之",
+        "nameEN": "Kazuyuki Miura",
+        "photoPass": "images/members/2023/miura.jpg"
+      },
+      {
+        "nameJP": "山本 達也",
+        "nameEN": "Tatsuya Yamamoto",
+        "photoPass": "images/members/2023/yamamoto.jpg"
       }
     ]
   },
