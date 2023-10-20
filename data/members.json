@@ -62,6 +62,12 @@
         "positionOther": "（JSPS 特別研究員 DC2）",
         "link": "https://yushisato.com/",
         "photoPass": "images/members/2018/ysato.jpg"
+      },
+      {
+        "nameJP": "イザベラ ミカ タニナカ",
+        "nameEN": "Isabella Mika Taninaka",
+        "position":"D1",
+        "photoPass": "images/members/2021/Isabella.png"
       }
     ]
   },
@@ -69,16 +75,15 @@
     "attribute": "M2 /博士前期課程2年",
     "people": [
       {
-        "nameJP": "イザベラ ミカ タニナカ",
-        "nameEN": "Isabella Mika Taninaka",
-        "photoPass": "images/members/2021/Isabella.png"
-      },
-      {
         "nameJP": "岩﨑 琢己",
         "nameEN": "Takumi Iwasaki",
         "photoPass": "images/members/2021/iwasaki.jpg"
       },
-      
+      {
+        "nameJP": "シバ シナイ",
+        "nameEN": "Shiva Sinaei",
+        "photoPass": "images/members/2022/shiva.jpg"
+      },
       {
         "nameJP": "竹内 正稀",
         "nameEN": "Masaki Takeuchi",
