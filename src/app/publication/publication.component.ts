@@ -68,8 +68,13 @@ export class PublicationComponent implements OnInit {
 
     let secret_passphorase = CryptoJS.enc.Utf8.parse(pass);
     let key128Bits500Iterations = CryptoJS.PBKDF2(secret_passphorase, salt, { keySize: 128 / 8, iterations: 500 });
-    let options = { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 };
-    let decrypted = CryptoJS.AES.decrypt({ "ciphertext": encrypted_data } as CryptoJS.WordArray, key128Bits500Iterations, options);
+    let options = { mode: CryptoJS.mode.CBC };
+    let cipherParams = CryptoJS.lib.CipherParams.create({
+      ciphertext: encrypted_data, 
+      iv: iv, 
+      padding: CryptoJS.pad.Pkcs7
+    });
+    let decrypted = CryptoJS.AES.decrypt(cipherParams, key128Bits500Iterations, options);
     return decrypted.toString(CryptoJS.enc.Utf8)
   }
 
