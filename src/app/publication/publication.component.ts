@@ -30,8 +30,8 @@ export class PublicationComponent implements OnInit {
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    const API_KEY = '7608320d524b25604efc37615685dd39,747afd9accb8009d9b4c0b36e1025be8,WcVLMQSvjnQEh3AgcZIX5rEZLg7OcZwxE2e2x72QBLKU5OPS+Ib5G8FLtWA73U7Z';
-    const SPREADSHEET_ID = 'f56e081e2d85834f6220284b872ab154,b32208d1bc079220407f8da3e2cb3c4f,IHzTJc99UN056JQ01lSdI0u6kj0scQQHngJ0T+FPMNq9qT2waHYB5Mi9nNyG+u1v';
+    const API_KEY = '7608320d524b25604efc37615685dd39:747afd9accb8009d9b4c0b36e1025be8:ZwdRPatg3ek9tltuEAfsNEfYHhNqPRuaDpY+NvCoVl4inY4b7lJaNQ5SuC+8t/8z';
+    const SPREADSHEET_ID = 'f56e081e2d85834f6220284b872ab154:b32208d1bc079220407f8da3e2cb3c4f:5tToeAH4HzrC2iRfvDP2cucMEx01m2f2eQ0OAq26HeKsR6fv/1aj28eR34iHY6tn';
     const PASS = 'sens';
 
     let apikey = this.decrypt(API_KEY, PASS);
@@ -61,16 +61,17 @@ export class PublicationComponent implements OnInit {
   }
 
   decrypt(encryptedData: string, pass: string) {
-    let rawData = encryptedData.split(',');
-    let salt = CryptoJS.enc.Hex.parse(rawData[0]);
-    let iv = CryptoJS.enc.Hex.parse(rawData[1]);
-    let encrypted_data = CryptoJS.enc.Base64.parse(rawData[2]);
-
+    const [salt, iv, encrypted_data] = encryptedData.split(":").map(str => CryptoJS.enc.Base64.parse(str));
     let secret_passphorase = CryptoJS.enc.Utf8.parse(pass);
-    let key128Bits500Iterations = CryptoJS.PBKDF2(secret_passphorase, salt, { keySize: 128 / 8, iterations: 500 });
+    let key128Bits500Iterations = CryptoJS.PBKDF2(secret_passphorase, salt, { keySize: 128 / 8, iterations: 500, hasher: CryptoJS.algo.SHA256 });
     let options = { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 };
-    let decrypted = CryptoJS.AES.decrypt({ "ciphertext": encrypted_data } as CryptoJS.WordArray, key128Bits500Iterations, options);
-    return decrypted.toString(CryptoJS.enc.Utf8)
+    let cipherParams = CryptoJS.lib.CipherParams.create({ciphertext: encrypted_data});
+    let decrypted = CryptoJS.AES.decrypt(
+      cipherParams, 
+      key128Bits500Iterations, 
+      options
+    );
+    return decrypted.toString(CryptoJS.enc.Utf8);    
   }
 
   format2PubInAYear(res: any) {
