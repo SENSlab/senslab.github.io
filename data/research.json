@@ -1,5 +1,25 @@
 [
     {
+		"theme": "projector-camera system",
+        "photoPass": "images/researches/2024_Takeuchi.png",
+        "titleJP": "Projection Mapping with Suppression of Contrast Reduction of Projected Texture by Replacing Room Lights",
+        "titleEN": "研究者: Masaki Takeuchi",
+        "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2024.",
+        "abstract": "Projection mapping (PM) is a technique that enhances the appearance of real-world surfaces using projected images, enabling multiple people to view augmentations simultaneously, thereby facilitating communication and collaboration. However, PM typically requires a dark environment to achieve high-quality projections, limiting its practicality. PM in dark environments suffer from various drawbacks. First, a dark environment makes it difficult for users to see each other’s faces. Secondly, while most PM applications, such as product design, are designed with the goal of visually altering surface materials through projected imagery, the augmentations in these applications appear physically and perceptually unnatural. In this study, I overcome this limitation by replacing conventional room lighting with heterogeneous projectors. These projectors replicate environmental lighting by selectively illuminating the scene, excluding the projection target. The contributions include a distributed projector optimization framework designed to effectively replicate environmental lighting and the incorporation of a large-aperture projector, in addition to standard projectors, to reduce high-luminance emitted rays and hard shadows—undesirable factors for collaborative tasks in PM. I conducted a series of quantitative and qualitative experiments, including user studies, to validate the proposed approach. My findings demonstrate that the proposed projector-based lighting system significantly enhances the contrast and realism of PM results even under environmental lighting compared to typical lights. Furthermore, the proposed method facilitates a substantial shift in the perceived color mode from the undesirable aperture-color mode, where observers perceive the projected object as self-luminous, to the surface-color mode (as illuminated) in PM.",
+        "link": "",
+        "collaboration": ""
+    },
+    {
+		"theme": "welfare-xr",
+        "photoPass": "images/researches/2024_Iwasaki.jpg",
+        "titleJP": "高齢者向け抱枕型多感覚提示VRデバイスの提案",
+        "titleEN": "研究者: 岩﨑　琢己",
+        "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2024.",
+        "abstract": "高齢化が深刻な社会問題となっている我が国において，加齢を最大の要因とする認知症への対応が急務とされている．従前より，認知症の進行を抑制するための非薬物療法の一つである回想法にVirtual Reality（VR）技術を応用する研究に注目が集まっており，精神症状の軽減効果があることが示されている．また，VR体験時に多感覚提示を行うことで臨場感が大幅に向上し，精神症状の軽減や想起率の向上に効果があることも示唆されている．しかしながら，それらの研究で一般的に使用されるヘッドマウントディスプレイ（HMD）はヘッドバンドの締め付けによる身体的負担と，装着後の微調節の難しさから適していない．これらの点に着目し，様々なVRデバイスが開発されているが，デバイスが大規模で病院への持ち込みが容易でない等の課題点が残る．そこで本研究では，身体への装着および装着後の微調節が不要，かつ，デバイス使用時の高齢者の表情モニタリングが可能な抱き枕型のVRデバイスであるCuddlyScopeを提案する．CuddlyScopeは，箱型の骨組みに感覚提示モジュールを含む全てのモジュールを組み込んだ小型の一体型デバイスである．高齢者は，CuddlyScopeを使用することで多感覚提示VR体験が行える．支援者は，CuddlyScopeに対し，外部PCを操作し遠隔からの支援が可能である．また，映像提示の仕組みに大型で低倍率フレネルレンズを使用した屈曲光学系を採用し，微調節不要の無拘束デバイスを実現した．さらに，高齢者の表情をリアルタイムにモニタリングできる仕組みを構築し，支援者が高齢者の不調に気づき即座に対応できるデバイスとした．療養型の4~病院施設にてフィールド実験を実施し，抱枕型VRデバイスの使用が後期高齢者や患者等へ与える心理印象やその操作性を調査した．その結果，「楽しみ」や「期待感」などのポジティブな感情を向上させることが確認され，その効果は市販のHMDと差異が無いことが示唆された．HMDの使用に関して，ヘッドバンド装着が妨げとなり仰臥位での使用ができないことから，身体機能が極端に低下し座位保持ができない高齢者に対して，操作性の高い新たなVRデバイスになることが示唆された．さらに，多感覚刺激提示機能を追加することによる臨場感への影響を調査し，CuddlyScopeを用いるVR回想法の効果を検討した．その結果，各感覚刺激が有意に臨場感の向上に寄与していることを確認した．この結果から，CuddlyScopeを用いた多感覚提示VR回想法が，映像のみのVR回想法と比較して精神症状の軽減効果が高いことが示唆された．",
+        "link": "",
+        "collaboration": ""
+    },
+    {
         "theme": "user interfaces",
         "photoPass": "images/researches/2023_Yamauchi.png",
         "titleJP": "断続的使用に適した胸部装着型VRデバイスの提案",
