@@ -1,5 +1,15 @@
 [
     {
+		"theme": "projector-camera system",
+        "photoPass": "images/researches/2024_Takeuchi.png",
+        "titleJP": "Projection Mapping with Suppression of Contrast Reduction of Projected Texture by Replacing Room Lights",
+        "titleEN": "研究者: Masaki Takeuchi",
+        "publication": "論文種別・提出年: 修士論文, 大阪大学大学院基礎工学研究科, Mar. 2024.",
+        "abstract": "Projection mapping (PM) is a technique that enhances the appearance of real-world surfaces using projected images, enabling multiple people to view augmentations simultaneously, thereby facilitating communication and collaboration. However, PM typically requires a dark environment to achieve high-quality projections, limiting its practicality. PM in dark environments suffer from various drawbacks. First, a dark environment makes it difficult for users to see each other’s faces. Secondly, while most PM applications, such as product design, are designed with the goal of visually altering surface materials through projected imagery, the augmentations in these applications appear physically and perceptually unnatural. In this study, I overcome this limitation by replacing conventional room lighting with heterogeneous projectors. These projectors replicate environmental lighting by selectively illuminating the scene, excluding the projection target. The contributions include a distributed projector optimization framework designed to effectively replicate environmental lighting and the incorporation of a large-aperture projector, in addition to standard projectors, to reduce high-luminance emitted rays and hard shadows—undesirable factors for collaborative tasks in PM. I conducted a series of quantitative and qualitative experiments, including user studies, to validate the proposed approach. My findings demonstrate that the proposed projector-based lighting system significantly enhances the contrast and realism of PM results even under environmental lighting compared to typical lights. Furthermore, the proposed method facilitates a substantial shift in the perceived color mode from the undesirable aperture-color mode, where observers perceive the projected object as self-luminous, to the surface-color mode (as illuminated) in PM.",
+        "link": "",
+        "collaboration": ""
+    },
+    {
 		"theme": "welfare-xr",
         "photoPass": "images/researches/2024_Iwasaki.jpg",
         "titleJP": "高齢者向け抱枕型多感覚提示VRデバイスの提案",
