@@ -1,5 +1,52 @@
 [
   {
+    "attribute": "2023",
+    "staff": [
+      {
+        "nameJP": "プンポンサノン パリンヤ",
+        "nameEN": "Parinya Punpongsanon",
+        "position": "Invited Associate Professor / 招へい准教授",
+        "photoPass": "images/members/staff/parinya.jpg"
+      }
+    ],
+    "doctor": [
+      {
+        "nameJP": "钟 圣泽",
+        "nameEN": "Zhong Shengze",
+        "position": "D3",
+        "photoPass": "images/members/international/zhong.jpg"
+      },
+      {
+        "nameJP": "影山 雄太",
+        "nameEN": "Yuta Kageyama",
+        "position": "D3",
+        "photoPass": "images/members/2018/kageyama.jpg"
+      }
+    ],
+    "master": [
+      {
+        "nameJP": "岩﨑 琢己",
+        "nameEN": "Takumi Iwasaki",
+        "photoPass": "images/members/2021/iwasaki.jpg"
+      },
+      {
+        "nameJP": "竹内 正稀",
+        "nameEN": "Masaki Takeuchi",
+        "photoPass": "images/members/2020/takeuchi.jpg"
+      },
+      {
+        "nameJP": "人見 亜斗",
+        "nameEN": "Ato Hitomi",
+        "photoPass": "images/members/2021/hitomi.jpg"
+      },
+      {
+        "nameJP": "松田 綾美",
+        "nameEN": "Ayami Matsuda",
+        "photoPass": "images/members/2021/matsuda.jpg"
+      }
+    ]
+  },
+  {
     "attribute": "2022",
     "doctor": [
       {
@@ -68,7 +115,6 @@
       {
         "nameJP": "宮武 大和",
         "nameEN": "Yamato Miyatake",
-        "link": "https://yamato-miyatake.netlify.app/",
         "photoPass": "images/members/2019/miyatake.jpg"
       },
       {
