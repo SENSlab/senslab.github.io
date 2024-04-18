@@ -26,35 +26,8 @@
     ]
   },
   {
-    "attribute": "Invited Staff / 招へいスタッフ",
-    "people":[
-      {
-        "nameJP": "プンポンサノン パリンヤ",
-        "nameEN": "Parinya Punpongsanon",
-        "position": "Invited Associate Professor / 招へい准教授",
-        "link": "https://punpongsanon.info/",
-        "photoPass": "images/members/staff/parinya.jpg"
-      }
-    ]
-  },
-  {
     "attribute": "Doctoral Student /博士後期課程",
     "people": [
-      {
-        "nameJP": "钟 圣泽",
-        "nameEN": "Zhong Shengze",
-        "position": "D3",
-        "link": "https://shzzhong.github.io/",
-        "photoPass": "images/members/international/zhong.jpg"
-      },
-      {
-        "nameJP": "影山 雄太",
-        "nameEN": "Yuta Kageyama",
-        "position": "D3",
-        "positionOther": "（JSPS 特別研究員 DC2）",
-        "link": "https://sites.research-p.com/yutakageyama/",
-        "photoPass": "images/members/2018/kageyama.jpg"
-      },
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
@@ -75,36 +48,6 @@
     "attribute": "M2 /博士前期課程2年",
     "people": [
       {
-        "nameJP": "岩﨑 琢己",
-        "nameEN": "Takumi Iwasaki",
-        "photoPass": "images/members/2021/iwasaki.jpg"
-      },
-      {
-        "nameJP": "シバ シナイ",
-        "nameEN": "Shiva Sinaei",
-        "photoPass": "images/members/2022/shiva.jpg"
-      },
-      {
-        "nameJP": "竹内 正稀",
-        "nameEN": "Masaki Takeuchi",
-        "photoPass": "images/members/2020/takeuchi.jpg"
-      },
-      {
-        "nameJP": "人見 亜斗",
-        "nameEN": "Ato Hitomi",
-        "photoPass": "images/members/2021/hitomi.jpg"
-      },
-      {
-        "nameJP": "松田 綾美",
-        "nameEN": "Ayami Matsuda",
-        "photoPass": "images/members/2021/matsuda.jpg"
-      }
-    ]
-  },
-  {
-    "attribute": "M1 /博士前期課程1年",
-    "people": [
-      {
         "nameJP": "岡本 峻宙",
         "nameEN": "Takahiro Okamoto",
         "photoPass": "images/members/2021/okamotoT.jpg"
@@ -115,9 +58,9 @@
         "photoPass": "images/members/2022/kusuyama.jpg"
       },
       {
-        "nameJP": "タナポン ソマート",
-        "nameEN": "Thanapong Sommart",
-        "photoPass": "images/members/2023/thanapong.png"
+        "nameJP": "シバ シナイ",
+        "nameEN": "Shiva Sinaei",
+        "photoPass": "images/members/2022/shiva.jpg"
       },
       {
         "nameJP": "谷 育歩",
@@ -157,7 +100,7 @@
     ]
   },
   {
-    "attribute": "B4 /学部4年",
+    "attribute": "M1 /博士前期課程1年",
     "people": [
       {
         "nameJP": "石川 蒼桜",
@@ -185,6 +128,11 @@
         "photoPass": "images/members/2023/takeuchi.jpg"
       },
       {
+        "nameJP": "タナポン ソマート",
+        "nameEN": "Thanapong Sommart",
+        "photoPass": "images/members/2023/thanapong.png"
+      },
+      {
         "nameJP": "藤村 航太郎",
         "nameEN": "Kotaro Fujimura",
         "photoPass": "images/members/2023/fujimura.jpg"
@@ -198,6 +146,41 @@
         "nameJP": "山本 達也",
         "nameEN": "Tatsuya Yamamoto",
         "photoPass": "images/members/2023/yamamoto.jpg"
+      }
+    ]
+  },
+  {
+    "attribute": "B4 /学部4年",
+    "people": [
+      {
+        "nameJP": "墨田 充輝",
+        "nameEN": "Mitsuki Sumida",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "園田 雄基",
+        "nameEN": "Yuki Sonoda",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "高橋 実",
+        "nameEN": "Minoru Takahashi",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "立岩 悠翔",
+        "nameEN": "Yuto Tateiwa",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "中尾 都史也",
+        "nameEN": "Toshiya Nakao",
+        "photoPass": "images/members/silhouette.jpg"
+      },
+      {
+        "nameJP": "前田 恵照",
+        "nameEN": "Yoshiaki Maeda",
+        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   },
