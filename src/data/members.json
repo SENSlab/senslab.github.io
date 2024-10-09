@@ -26,16 +26,20 @@
     ]
   },
   {
-    "attribute": "Doctoral Student /博士後期課程",
+    "attribute": "Researcher / 研究員",
     "people": [
       {
         "nameJP": "佐藤 優志",
         "nameEN": "Yushi Sato",
-        "position": "D3",
-        "positionOther": "（JSPS 特別研究員 DC2）",
+        "position": "JSPS Research Fellow / 日本学術振興会特別研究員 (PD) ",
         "link": "https://yushisato.com/",
         "photoPass": "images/members/2018/ysato.jpg"
-      },
+      }
+    ]
+  },
+  {
+    "attribute": "Doctoral Student /博士後期課程",
+    "people": [
       {
         "nameJP": "イザベラ ミカ タニナカ",
         "nameEN": "Isabella Mika Taninaka",
@@ -185,12 +189,12 @@
     ]
   },
   {
-    "attribute": "Invited researcher / 招へい研究員",
+    "attribute": "Exchange Student / 交換留学生",
     "people": [
       {
-        "nameJP": "ヨタム エレル",
-        "nameEN": "Yotam Erel",
-        "photoPass": "images/members/2022/yotamsan.jpg"
+        "nameJP": "ダスティン グリュンワルド",
+        "nameEN": "Dustin Grünwald",
+        "photoPass": "images/members/silhouette.jpg"
       }
     ]
   }
