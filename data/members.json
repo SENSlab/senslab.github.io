@@ -43,8 +43,14 @@
       {
         "nameJP": "イザベラ ミカ タニナカ",
         "nameEN": "Isabella Mika Taninaka",
-        "position":"D1",
+        "position":"D2",
         "photoPass": "images/members/2021/Isabella.png"
+      },
+      {
+        "nameJP": "シバ シナイ",
+        "nameEN": "Shiva Sinaei",
+        "position":"D1",
+        "photoPass": "images/members/2022/shiva.jpg"
       }
     ]
   },
@@ -62,9 +68,9 @@
         "photoPass": "images/members/2022/kusuyama.jpg"
       },
       {
-        "nameJP": "シバ シナイ",
-        "nameEN": "Shiva Sinaei",
-        "photoPass": "images/members/2022/shiva.jpg"
+        "nameJP": "タナポン ソマート",
+        "nameEN": "Thanapong Sommart",
+        "photoPass": "images/members/2023/thanapong.png"
       },
       {
         "nameJP": "谷 育歩",
@@ -130,11 +136,6 @@
         "nameJP": "竹内 悠人",
         "nameEN": "Yuto Takeuchi",
         "photoPass": "images/members/2023/takeuchi.jpg"
-      },
-      {
-        "nameJP": "タナポン ソマート",
-        "nameEN": "Thanapong Sommart",
-        "photoPass": "images/members/2023/thanapong.png"
       },
       {
         "nameJP": "藤村 航太郎",
