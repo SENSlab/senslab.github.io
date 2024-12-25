@@ -3,8 +3,32 @@
         "year": 2024,
         "topic": [
             {
+                "date": "12.4&ndash;6",
+                "content": "PD 佐藤、OB 影山、<a class='news-link' href='https://www.idw.or.jp/' target='_new'>第31回国際ディスプレイワークショップ(IDW'24)</a>にて口頭発表"
+            },
+            {
+                "date": "12.6",
+                "content": "元客員研究員 Yotam、コンピュータグラフィクスに関する国際会議<a class='news-link' href='https://asia.siggraph.org/2024/ja/' target='_new'>SIGGRAPH Asia 2024</a>にてBest Student Demo in Show Awardを受賞"
+            },
+            {
+                "date": "12.3&ndash;6",
+                "content": "元客員研究員 Yotam、コンピュータグラフィクスに関する国際会議<a class='news-link' href='https://asia.siggraph.org/2024/ja/' target='_new'>SIGGRAPH Asia 2024</a>にて口頭発表およびデモ発表"
+            },
+            {
+                "date": "12.3&ndash;6",
+                "content": "M2 岡本、楠山、谷、西、三浦、コンピュータグラフィクスに関する国際会議<a class='news-link' href='https://asia.siggraph.org/2024/ja/' target='_new'>SIGGRAPH Asia 2024</a>にてポスター発表"
+            },
+            {
+                "date": "11.20",
+                "content": "M2 松元、<a class='news-link' href='https://www.sice.or.jp/org/pattern/program2024.html' target='_new'>第29回パターン計測シンポジウム</a>にて口頭発表"
+            },
+            {
                 "date": "10.21&ndash;25",
                 "content": "M2楠山、拡張現実感に関する国際会議<a class='news-link' href='https://ieeeismar.org/' target='_new'>ISMAR 2024</a>にて口頭発表"
+            },
+            {
+                "date": "10.13&ndash;16",
+                "content": "M2 花井、三浦、ヒューマンコンピュータインタラクションに関する国際会議<a class='news-link' href='https://programs.sigchi.org/uist/2024' target='_new'>ACM UIST 2024</a>にてデモ発表"
             },
             {
                 "date": "9.11&ndash;13",
